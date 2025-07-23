@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "9a222868cf14083d",
+    "type": "split",
+    "children": [
+      {
+        "id": "94f8ce95e1588982",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2deab84c215b0a7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Courses/00_Course/Apple shortcuts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Apple shortcuts"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cdaaed9e2a21c67b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c9dfad687aaaddc7",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "ae4bb637656e2605",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "3a2c201763900cf1",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "61c6f1298611af76",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "9da2669f2963f70e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "85977d3695a85687",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "10_Courses/00_Course/Apple shortcuts.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "b8408ff757c4394c",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "a304911cf61e1103",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "1714256126eb81ce",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2deab84c215b0a7f",
+  "lastOpenFiles": [
+    "10_Courses/Apple shortcuts/00_Lessons/Lesson 1 - Shortcut-Ops 101.md",
+    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Action Anatomy & Privacy Tiers.md",
+    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/UI Tour.md",
+    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Context Kick-off.md",
+    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Tips How I May Earn the Money.md",
+    "Payhip.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Boolean Operators in C.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Terminal Commands Basics.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/CLI.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/While Loop Countdown in C.md",
+    "Lesson 1 – Shortcut-Ops 101.md",
+    "10_Courses/00_Course/Apple shortcuts.md",
+    "10_Courses/Apple shortcuts/Apple shortcuts.md",
+    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Lesson 1 - Shortcut-Ops 101.md",
+    "10_Courses/Apple shortcuts/Program Overview – Shortcuts Mastery 2025.md",
+    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101.md",
+    "10_Courses/00_Course/Program Overview – Shortcuts Mastery 2025.md",
+    "10_Courses/Apple shortcuts/Lesson 1 – Shortcut-Ops 101.md",
+    "Untitled",
+    "10_Courses/Apple shortcuts"
+  ]
+}
