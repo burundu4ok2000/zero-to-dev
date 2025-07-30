@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "1d9bfe269527c49c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5d63245609c6f16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "662bddc4116c010a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Strings arrays in C - Hidden 0 Between Literals"
+            }
+          },
+          {
+            "id": "96170d3c90798b33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "99_Daily Logs/2025-07-17 – Work log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-17 – Work log"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9c408b194ee40fd6",
+    "type": "split",
+    "children": [
+      {
+        "id": "49231cacf64e3e0d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c972b09139a6347",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b1c1a0815ff7debf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "varia",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "be3e7b247857b126",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 375.5
+  },
+  "right": {
+    "id": "122acbf7b5916191",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5cfe728764db62d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1542f698e264bdc6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "0d2451bd480b28e6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "04330c905c2e9cda",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "4566323589c405e9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Harvard – MIT & Cambridge (MA, USA).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Harvard – MIT & Cambridge (MA, USA)"
+            }
+          },
+          {
+            "id": "24a079370ef7d0ae",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "247e69528c8c008e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "96170d3c90798b33",
+  "lastOpenFiles": [
+    "99_Daily Logs/2025-07-24 – Work log.md",
+    "98_Images/Screenshot 2025-07-23 at 14.58.34.png",
+    "99_Daily Logs/2025-07-23 – Work log.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
+    "98_Images/Screenshot 2025-07-23 at 16.13.55.png",
+    "98_Images/Screenshot 2025-07-23 at 16.13.47.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings in C and the Null Terminator.md",
+    "98_Images/Screenshot 2025-07-23 at 16.10.39.png",
+    "98_Images/Screenshot 2025-07-23 at 16.08.13.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags Cheat Sheet.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · SENTINEL.md",
+    "98_Images/Screenshot 2025-07-23 at 15.57.53.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Passing Arrays to Functions in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/pre-final Compiling Step - Machine Code.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Low Level Commands Cheat Sheet.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Final Step - Linkenk different Machine Codes.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Constant Naming Convention in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Compiling Process in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/C Type Sizes and Memory.md",
+    "10_Courses/CS50x Harvard/00_Lectures/Lecture 2 - Arrays.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Function Definition in C.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Floating Point Precision Limits.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Char Type in C.md",
+    "98_Images/Screenshot 2025-07-22 at 11.54.49.png",
+    "99_Daily Logs/2025-07-20 – Work log.md",
+    "99_Daily Logs/2025-07-21 – Work log.md",
+    "Shark-VS-Pufferfish.sb3",
+    "98_Images/Screenshot 2025-07-22 at 13.16.19.png",
+    "98_Images/Screenshot 2025-07-22 at 13.16.16.png",
+    "99_Daily Logs/2025-07-19 – Work log.md",
+    "99_Daily Logs/2025-07-18 - Work log.md",
+    "99_Daily Logs/2025-07-17 – Work log.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · TRIVIA vs NITTY-GRITTY.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · TRANSEPT.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · TEDIOUS.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays",
+    "10_Courses/English/CS50x от Harvard/Lecture 1 - C",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch",
+    "10_Courses/English/CS50x от Harvard",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays",
+    "10_Courses/CS50x Harvard/Lecture 1 - C",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch",
+    "10_Courses/CS50x Harvard/00_Lectures",
+    "10_Courses/00_Course",
+    "98_Images/graph-week-0.png",
+    "Untitled.canvas"
+  ]
+}
