@@ -1,6 +1,4 @@
-
-![[2025-08-01_14-56-01 1.png]]
-  
+![[2025-08-01_14-56-01 2.png]]
 
 > **Lecture reference:** [[Lecture 2 - Arrays]]
 
@@ -8,158 +6,137 @@
 
 ---
 
-## **What is cowsay?**
-
-  
-
-A fun CLI program that prints **ASCII art** animals “saying” your text in a speech bubble.
-
-Great for demos and for practicing command-line flags.
-
----
-
-## **Install**
+## **Install (macOS Homebrew example)**
 
 ```
-# macOS (Homebrew)
 brew install cowsay
+```
 
-# Ubuntu/Debian
-sudo apt-get update && sudo apt-get install cowsay
+After a successful pour you’ll see something like:
 
-# Fedora
-sudo dnf install cowsay
-
-# Windows
-# Use WSL and install via your Linux distro's package manager
+```
+🍺  /opt/homebrew/Cellar/cowsay/3.8.4: 62 files, 91.7KB
 ```
 
 ---
 
-## **Basic usage**
-
-```
-cowsay "Hello, world!"
-```
-
-Pipe input:
-
-```
-echo "RAWR" | cowsay
-```
-
----
-
-## **Choose an animal with -f**
-
-```
-# Default cow (no -f needed)
-cowsay "Moo"
-
-# Dragon
-cowsay -f dragon "RAWR"
-
-# Duck
-cowsay -f duck "quack"
-
-# Penguin (Tux)
-cowsay -f tux "Linux!"
-```
-
-List available figures (“cowfiles”):
+## **Listing available “cowfiles”**
 
 ```
 cowsay -l
 ```
 
-> Tip: Figures live in “cowfiles.” Your list may include cow, dragon, duck, tux, ghostbusters, stegosaurus, turkey, etc.
+Typical Homebrew build (v 3.8.4) ships **40+ figures**, e.g.:
+
+```
+actually  alpaca  beavis.zen  default  dragon
+fox       ghostbusters  kitty  luke-koala  stegosaurus
+tux       vader        www   …
+```
+
+> **Notice:** There is **no duck cowfile** in the default set, so
+
+```
+cowsay -f duck "quack"
+```
+
+> returns
+
+> cowsay: Could not find cowfile for 'duck'!
 
 ---
 
-## **Customize the face**
+## **Basic usage examples**
+
+|**Figure**|**Command**|**Output snapshot**|
+|---|---|---|
+|**Default cow**|cowsay "Moo"|^__^ cow art|
+|**Dragon**|cowsay -f dragon "RAWR"|ASCII dragon breathing fire|
+|**Tux (penguin)**|cowsay -f tux "Linux!"|Penguin with speech bubble|
+
+### **Example: Dragon**
 
 ```
-# Eyes (-e) and tongue (-T)
-cowsay -e "OO" -T "U " "Spooked!"
-cowsay -e "^^" -T "~~" -f dragon "Beware"
+cowsay -f dragon "RAWR"
 ```
 
-Common eye presets:
+```
+ ______
+< RAWR >
+ ------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+       … (dragon ASCII) …
+```
 
-- -e "oo" (default), -e "OO", -e "^^", -e "--", -e "xx"
+---
+
+## **Common flags**
+
+| **Flag**     | **Purpose**                      | **Example**                 |
+| ------------ | -------------------------------- | --------------------------- |
+| -f <cowfile> | Choose figure                    | cowsay -f dragon "Hi"       |
+| -l           | List available figures           | cowsay -l                   |
+| -e XX        | Set eyes (2 chars)               | cowsay -e "^^" "Wow"        |
+| -T YY        | Set tongue (2 chars)             | cowsay -T "U "              |
+| -W N         | Wrap text at _N_ columns         | cowsay -W 60 "Long message" |
+| -n           | Disable wrapping                 | cowsay -n "No wrap"         |
+| **cowthink** | Thought bubble instead of speech | cowthink "hmm…"             |
+
+---
+
+## **Quoting gotchas**
+
+- **Symptom:** prompt shows dquote> and appears “stuck.”
+    
+    **Cause:** you opened a double-quote but never closed it.
+    
+    **Fix:** press Ctrl-C to cancel, then re-run with matching quotes:
     
 
-  
+```
+# WRONG – missing the closing "
+cowsay "Hello, world!
 
-Tongue examples:
+# RIGHT
+cowsay "Hello, world!"
+```
 
-- -T "  " (none), -T "U ", -T "~~"
+---
+
+## **Extending cowsay**
+
+1. **Add cowfiles**
     
-
----
-
-## **Wrapping and formatting**
-
-```
-# Wrap at 40 columns (default is 40 on many builds)
-cowsay -W 40 "A very long message that should wrap nicely."
-
-# Do not wrap (print as a single line)
-cowsay -n "I will not be wrapped."
-```
-
----
-
-## **Thinking instead of speaking**
-
-```
-cowthink "Hmm… arrays decay to pointers."
-cowthink -f duck "Quack, but thoughtfully."
-```
-
----
-
-## **Using with other programs**
-
-```
-fortune | cowsay -f dragon
-dmesg | tail -n 5 | cowsay -f duck
-```
-
----
-
-## **Extend with custom cowfiles**
-
-  
-
-Place your .cow files in a directory and set COWPATH:
+    Place custom .cow files in a directory and set COWPATH:
+    
 
 ```
 export COWPATH="$HOME/.cowfiles"
 cowsay -f mylogo "Branding!"
 ```
 
----
+1.   
+    
+2. **Pipe other programs**
+    
 
-## **Quick reference**
+```
+fortune | cowsay -f dragon
+dmesg | tail -5 | cowsay
+```
 
-|**Flag**|**Meaning**|**Example**|
-|---|---|---|
-|-f|Choose figure (cowfile)|cowsay -f dragon "RAWR"|
-|-l|List available figures|cowsay -l|
-|-e|Eye characters (2 chars)|cowsay -e "^^" "Hi"|
-|-T|Tongue (2 chars)|cowsay -T "U " "Bleh"|
-|-W|Wrap width|cowsay -W 60 "Long text"|
-|-n|No wrap|cowsay -n "One long line"|
+  
 
 ---
 
 ### **TL;DR**
 
-- cowsay "text" prints a cow.
+- cowsay "<text>" → ASCII cow.
     
-- -f dragon / -f duck swap the animal.
+- -f <figure> chooses another animal; use cowsay -l to see what’s installed.
     
-- -e and -T customize the face; -W controls wrapping.
+- Homebrew’s default set **doesn’t include duck**; pick dragon, tux, etc. instead.
     
-- Pipe anything in (echo, fortune, logs) for instant ASCII vibes. 🐄 🐉 🦆
+- Watch your quotes—unmatched " drops you into the dquote> prompt.
+- 
