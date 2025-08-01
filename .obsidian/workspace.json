@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Uppercase Conversion via ASCII Arithmetic"
+              "title": "Command-Line Arguments in C"
             }
           }
         ],
@@ -204,9 +204,11 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "2025-08-01_14-30-08.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
     "2025-07-30_16-49-01.png",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/For Loop With Multiple Initializers (Caching strlen).md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
     "2025-07-30_16-38-52.png",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Manual String Length Calculation in C.md",
     "2025-07-30_16-21-42.png",
@@ -238,9 +240,7 @@
     "10_Courses/CS50x Harvard/Lecture 1 - C/Char Type in C.md",
     "98_Images/Screenshot 2025-07-22 at 11.54.49.png",
     "99_Daily Logs/2025-07-20 – Work log.md",
-    "99_Daily Logs/2025-07-21 – Work log.md",
     "Shark-VS-Pufferfish.sb3",
-    "98_Images/Screenshot 2025-07-22 at 13.16.19.png",
     "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays",
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C",
     "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch",
