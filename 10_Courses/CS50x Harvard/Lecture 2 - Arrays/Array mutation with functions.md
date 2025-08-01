@@ -24,7 +24,7 @@ int main(void)
     printf("%d %d\n", a, b[0]);
 }
 
-// ── helpers ──────────────────────────────────────────────
+// ── helpers ───────────────────────────────────────────
 void set_array(int array[4])
 {
     array[0] = 22;          // attempt succeeds
@@ -44,28 +44,12 @@ void set_int(int x)
 
 ---
 
-## **Why does** 
+Why does a stay  10 but b0 becomes 22?
 
-## **a**
-
-##  **stay** 
-
-## **10**
-
-##  **but** 
-
-## **b[0]**
-
-##  **becomes** 
-
-## **22**
-
-## **?**
-
-|**Call**|**What C passes under the hood**|**Result**|
-|---|---|---|
-|set_int(a)|**Copy** of a (value 10)|Function changes its **local** copy; the original a is untouched.|
-|set_array(b)|**Pointer** to the first element of b|Function writes through the pointer, mutating the same memory b occupies.|
+| **Call**     | **What C passes under the hood**      | **Result**                                                                |
+| ------------ | ------------------------------------- | ------------------------------------------------------------------------- |
+| set_int(a)   | **Copy** of a (value 10)              | Function changes its **local** copy; the original a is untouched.         |
+| set_array(b) | **Pointer** to the first element of b | Function writes through the pointer, mutating the same memory b occupies. |
 
 ### **Key rule**
 
@@ -110,6 +94,5 @@ main()
 
 ### **TL;DR**
 
-  
 
 set_int fails because it edits a copy. set_array succeeds because arrays are passed as pointers, so the function reaches back into the caller’s memory and overwrites b[0].
