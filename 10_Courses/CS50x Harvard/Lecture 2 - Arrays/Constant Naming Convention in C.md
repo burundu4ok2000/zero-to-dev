@@ -2,7 +2,8 @@
 
 ![[Screenshot 2025-07-22 at 13.16.19.png]]
 
-> **Lecture reference:** [[Lecture 2 – Arrays]]  
+> **Lecture reference:** [[Lecture 2 - Arrays]]
+> 
 > **Course:** [[CS50x Harvard]]
 
 ---

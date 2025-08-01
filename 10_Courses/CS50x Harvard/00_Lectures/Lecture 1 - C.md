@@ -44,7 +44,6 @@
 - [[Incrementing a variable in C]]
 - [[Keyboard-first programming]]
 - [[Linux Command Line Rationale]]
-- [[Loops Overview in C]]
 - [[Magic Numbers and define in C]]
 - [[Meow Function Evolution]]
 - [[Switch Statement in C]]
