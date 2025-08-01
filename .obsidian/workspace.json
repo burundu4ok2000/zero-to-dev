@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black box functions (shorts).md",
+                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Black box functions (shorts)"
+              "title": "Array mutation with functions"
             }
           }
         ],
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 435.5
   },
   "right": {
     "id": "122acbf7b5916191",
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,9 +203,14 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black box functions (shorts).md",
+    "2025-08-01_17-46-53.png",
+    "2025-08-01_17-41-55 1.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black box functions.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Functions overview in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Fixed length array declaration in C.md",
+    "2025-08-01_17-41-55.png",
     "2025-08-01_16-35-06.png",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Functions overview in C (shorts).md",
     "2025-08-01_16-32-16.png",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
     "10_Courses/CS50x Harvard/00_Lectures/Lecture 1 - C.md",
@@ -226,9 +230,7 @@
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Cowsay Cheat Sheet.md",
     "98_Images/2025-08-01_14-56-01 2.png",
     "98_Images/2025-08-01_14-56-01 1.png",
-    "98_Images/2025-08-01_14-56-01.png",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
-    "98_Images/2025-08-01_14-30-08.png",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/For Loop With Multiple Initializers (Caching strlen).md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Manual String Length Calculation in C.md",
@@ -238,8 +240,6 @@
     "99_Daily Logs/2025-07-24 – Work log.md",
     "99_Daily Logs/2025-07-23 – Work log.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings in C and the Null Terminator.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags Cheat Sheet.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · SENTINEL.md",
     "Shark-VS-Pufferfish.sb3",
     "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays",
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C",
