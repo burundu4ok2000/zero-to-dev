@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+                "file": "50_Career/10_Professions/Data Engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Registration on LinkedIn by Russian nationals (August 2025)"
+              "title": "Data Engineer"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+                "file": "50_Career/10_Professions/Data Engineer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Registration on LinkedIn by Russian nationals (August 2025)"
+              "title": "Outline of Data Engineer"
             }
           },
           {
@@ -204,10 +204,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "2c972b09139a6347",
+  "active": "96170d3c90798b33",
   "lastOpenFiles": [
-    "50_Career/00_Hub/Starting a Career in Information Technology (IT).md",
     "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+    "50_Career/00_Hub/Starting a Career in Information Technology (IT).md",
     "50_Career/10_Professions/Data Engineer.md",
     "30_Knowledge/10_Concepts/ELT vs ETL.md",
     "50_Career/30_Counties",
