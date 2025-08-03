@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/10_Concepts/Data Warehouse.md",
+                "file": "ETL vs ELT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Warehouse"
+              "title": "ETL vs ELT"
+            }
+          },
+          {
+            "id": "853e1a34e62fc379",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30_Knowledge/10_Concepts/ELT vs ETL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ELT vs ETL"
             }
           }
         ]
@@ -181,7 +195,12 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "30_Knowledge/10_Concepts/ELT.md",
+    "ETL vs ELT.md",
+    "30_Knowledge/10_Concepts/ELT vs ETL.md",
     "30_Knowledge/10_Concepts/ETL.md",
+    "30_Knowledge/10_Concepts/Data Lakehouse.md",
+    "30_Knowledge/10_Concepts/Bronze–Silver–Gold.md",
     "30_Knowledge/10_Concepts/Data Warehouse.md",
     "30_Knowledge/00_Hub/Concepts.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/C Type Sizes and Memory.md",
@@ -213,11 +232,6 @@
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Artificial Intelligence.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Artificial Intelligence · CS50x Week 0.md",
     "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · SEMICOLON.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · STEM.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/M2 Chip — What Voltage Do Its Transistors Use?.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Massachusetts Institute of Technology.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Media — Audio.md",
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
     "98_Images/2025-08-01_17-41-55 1.png",
