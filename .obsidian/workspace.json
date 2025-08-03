@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
+                "file": "Communities/CompTIA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ASCII and Its Limitations"
+              "title": "Outline of CompTIA"
             }
           },
           {
@@ -172,14 +172,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "28cff4c381a3b8bf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
