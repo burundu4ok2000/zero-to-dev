@@ -8,11 +8,7 @@
 
 ---
 
-## **Program (**
-
-## **uppercase.c**
-
-## **)**
+## **Program (uppercase.c )**
 
 ```
 #include <cs50.h>

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Array mutation with functions"
+              "title": "ASCII and Its Limitations"
             }
           }
         ]
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Backlinks"
             }
           },
           {
@@ -116,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Outgoing links"
             }
           },
           {
@@ -126,10 +126,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Теги"
+              "title": "Tags"
             }
           },
           {
@@ -138,17 +140,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Harvard – MIT & Cambridge (MA, USA).md",
+                "file": "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Harvard – MIT & Cambridge (MA, USA)"
+              "title": "Outline of ASCII and Its Limitations"
             }
           },
           {
-            "id": "24a079370ef7d0ae",
+            "id": "35059d6a3a0a81f1",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -156,19 +158,9 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "247e69528c8c008e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,53 +170,54 @@
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Artificial Intelligence.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Artificial Intelligence · CS50x Week 0.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · SEMICOLON.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · STEM.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/M2 Chip — What Voltage Do Its Transistors Use?.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Massachusetts Institute of Technology.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Media — Audio.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · ADJOURN.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Control Characters.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Basics.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
+    "10_Courses/CS50x Harvard/00_Lectures/Lecture 1 - C.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · QUANTIFY.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · HEURISTIC.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · PRECISE.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · Admittedly.md",
+    "10_Courses/CS50x Harvard/00_Lectures/Lecture 2 - Arrays.md",
+    "10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch.md",
+    "98_Images/2025-08-01_16-32-16.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
+    "Loops Overview in C.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
-    "2025-08-01_17-46-53.png",
-    "2025-08-01_17-41-55 1.png",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
+    "98_Images/2025-08-01_17-46-53.png",
+    "98_Images/2025-08-01_17-41-55 1.png",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black box functions.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Functions overview in C.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Fixed length array declaration in C.md",
-    "2025-08-01_17-41-55.png",
-    "2025-08-01_16-35-06.png",
-    "2025-08-01_16-32-16.png",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
-    "10_Courses/CS50x Harvard/00_Lectures/Lecture 1 - C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Constant Naming Convention in C.md",
-    "Loops Overview in C.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Lecture 1 - WEB LECTURE NOTES.md",
+    "98_Images/2025-08-01_17-41-55.png",
+    "98_Images/2025-08-01_16-35-06.png",
     "98_Images/2025-07-30_16-21-42.png",
     "Lecture 1 - C",
-    "Clippings/Week 1 C - CS50x 2025.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Lecture 2 - WEB LECTURE NOTES.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Encryption Basics – Caesar Cipher.md",
     "98_Images/2025-08-01_15-29-22.png",
     "98_Images/2025-08-01_15-28-51.png",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Exit status and echo $? (null is OK).md",
     "98_Images/2025-08-01_15-07-54.png",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Cowsay Cheat Sheet.md",
     "98_Images/2025-08-01_14-56-01 2.png",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/For Loop With Multiple Initializers (Caching strlen).md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Manual String Length Calculation in C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Indexing Characters in an Array of Strings.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Single vs Double Quotes in C.md",
-    "99_Daily Logs/2025-07-17 – Work log.md",
-    "99_Daily Logs/2025-07-24 – Work log.md",
-    "99_Daily Logs/2025-07-23 – Work log.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings in C and the Null Terminator.md",
     "Shark-VS-Pufferfish.sb3",
     "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays",
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C",

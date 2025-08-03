@@ -37,4 +37,5 @@
 ---
 
 [[CS50x Harvard]]  
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]
+[[Lecture 0 - Scratch]]
+[[English]]

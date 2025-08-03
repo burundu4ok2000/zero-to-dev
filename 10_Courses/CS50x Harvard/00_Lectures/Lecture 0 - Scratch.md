@@ -24,7 +24,7 @@
 ---
 
 ### 💡 Concepts & Course Notes
-- [["Precise" — Definition & Context]]
+- [[Vocabulary · PRECISE]]
 - [[M2 Chip — What Voltage Do Its Transistors Use?]]
 - [[Artificial Intelligence]]
 - [[Artificial Intelligence · CS50x Week 0]]
