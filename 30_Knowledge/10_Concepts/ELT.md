@@ -57,7 +57,7 @@ Minimal flow:
 
 ## **See also (details in separate notes)**
 
-- [[ETL vs ELT]] — trade-offs and patterns
+- [[ELT vs ETL]] — trade-offs and patterns
     
 - [[Data Warehouse]] — the usual ELT destination
     
