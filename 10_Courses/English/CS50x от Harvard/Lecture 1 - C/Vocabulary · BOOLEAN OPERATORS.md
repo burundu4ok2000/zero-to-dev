@@ -1,5 +1,7 @@
 [[Lecture 1 - C]]
 [[English]]
+[[CS50x Harvard]]
+
 
 ## 📖 Definition  
 **BOOLEAN OPERATORS** *(noun phrase)* — symbols used to perform **logical operations** that return either **true (1)** or **false (0)**.  

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"f2df1b266d6474a9","type":"file","file":"98_Images/Screenshot 2025-07-23 at 16.13.55.png","x":-200,"y":-200,"width":400,"height":251},
+		{"id":"41e60e60ae2e463f","type":"text","text":"m kklll\n\\","x":293,"y":240,"width":250,"height":50,"color":"1"},
+		{"id":"ad11b7418254a057","type":"file","file":"30_Knowledge/00_Hub/Concepts.md","x":620,"y":157,"width":400,"height":400},
+		{"id":"e0226b239a30a361","type":"file","file":"10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Basics.md","x":110,"y":640,"width":617,"height":763}
+	],
+	"edges":[
+		{"id":"b19f58e518efc8b8","fromNode":"ad11b7418254a057","fromSide":"left","toNode":"e0226b239a30a361","toSide":"right"},
+		{"id":"9abcda66301d8c66","fromNode":"f2df1b266d6474a9","fromSide":"right","toNode":"41e60e60ae2e463f","toSide":"left"},
+		{"id":"5a6f2e950df8ca22","fromNode":"41e60e60ae2e463f","fromSide":"bottom","toNode":"e0226b239a30a361","toSide":"top"},
+		{"id":"03147189024f9628","fromNode":"41e60e60ae2e463f","fromSide":"top","toNode":"ad11b7418254a057","toSide":"top","fromEnd":"arrow","color":"3"},
+		{"id":"39779ac535e85321","fromNode":"41e60e60ae2e463f","fromSide":"top","toNode":"ad11b7418254a057","toSide":"right"},
+		{"id":"178f0f8a145319ae","fromNode":"41e60e60ae2e463f","fromSide":"top","toNode":"f2df1b266d6474a9","toSide":"top"},
+		{"id":"1daf548a9ef1ddbb","fromNode":"41e60e60ae2e463f","fromSide":"top","toNode":"f2df1b266d6474a9","toSide":"bottom"},
+		{"id":"225bd4c2e81243eb","fromNode":"41e60e60ae2e463f","fromSide":"bottom","toNode":"e0226b239a30a361","toSide":"left"},
+		{"id":"7f0c3af54248ba8c","fromNode":"e0226b239a30a361","fromSide":"top","toNode":"41e60e60ae2e463f","toSide":"left"}
+	]
+}

@@ -11,14 +11,17 @@
             "id": "96170d3c90798b33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
-                "mode": "source",
-                "source": false
+                "file": "40_Roadmap/example2.canvas",
+                "viewState": {
+                  "x": 370.4310708415504,
+                  "y": 1168.2492455034767,
+                  "zoom": -1.5354632393120715
+                }
               },
-              "icon": "lucide-file",
-              "title": "ASCII and Its Limitations"
+              "icon": "lucide-layout-dashboard",
+              "title": "example2"
             }
           }
         ]
@@ -78,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 280.5
   },
   "right": {
     "id": "122acbf7b5916191",
@@ -181,6 +184,29 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "40_Roadmap/example.md",
+    "40_Roadmap/example2.canvas",
+    "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · BOOLEAN OPERATORS.md",
+    "30_Knowledge/00_Hub/Glossary.md",
+    "30_Knowledge/00_Hub/Snippets.md",
+    "30_Knowledge/00_Hub/CheatSheets.md",
+    "30_Knowledge/00_Hub/HowTo.md",
+    "30_Knowledge/00_Hub/Patterns.md",
+    "30_Knowledge/00_Hub/Languages.md",
+    "30_Knowledge/00_Hub/Concepts.md",
+    "30_Knowledge/00_Hub/Tools.md",
+    "20_Projects/CS50x Harvard/CS50x – Problem Set 0 Scratch.md",
+    "30_Knowledge/00_Hub",
+    "10_Courses/00_Note/Untitled",
+    "30_Knowledge/80_Glossary",
+    "30_Knowledge/70_        Snippets",
+    "30_Knowledge/60_CheatSheets",
+    "30_Knowledge/50_HowTo",
+    "20_Projects/CS50x Harvard",
+    "10_Courses/English/00_",
+    "30_Knowledge/40_Patterns",
+    "30_Knowledge/Languages/Untitled",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Artificial Intelligence.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Artificial Intelligence · CS50x Week 0.md",
     "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · SEMICOLON.md",
@@ -192,41 +218,18 @@
     "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · ADJOURN.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Control Characters.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Basics.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII and Its Limitations.md",
     "10_Courses/CS50x Harvard/00_Lectures/Lecture 1 - C.md",
     "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · QUANTIFY.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · HEURISTIC.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · PRECISE.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · Admittedly.md",
-    "10_Courses/CS50x Harvard/00_Lectures/Lecture 2 - Arrays.md",
-    "10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch.md",
     "98_Images/2025-08-01_16-32-16.png",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
-    "Loops Overview in C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
     "98_Images/2025-08-01_17-46-53.png",
     "98_Images/2025-08-01_17-41-55 1.png",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black box functions.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Functions overview in C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Fixed length array declaration in C.md",
     "98_Images/2025-08-01_17-41-55.png",
     "98_Images/2025-08-01_16-35-06.png",
     "98_Images/2025-07-30_16-21-42.png",
-    "Lecture 1 - C",
     "98_Images/2025-08-01_15-29-22.png",
     "98_Images/2025-08-01_15-28-51.png",
     "98_Images/2025-08-01_15-07-54.png",
     "98_Images/2025-08-01_14-56-01 2.png",
-    "Shark-VS-Pufferfish.sb3",
-    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays",
-    "10_Courses/English/CS50x от Harvard/Lecture 1 - C",
-    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch",
-    "10_Courses/English/CS50x от Harvard",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays",
-    "10_Courses/CS50x Harvard/Lecture 1 - C",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch",
-    "10_Courses/CS50x Harvard/00_Lectures",
     "Untitled.canvas"
   ]
 }
