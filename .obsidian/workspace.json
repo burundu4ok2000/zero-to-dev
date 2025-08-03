@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Communities/CompTIA.md",
+                "file": "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CompTIA"
+              "title": "Fullstack Academy Bootcamps"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Communities/CompTIA.md",
+                "file": "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CompTIA"
+              "title": "Outline of Fullstack Academy Bootcamps"
             }
           },
           {
@@ -204,8 +204,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "2c972b09139a6347",
+  "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
+    "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
+    "10_Courses/00_Hub/Apple shortcuts.md",
+    "Communities/CompTIA.md",
     "40_Roadmap/90_Done",
     "40_Roadmap/20_Actions",
     "40_Roadmap/10_Goals",
@@ -216,9 +220,7 @@
     "50_Career/40_Job_Boards",
     "50_Career/30_Companies",
     "50_Career/10_Professions/Certificates",
-    "50_Career/20_Communities",
     "Communities/ISACA.md",
-    "Communities/CompTIA.md",
     "50_Career/10_Professions/Certificates/Security+.md",
     "50_Career/10_Professions/Certificates/Network+.md",
     "50_Career/10_Professions/Certificates/CompTIA A+.md",
@@ -240,8 +242,6 @@
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
     "40_Roadmap/example2.canvas",
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
