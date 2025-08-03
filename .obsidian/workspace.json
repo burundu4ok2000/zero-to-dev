@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
+                "file": "30_Knowledge/10_Concepts/ELT vs ETL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fullstack Academy Bootcamps"
+              "title": "ELT vs ETL"
             }
           },
           {
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 283.5
   },
   "right": {
     "id": "122acbf7b5916191",
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
+                "file": "30_Knowledge/10_Concepts/ELT vs ETL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fullstack Academy Bootcamps"
+              "title": "Outline of ELT vs ETL"
             }
           },
           {
@@ -204,10 +204,27 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "96170d3c90798b33",
+  "active": "2c972b09139a6347",
   "lastOpenFiles": [
-    "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
+    "50_Career/30_Counties",
+    "60_Jobs/10_Professions",
+    "60_Jobs/00_Hub",
+    "60_Jobs",
+    "30_Knowledge/10_Concepts/ELT.md",
+    "30_Knowledge/10_Concepts/Data Warehouse.md",
+    "30_Knowledge/10_Concepts/Data Ingestion.md",
+    "00_Inbox/Data Pipeline.md",
+    "00_Inbox/Data Quality.md",
+    "30_Knowledge/10_Concepts/ELT vs ETL.md",
+    "00_Inbox/Data Lakehouse.md",
+    "00_Inbox/Bronze–Silver–Gold.md",
+    "00_Inbox/CDC (Change Data Capture).md",
+    "00_Inbox/Batch vs Streaming.md",
+    "00_Inbox/Orchestration & DAGs.md",
+    "40_Roadmap/30_Roadmap/Roadmap.canvas",
     "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
+    "40_Roadmap/30_Roadmap",
+    "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
     "10_Courses/00_Hub/Apple shortcuts.md",
     "Communities/CompTIA.md",
     "40_Roadmap/90_Done",
@@ -216,10 +233,6 @@
     "40_Roadmap/00_Hub",
     "50_Career/70_Personal_Brand",
     "50_Career/60_Visas",
-    "50_Career/50_Resumes",
-    "50_Career/40_Job_Boards",
-    "50_Career/30_Companies",
-    "50_Career/10_Professions/Certificates",
     "Communities/ISACA.md",
     "50_Career/10_Professions/Certificates/Security+.md",
     "50_Career/10_Professions/Certificates/Network+.md",
@@ -227,21 +240,9 @@
     "50_Career/10_Professions/Certificates/CCNA.md",
     "Communities/ACM.md",
     "Communities/IEEE.md",
-    "30_Knowledge/10_Concepts/ELT vs ETL.md",
-    "30_Knowledge/10_Concepts/ELT.md",
     "30_Knowledge/10_Concepts/ETL.md",
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Generate glossary.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Emojify.md",
-    "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Remove URLs.md",
-    "ETL vs ELT.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Simplify.md",
     "40_Roadmap/example2.canvas",
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
