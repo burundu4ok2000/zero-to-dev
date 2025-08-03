@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Career/10_Professions/Data Engineer.md",
+                "file": "50_Career/10_Professions/Data Scientist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Engineer"
+              "title": "Data Scientist"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "varia",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 274.5
   },
   "right": {
     "id": "122acbf7b5916191",
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "50_Career/10_Professions/Data Engineer.md",
+                "file": "50_Career/10_Professions/Data Scientist.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Engineer"
+              "title": "Outline of Data Scientist"
             }
           },
           {
@@ -206,9 +206,12 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "50_Career/10_Professions/Data Scientist.md",
+    "50_Career/10_Professions/Data Analyst.md",
+    "50_Career/10_Professions/Data Engineer.md",
     "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
     "50_Career/00_Hub/Starting a Career in Information Technology (IT).md",
-    "50_Career/10_Professions/Data Engineer.md",
     "30_Knowledge/10_Concepts/ELT vs ETL.md",
     "50_Career/30_Counties",
     "60_Jobs/10_Professions",
@@ -240,9 +243,6 @@
     "50_Career/10_Professions/Certificates/Network+.md",
     "50_Career/10_Professions/Certificates/CompTIA A+.md",
     "50_Career/10_Professions/Certificates/CCNA.md",
-    "Communities/ACM.md",
-    "Communities/IEEE.md",
-    "30_Knowledge/10_Concepts/ETL.md",
     "40_Roadmap/example2.canvas",
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
@@ -253,7 +253,6 @@
     "98_Images/2025-08-01_15-29-22.png",
     "98_Images/2025-08-01_15-28-51.png",
     "98_Images/2025-08-01_15-07-54.png",
-    "98_Images/2025-08-01_14-56-01 2.png",
-    "Untitled.canvas"
+    "98_Images/2025-08-01_14-56-01 2.png"
   ]
 }
