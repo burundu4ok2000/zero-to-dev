@@ -11,17 +11,14 @@
             "id": "96170d3c90798b33",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "40_Roadmap/example2.canvas",
-                "viewState": {
-                  "x": 370.4310708415504,
-                  "y": 1168.2492455034767,
-                  "zoom": -1.5354632393120715
-                }
+                "file": "30_Knowledge/10_Concepts/Data Warehouse.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "example2"
+              "icon": "lucide-file",
+              "title": "Data Warehouse"
             }
           }
         ]
@@ -184,6 +181,13 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "30_Knowledge/10_Concepts/ETL.md",
+    "30_Knowledge/10_Concepts/Data Warehouse.md",
+    "30_Knowledge/00_Hub/Concepts.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/C Type Sizes and Memory.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Variable Scope in C.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/CS50 Library · get_Functions.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
     "40_Roadmap/example.md",
     "40_Roadmap/example2.canvas",
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · BOOLEAN OPERATORS.md",
@@ -193,7 +197,6 @@
     "30_Knowledge/00_Hub/HowTo.md",
     "30_Knowledge/00_Hub/Patterns.md",
     "30_Knowledge/00_Hub/Languages.md",
-    "30_Knowledge/00_Hub/Concepts.md",
     "30_Knowledge/00_Hub/Tools.md",
     "20_Projects/CS50x Harvard/CS50x – Problem Set 0 Scratch.md",
     "30_Knowledge/00_Hub",
@@ -215,11 +218,6 @@
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/M2 Chip — What Voltage Do Its Transistors Use?.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Massachusetts Institute of Technology.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Media — Audio.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 0 - Scratch/Vocabulary · ADJOURN.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Control Characters.md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/ASCII Basics.md",
-    "10_Courses/CS50x Harvard/00_Lectures/Lecture 1 - C.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · QUANTIFY.md",
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
     "98_Images/2025-08-01_17-41-55 1.png",
