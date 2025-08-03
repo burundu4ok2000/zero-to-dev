@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/10_Concepts/ELT vs ETL.md",
+                "file": "Communities/CompTIA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ELT vs ETL"
+              "title": "CompTIA"
             }
           },
           {
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 200
   },
   "right": {
     "id": "122acbf7b5916191",
@@ -194,11 +194,22 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "96170d3c90798b33",
+  "active": "2c972b09139a6347",
   "lastOpenFiles": [
+    "50_Career",
+    "Communities/ISACA.md",
+    "Communities/CompTIA.md",
+    "Certificates/Security+.md",
+    "Certificates/Network+.md",
+    "Certificates/CompTIA A+.md",
+    "Certificates/CCNA.md",
+    "Communities/ACM.md",
+    "Communities/IEEE.md",
+    "Communities",
+    "30_Knowledge/10_Concepts/ELT vs ETL.md",
+    "Certificates",
     "30_Knowledge/10_Concepts/ELT.md",
     "30_Knowledge/10_Concepts/ETL.md",
-    "30_Knowledge/10_Concepts/ELT vs ETL.md",
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
@@ -214,15 +225,6 @@
     "copilot-custom-prompts/Summarize.md",
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts",
-    "30_Knowledge/10_Concepts/Data Lakehouse.md",
-    "30_Knowledge/10_Concepts/Bronze–Silver–Gold.md",
-    "30_Knowledge/10_Concepts/Data Warehouse.md",
-    "30_Knowledge/00_Hub/Concepts.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/C Type Sizes and Memory.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Variable Scope in C.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/CS50 Library · get_Functions.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
-    "40_Roadmap/example.md",
     "40_Roadmap/example2.canvas",
     "30_Knowledge/00_Hub",
     "10_Courses/00_Note/Untitled",
@@ -231,8 +233,6 @@
     "30_Knowledge/60_CheatSheets",
     "30_Knowledge/50_HowTo",
     "20_Projects/CS50x Harvard",
-    "10_Courses/English/00_",
-    "30_Knowledge/40_Patterns",
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
     "98_Images/2025-08-01_17-41-55 1.png",
