@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Batch vs Streaming.md",
+                "file": "50_Career/00_Hub/Путь в Data Engineering и переезд в США за 12 месяцев.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Batch vs Streaming"
+              "title": "Путь в Data Engineering и переезд в США за 12 месяцев"
             }
           },
           {
@@ -204,8 +204,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "96170d3c90798b33",
+  "active": "2c972b09139a6347",
   "lastOpenFiles": [
+    "00_Inbox/Batch vs Streaming.md",
+    "50_Career/00_Hub/Путь в Data Engineering и переезд в США за 12 месяцев.md",
     "00_Inbox/Bronze–Silver–Gold.md",
     "00_Inbox/CDC (Change Data Capture).md",
     "00_Inbox/Data Lakehouse.md",
@@ -229,7 +231,6 @@
     "30_Knowledge/10_Concepts/Data Ingestion.md",
     "00_Inbox/Data Pipeline.md",
     "00_Inbox/Data Quality.md",
-    "00_Inbox/Batch vs Streaming.md",
     "00_Inbox/Orchestration & DAGs.md",
     "40_Roadmap/30_Roadmap/Roadmap.canvas",
     "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
