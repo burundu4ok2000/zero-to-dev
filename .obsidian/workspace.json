@@ -11,10 +11,14 @@
             "id": "96170d3c90798b33",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "40_Roadmap/40_Planning Instruments/Skills Matrix  Компетентностная матрица.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Skills Matrix  Компетентностная матрица"
             }
           },
           {
@@ -88,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5
+    "width": 275.5
   },
   "right": {
     "id": "122acbf7b5916191",
@@ -202,6 +206,8 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
+    "1C397587-57FB-41AB-B569-4658B5184952.png",
+    "40_Roadmap/40_Planning Instruments/Skills Matrix  Компетентностная матрица.md",
     "98_Images/Screenshot 2025-06-24 at 13.25.11.png",
     "98_Images/2025-08-01_14-56-01 2.png",
     "40_Roadmap/40_Planning Instruments/ОКР-дерево (год → квартал → неделя).md",
@@ -241,7 +247,6 @@
     "40_Roadmap/30_Roadmap/Roadmap.canvas",
     "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
     "40_Roadmap/30_Roadmap",
-    "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
     "40_Roadmap/90_Done",
     "40_Roadmap/20_Actions",
     "40_Roadmap/10_Goals",
@@ -249,7 +254,6 @@
     "98_Images/2025-08-01_16-32-16.png",
     "98_Images/2025-08-01_17-46-53.png",
     "98_Images/2025-08-01_17-41-55 1.png",
-    "98_Images/2025-08-01_17-41-55.png",
-    "98_Images/2025-08-01_16-35-06.png"
+    "98_Images/2025-08-01_17-41-55.png"
   ]
 }
