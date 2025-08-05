@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Career/10_Professions/Data Scientist.md",
+                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Scientist"
+              "title": "AI or Machine-Learning Engineer"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "50_Career/10_Professions/Data Scientist.md",
+                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Data Scientist"
+              "title": "Outline of AI or Machine-Learning Engineer"
             }
           },
           {
@@ -206,8 +206,9 @@
   },
   "active": "96170d3c90798b33",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "50_Career/10_Professions/Data Scientist.md",
+    "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
+    "Untitled.canvas",
     "50_Career/10_Professions/Data Analyst.md",
     "50_Career/10_Professions/Data Engineer.md",
     "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
