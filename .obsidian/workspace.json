@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
+                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metrics Dashboard (личные KPI)"
+              "title": "Kanban board"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
+                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Metrics Dashboard (личные KPI)"
+              "title": "Backlinks for Kanban board"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
+                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Metrics Dashboard (личные KPI)"
+              "title": "Outgoing links from Kanban board"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
+                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Metrics Dashboard (личные KPI)"
+              "title": "Outline of Kanban board"
             }
           },
           {
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,11 +203,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c84938991a400892",
+  "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
+    "kanban board.png",
+    "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
+    "40_Roadmap/40_Planning Instruments/Kanban board.md",
     "Metrics Dashboard.png",
     "40_Roadmap/40_Planning Instruments/Risk Register.md",
-    "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
     "Risk Register.png",
     "40_Roadmap/40_Planning Instruments/Milestone Map (карта вех).md",
     "Untitled 1.canvas",
