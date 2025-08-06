@@ -5,5 +5,8 @@
   "templater-obsidian",
   "obsidian-style-settings",
   "obsidian-minimal-settings",
-  "copilot"
+  "copilot",
+  "obsidian-excalidraw-plugin",
+  "obsidian-icon-folder",
+  "obsidian-mind-map"
 ]
