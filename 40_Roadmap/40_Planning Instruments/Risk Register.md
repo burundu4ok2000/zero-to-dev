@@ -1,4 +1,4 @@
-
+![[Risk Register.png]]
 
 > **Просто и по-человечески:**  
 > *Risk Register* — это **единый список рисков** по твоему Roadmap’у: что может пойти не так, насколько это вероятно/больно, кто отвечает и что мы делаем, чтобы этого не произошло. Это живой документ: его **дополняют и обновляют регулярно**, пока идёт проект.  [oai_citation:0‡Atlassian](https://www.atlassian.com/work-management/project-management/risk-register?utm_source=chatgpt.com) [oai_citation:1‡Project Management Academy](https://projectmanagementacademy.net/resources/blog/risk-report-vs-risk-register/?utm_source=chatgpt.com)
