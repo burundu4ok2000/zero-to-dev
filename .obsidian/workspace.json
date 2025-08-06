@@ -11,12 +11,14 @@
             "id": "aa3ae3f3eb02c75d",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png"
+                "file": "Communities/ACM.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "1C397587-57FB-41AB-B569-4658B5184952"
+              "icon": "lucide-file",
+              "title": "ACM"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"цикл ISO 31000\"",
+                "query": "argc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 369.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
+                "file": "Communities/ACM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1C397587-57FB-41AB-B569-4658B5184952"
+              "title": "Backlinks for ACM"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
+                "file": "Communities/ACM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1C397587-57FB-41AB-B569-4658B5184952"
+              "title": "Outgoing links from ACM"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
+                "file": "Communities/ACM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1C397587-57FB-41AB-B569-4658B5184952"
+              "title": "Outline of ACM"
             }
           },
           {
@@ -203,16 +205,36 @@
   },
   "active": "98ba81797ec4cac7",
   "lastOpenFiles": [
+    "Communities/CompTIA.md",
+    "Communities/IEEE.md",
+    "Communities/ISACA.md",
+    "20_Projects/CS50x Harvard/Lecture 0 - Scratch/Problem Set  Scratch.md",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution.c",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/Untitled",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/scrabble/scrabble.c",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/scrabble/scrabble",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/scrabble",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/readability/readability.c",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/readability/readability",
+    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/readability",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/C Snippet · hello.c.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Passing Arrays to Functions in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/pre-final Compiling Step - Machine Code.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Single vs Double Quotes in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings in C and the Null Terminator.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
+    "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
     "40_Roadmap/40_Planning Instruments/20_Examples/Objective → Capabilities → Results (O-C-R Tree) (simple example).md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Agent Task Log — «Что делает за тебя AI».md",
-    "40_Roadmap/40_Planning Instruments/20_Examples",
     "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Assumptions.md",
-    "40_Roadmap/40_Planning Instruments/Archive.zip",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Evidence Vault.md",
-    "40_Roadmap/40_Planning Instruments/00_Hub",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Kanban board.md",
     "98_Images/kanban board.png",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Metrics Dashboard (личные KPI).md",
@@ -227,9 +249,6 @@
     "98_Images/image.png",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Project Portfolio Backlog.md",
     "98_Images/project partfolio backlog.png",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Capability Roadmap (по стеку).md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Skills Matrix  Компетентностная матрица.md",
     "98_Images/image123.png",
     "98_Images/Untitled.canvas"
   ]
