@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99_Daily Logs/2025-07-23 – Work log.md",
+                "file": "40_Roadmap/00_Hub/Untitled 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-23 – Work log"
+              "title": "Untitled 1"
             }
           }
         ]
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "10_Courses/00_Course/Apple shortcuts.md",
+            "file": "40_Roadmap/00_Hub/Untitled 1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -153,6 +153,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
@@ -165,6 +167,9 @@
   },
   "active": "2deab84c215b0a7f",
   "lastOpenFiles": [
+    "40_Roadmap/00_Hub/Untitled.md",
+    "40_Roadmap/00_Hub/Untitled 1.md",
+    "99_Daily Logs/2025-07-23 – Work log.md",
     "10_Courses/00_Course/Apple shortcuts.md",
     "10_Courses/Apple shortcuts/00_Lessons/Lesson 1 - Shortcut-Ops 101.md",
     "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Action Anatomy & Privacy Tiers.md",
