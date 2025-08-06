@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
+                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 артефактов планирования"
+              "title": "AI or Machine-Learning Engineer"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zoom",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
+                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 12 артефактов планирования"
+              "title": "Backlinks for AI or Machine-Learning Engineer"
             }
           },
           {
@@ -114,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
+                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 12 артефактов планирования"
+              "title": "Outgoing links from AI or Machine-Learning Engineer"
             }
           },
           {
@@ -143,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
+                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 12 артефактов планирования"
+              "title": "Outline of AI or Machine-Learning Engineer"
             }
           },
           {
@@ -206,7 +205,12 @@
   },
   "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
+    "50_Career/10_Professions.zip",
+    "50_Career/00_Hub/Starting a Career in Information Technology (IT).md",
     "50_Career/00_Hub/💻 Career roadmap guidance for Junior Data Engineer role.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Skills Matrix  Компетентностная матрица.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
+    "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
     "50_Career/10_Professions/Data Scientist.md",
     "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
     "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
@@ -215,7 +219,6 @@
     "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/30_Results",
     "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/20_Capabilities",
     "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/10_Objective",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
     "40_Roadmap/40_Planning Instruments/Untitled.md",
     "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree",
     "40_Roadmap/30_Roadmap/Roadmap.canvas",
@@ -239,11 +242,7 @@
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Single vs Double Quotes in C.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings in C and the Null Terminator.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
     "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
-    "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Evidence Vault.md",
     "98_Images/kanban board.png",
     "98_Images/Metrics Dashboard.png",
     "98_Images/Risk Register.png",
