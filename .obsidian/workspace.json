@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Communities/ACM.md",
+                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACM"
+              "title": "12 артефактов планирования"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "argc",
+                "query": "zoom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,11 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 369.5
+    "width": 327.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Communities/ACM.md",
+                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ACM"
+              "title": "Backlinks for 12 артефактов планирования"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Communities/ACM.md",
+                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ACM"
+              "title": "Outgoing links from 12 артефактов планирования"
             }
           },
           {
@@ -142,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Communities/ACM.md",
+                "file": "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ACM"
+              "title": "Outline of 12 артефактов планирования"
             }
           },
           {
@@ -186,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,8 +204,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98ba81797ec4cac7",
+  "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
+    "50_Career/00_Hub/💻 Career roadmap guidance for Junior Data Engineer role.md",
+    "50_Career/10_Professions/Data Scientist.md",
+    "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
+    "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
+    "40_Roadmap/40_Planning Instruments/20_Examples/Objective → Capabilities → Results (O-C-R Tree) (simple example).md",
+    "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/00_Hub",
+    "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/30_Results",
+    "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/20_Capabilities",
+    "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree/10_Objective",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
+    "40_Roadmap/40_Planning Instruments/Untitled.md",
+    "40_Roadmap/40_Planning Instruments/50_In Use/10_OCR_Tree",
+    "40_Roadmap/30_Roadmap/Roadmap.canvas",
+    "40_Roadmap/40_Planning Instruments/50_In Use",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Course Map or Curriculum Map.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Capability Roadmap (по стеку).md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Assumptions.md",
+    "Communities/ACM.md",
     "Communities/CompTIA.md",
     "Communities/IEEE.md",
     "Communities/ISACA.md",
@@ -212,12 +232,6 @@
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution",
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/Untitled",
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/scrabble/scrabble.c",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/scrabble/scrabble",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/scrabble",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/readability/readability.c",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/readability/readability",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/readability",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/C Snippet · hello.c.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Passing Arrays to Functions in C.md",
@@ -228,25 +242,14 @@
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Uppercase Conversion via ASCII Arithmetic.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
     "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
-    "40_Roadmap/40_Planning Instruments/20_Examples/Objective → Capabilities → Results (O-C-R Tree) (simple example).md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Agent Task Log — «Что делает за тебя AI».md",
-    "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Assumptions.md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Evidence Vault.md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Kanban board.md",
     "98_Images/kanban board.png",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Metrics Dashboard (личные KPI).md",
     "98_Images/Metrics Dashboard.png",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Risk Register.md",
     "98_Images/Risk Register.png",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Milestone Map (карта вех).md",
     "98_Images/Untitled 1.canvas",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Definition of Done.md",
     "98_Images/DoD.png",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Course Map or Curriculum Map.md",
     "98_Images/image.png",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/Project Portfolio Backlog.md",
     "98_Images/project partfolio backlog.png",
     "98_Images/image123.png",
     "98_Images/Untitled.canvas"
