@@ -11,14 +11,12 @@
             "id": "aa3ae3f3eb02c75d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
-                "mode": "source",
-                "source": false
+                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png"
               },
-              "icon": "lucide-file",
-              "title": "Kanban board"
+              "icon": "lucide-image",
+              "title": "1C397587-57FB-41AB-B569-4658B5184952"
             }
           }
         ]
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 272.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -94,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
+                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kanban board"
+              "title": "Backlinks for 1C397587-57FB-41AB-B569-4658B5184952"
             }
           },
           {
@@ -113,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
+                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kanban board"
+              "title": "Outgoing links from 1C397587-57FB-41AB-B569-4658B5184952"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/Kanban board.md",
+                "file": "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kanban board"
+              "title": "Outline of 1C397587-57FB-41AB-B569-4658B5184952"
             }
           },
           {
@@ -203,26 +201,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa3ae3f3eb02c75d",
+  "active": "98ba81797ec4cac7",
   "lastOpenFiles": [
-    "kanban board.png",
-    "40_Roadmap/40_Planning Instruments/Metrics Dashboard (личные KPI).md",
-    "40_Roadmap/40_Planning Instruments/Kanban board.md",
-    "Metrics Dashboard.png",
-    "40_Roadmap/40_Planning Instruments/Risk Register.md",
-    "Risk Register.png",
-    "40_Roadmap/40_Planning Instruments/Milestone Map (карта вех).md",
-    "Untitled 1.canvas",
-    "40_Roadmap/40_Planning Instruments/Definition of Done.md",
-    "DoD.png",
-    "40_Roadmap/40_Planning Instruments/Course Map or Curriculum Map.md",
-    "image.png",
-    "40_Roadmap/40_Planning Instruments/Project Portfolio Backlog.md",
-    "project partfolio backlog.png",
-    "40_Roadmap/40_Planning Instruments/Capability Roadmap (по стеку).md",
-    "40_Roadmap/40_Planning Instruments/ОКР-дерево (год → квартал → неделя).md",
-    "40_Roadmap/40_Planning Instruments/Skills Matrix  Компетентностная матрица.md",
-    "image123.png",
-    "Untitled.canvas"
+    "40_Roadmap/40_Planning Instruments/20_Examples/Objective → Capabilities → Results (O-C-R Tree) (simple example).md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Agent Task Log — «Что делает за тебя AI».md",
+    "40_Roadmap/40_Planning Instruments/20_Examples",
+    "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments",
+    "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Assumptions.md",
+    "40_Roadmap/40_Planning Instruments/Archive.zip",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Evidence Vault.md",
+    "40_Roadmap/40_Planning Instruments/00_Hub",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Kanban board.md",
+    "98_Images/kanban board.png",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Metrics Dashboard (личные KPI).md",
+    "98_Images/Metrics Dashboard.png",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Risk Register.md",
+    "98_Images/Risk Register.png",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Milestone Map (карта вех).md",
+    "98_Images/Untitled 1.canvas",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Definition of Done.md",
+    "98_Images/DoD.png",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Course Map or Curriculum Map.md",
+    "98_Images/image.png",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Project Portfolio Backlog.md",
+    "98_Images/project partfolio backlog.png",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Capability Roadmap (по стеку).md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Skills Matrix  Компетентностная матрица.md",
+    "98_Images/image123.png",
+    "98_Images/Untitled.canvas"
   ]
 }
