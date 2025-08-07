@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
+                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI or Machine-Learning Engineer"
+              "title": "Untitled"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 324.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
+                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AI or Machine-Learning Engineer"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
+                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AI or Machine-Learning Engineer"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
+                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AI or Machine-Learning Engineer"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -203,13 +203,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa3ae3f3eb02c75d",
+  "active": "98ba81797ec4cac7",
   "lastOpenFiles": [
+    "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
+    "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
+    "40_Roadmap/30_Roadmap/10_DR/Starting a Career in Information Technology (IT).md",
+    "40_Roadmap/30_Roadmap/10_DR/💻 Career roadmap guidance for Junior Data Engineer role.md",
+    "40_Roadmap/30_Roadmap/10_DR/Путь в Data Engineering и переезд в США за 12 месяцев.md",
+    "40_Roadmap/30_Roadmap/10_DR",
     "40_Roadmap/00_Hub/Untitled 1.md",
     "40_Roadmap/00_Hub/Untitled.md",
+    "Clippings/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad.md",
+    "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
     "50_Career/10_Professions.zip",
-    "50_Career/00_Hub/Starting a Career in Information Technology (IT).md",
-    "50_Career/00_Hub/💻 Career roadmap guidance for Junior Data Engineer role.md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Skills Matrix  Компетентностная матрица.md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
@@ -235,13 +241,7 @@
     "20_Projects/CS50x Harvard/Lecture 0 - Scratch/Problem Set  Scratch.md",
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution.c",
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution",
-    "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/Untitled",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/C Snippet · hello.c.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Passing Arrays to Functions in C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/pre-final Compiling Step - Machine Code.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Single vs Double Quotes in C.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Strings arrays in C - Hidden 0 Between Literals.md",
     "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
     "98_Images/kanban board.png",
     "98_Images/Metrics Dashboard.png",
