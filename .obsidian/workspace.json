@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -203,10 +204,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98ba81797ec4cac7",
+  "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
-    "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
+    "30_Knowledge/10_Concepts/ELT vs ETL.md",
     "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
+    "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
     "40_Roadmap/30_Roadmap/10_DR/Starting a Career in Information Technology (IT).md",
     "40_Roadmap/30_Roadmap/10_DR/💻 Career roadmap guidance for Junior Data Engineer role.md",
     "40_Roadmap/30_Roadmap/10_DR/Путь в Data Engineering и переезд в США за 12 месяцев.md",
@@ -217,7 +220,6 @@
     "50_Career/10_Professions/AI or Machine-Learning Engineer.md",
     "50_Career/10_Professions.zip",
     "40_Roadmap/40_Planning Instruments/10_Instruments/Skills Matrix  Компетентностная матрица.md",
-    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
     "50_Career/10_Professions/Data Scientist.md",
     "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
@@ -241,7 +243,6 @@
     "20_Projects/CS50x Harvard/Lecture 0 - Scratch/Problem Set  Scratch.md",
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution.c",
     "20_Projects/CS50x Harvard/Lecture 2 - Arrays/substitution/substitution",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-Line Arguments in C.md",
     "98_Images/1C397587-57FB-41AB-B569-4658B5184952.png",
     "98_Images/kanban board.png",
     "98_Images/Metrics Dashboard.png",
