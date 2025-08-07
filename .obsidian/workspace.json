@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
+                "file": "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 290.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -205,13 +205,13 @@
   },
   "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
+    "40_Roadmap/30_Roadmap/10_DR/Путь в Data Engineering и переезд в США за 12 месяцев.md",
+    "40_Roadmap/40_Planning Instruments/20_Examples/mermaid demo.md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
     "30_Knowledge/10_Concepts/ELT vs ETL.md",
-    "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
     "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
     "40_Roadmap/30_Roadmap/10_DR/Starting a Career in Information Technology (IT).md",
     "40_Roadmap/30_Roadmap/10_DR/💻 Career roadmap guidance for Junior Data Engineer role.md",
-    "40_Roadmap/30_Roadmap/10_DR/Путь в Data Engineering и переезд в США за 12 месяцев.md",
     "40_Roadmap/30_Roadmap/10_DR",
     "40_Roadmap/00_Hub/Untitled 1.md",
     "40_Roadmap/00_Hub/Untitled.md",
