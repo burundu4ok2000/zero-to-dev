@@ -1,7 +1,25 @@
 
 ```mermaid
 gantt
+    dateFormat  YYYY-MM-DD
+    title Roadmap (короткий тест)
 
+    section Август 2025
+    Setup env (Python + Git)       :done,   a1, 2025-08-05, 7d
+    Git basics & GitHub            :done,   a2, 2025-08-10, 7d
+    CS50 week 3-4                  :active, a3, 2025-08-05, 14d
+
+    section Сентябрь 2025
+    CS50 week 5-8                  :a5, 2025-09-01, 21d
+    Python mini-project            :a6, 2025-09-10, 14d
+
+
+```
+
+
+
+```mermaid 
+gantt
     dateFormat  YYYY-MM-DD
     title Roadmap: Aug 2025 – Sep 2026
 
@@ -86,4 +104,5 @@ gantt
     Удалённая работа из США (часовой пояс, связь)           :a52, 2026-08-01, 30d
     Путешествия по нацпаркам США (после рабоч. часов)       :a53, 2026-08-01, 30d
     Подготовка к лотерее H-1B (работодателю)                :a54, 2026-08-15, 15d
+    
 ```
