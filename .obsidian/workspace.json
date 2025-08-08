@@ -11,10 +11,28 @@
             "id": "aa3ae3f3eb02c75d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию 1.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Эффективное ведение конспектов в Obsidian при обучении программированию 1"
+            }
+          },
+          {
+            "id": "39b8c4fc1e75751d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Registration on LinkedIn by Russian nationals (August 2025)"
             }
           }
         ]
@@ -74,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 203.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -182,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,8 +217,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98ba81797ec4cac7",
+  "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
+    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+    "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию 1.md",
+    "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
+    "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
+    "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
+    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · SENTINEL.md",
+    "30_Knowledge/60_CheatSheets/ASCII CHART.md",
+    "01 ASCII chart.png",
+    "30_Knowledge/80_Glossary",
+    "30_Knowledge/70_Snippets",
+    "30_Knowledge/60_CheatSheets",
+    "30_Knowledge/40_Patterns",
+    "30_Knowledge/30_Languages",
+    "30_Knowledge/20_Tools",
+    "Clippings/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad.md",
+    "Clippings/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
     "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts/Translate to Chinese.md",
     "copilot-custom-prompts/Summarize.md",
@@ -219,23 +254,8 @@
     "Communities/CompTIA.md",
     "Communities/ACM.md",
     "Communities",
-    "Clippings/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad.md",
     "Clippings",
-    "99_Daily Logs/2025-07-22 – Work log.md",
-    "99_Daily Logs/2025-07-24 – Work log.md",
-    "99_Daily Logs/2025-07-23 – Work log.md",
-    "99_Daily Logs/2025-07-21 – Work log.md",
-    "99_Daily Logs/2025-07-20 – Work log.md",
-    "99_Daily Logs/2025-07-19 – Work log.md",
-    "99_Daily Logs/2025-07-18 - Work log.md",
-    "99_Daily Logs/2025-07-17 – Work log.md",
     "99_Daily Logs",
-    "97_Templates",
-    "60_Jobs/50_Resumes",
-    "60_Jobs/40_Job_Boards",
-    "60_Jobs/30_Companies",
-    "60_Jobs/00_Hub",
-    "60_Jobs",
     "40_Roadmap/30_Roadmap/Roadmap.canvas",
     "98_Images/project partfolio backlog.png",
     "98_Images/Screenshot 2025-07-23 at 16.13.55.png",
@@ -247,7 +267,6 @@
     "98_Images/Untitled 1.canvas",
     "98_Images/Screenshot 2025-08-05 at 16.08.14.png",
     "98_Images/Screenshot 2025-07-23 at 16.13.47.png",
-    "98_Images/Screenshot 2025-07-23 at 16.10.39.png",
-    "98_Images/Screenshot 2025-07-23 at 16.08.13.png"
+    "98_Images/Screenshot 2025-07-23 at 16.10.39.png"
   ]
 }
