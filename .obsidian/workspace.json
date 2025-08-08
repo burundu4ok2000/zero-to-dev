@@ -22,17 +22,45 @@
             }
           },
           {
-            "id": "39b8c4fc1e75751d",
+            "id": "caeb3dc74e90992a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
-                "mode": "source",
-                "source": false
+                "url": "https://github.com/obsidian-pkm-vault/awesome-obsidian-vault",
+                "title": "GitHub - obsidian-pkm-vault/awesome-obsidian-vault: Awesome list of obsidian vaults",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "Registration on LinkedIn by Russian nationals (August 2025)"
+              "icon": "globe-2",
+              "title": "GitHub - obsidian-pkm-vault/awesome-obsidian-vault: Awesome list of obsidian vaults"
+            }
+          },
+          {
+            "id": "5549c4e956d12f96",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://github.com/data-engineering-community/data-engineering-wiki#",
+                "title": "GitHub - data-engineering-community/data-engineering-wiki: The best place to learn data engineering. Built and maintained by the data engineering community.",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "GitHub - data-engineering-community/data-engineering-wiki: The best place to learn data engineering. Built and maintained by the data engineering community."
+            }
+          },
+          {
+            "id": "278aac72487e0b09",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://dataengineering.wiki/Community/Community",
+                "title": "Community - Data Engineering Wiki",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Community - Data Engineering Wiki"
             }
           }
         ]
@@ -92,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 284.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -217,10 +245,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "aa3ae3f3eb02c75d",
+  "active": "98ba81797ec4cac7",
   "lastOpenFiles": [
-    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+    "98_Images/01 ASCII chart.png",
     "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию 1.md",
+    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
     "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
     "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
@@ -252,7 +281,6 @@
     "Communities/ISACA.md",
     "Communities/IEEE.md",
     "Communities/CompTIA.md",
-    "Communities/ACM.md",
     "Communities",
     "Clippings",
     "99_Daily Logs",
