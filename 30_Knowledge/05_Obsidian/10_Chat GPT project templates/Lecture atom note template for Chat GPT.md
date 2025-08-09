@@ -15,7 +15,7 @@ atom_type: "{{idea|definition|example|pitfall|question}}"
 atom_idx: 01                                     # порядковый номер внутри лекции (для сортировки)
 tags: [""]             
 status: ""                                  # draft | in-progress | review | done
-difficulty: ""                                 # na|easy|medium|hard
+difficulty: ""                                 na|easy|medium|hard
 date: "{{date:YYYY-MM-DD}}"                      # дата создания
 timecode: ""                                     
 source: "{{Lecture URL}}"                            
