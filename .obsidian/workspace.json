@@ -77,7 +77,8 @@
               "title": "Эффективное ведение конспектов в Obsidian при обучении программированию"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -260,14 +261,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "aa3ae3f3eb02c75d",
+  "active": "392894f6ceede76c",
   "lastOpenFiles": [
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Arrays Decay to Pointers When Passed to Functions.md",
     "00_Inbox/Lecture 2 — Arrays.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
     "Untitled.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
     "30_Knowledge/05_Obsidian/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
     "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Problem Solution template for Chat GPT.md",
