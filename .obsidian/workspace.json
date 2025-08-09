@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "3f97b642b2644a3e",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://forum.obsidian.md/t/help-note-taking-for-students/10164",
+                "title": "(help) Note taking for students - Help - Obsidian Forum",
+                "mode": "reader"
+              },
+              "icon": "globe-2",
+              "title": "(help) Note taking for students - Help - Obsidian Forum"
+            }
+          },
+          {
             "id": "be363448661400cf",
             "type": "leaf",
             "state": {
@@ -49,7 +63,8 @@
               "title": "How I’m using ObsidianMD to learn Programming in 2023 | by Josiah Brown | Medium"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -231,10 +246,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98ba81797ec4cac7",
+  "active": "3f97b642b2644a3e",
   "lastOpenFiles": [
-    "Untitled.md",
     "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию 1.md",
+    "Untitled.md",
     "98_Images/01 ASCII chart.png",
     "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
     "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
