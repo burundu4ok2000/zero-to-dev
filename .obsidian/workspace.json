@@ -25,14 +25,14 @@
             "id": "3f97b642b2644a3e",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://forum.obsidian.md/t/help-note-taking-for-students/10164",
-                "title": "(help) Note taking for students - Help - Obsidian Forum",
-                "mode": "reader"
+                "file": "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию 1.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "(help) Note taking for students - Help - Obsidian Forum"
+              "icon": "lucide-file",
+              "title": "Эффективное ведение конспектов в Obsidian при обучении программированию 1"
             }
           },
           {
@@ -121,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 328.5
   },
   "right": {
     "id": "f26c69b17bb5c656",
@@ -243,15 +243,32 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "copilot:Open Copilot Chat": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false
     }
   },
   "active": "3f97b642b2644a3e",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags Cheat Sheet.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Lecture 2 - WEB LECTURE NOTES.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Indexing Characters in an Array of Strings.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Functions overview in C.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Constant Naming Convention in C.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Evidence Vault.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Course Map or Curriculum Map.md",
+    "40_Roadmap/40_Planning Instruments/10_Instruments/Capability Roadmap (по стеку).md",
+    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+    "30_Knowledge/00_Hub/Tools.md",
+    "30_Knowledge/00_Hub/Languages.md",
+    "30_Knowledge/00_Hub/Glossary.md",
+    "30_Knowledge/00_Hub/Concepts.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/pre-final Compiling Step - Machine Code.md",
+    "40_Roadmap/30_Roadmap/10_DR/💻 Career roadmap guidance for Junior Data Engineer role.md",
+    "30_Knowledge/10_Concepts/ELT vs ETL.md",
     "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию 1.md",
     "Untitled.md",
     "98_Images/01 ASCII chart.png",
-    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
     "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
     "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
@@ -266,23 +283,7 @@
     "30_Knowledge/20_Tools",
     "Clippings/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad.md",
     "Clippings/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
-    "copilot-custom-prompts/Emojify.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Make longer.md",
-    "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Generate table of contents.md",
-    "copilot-custom-prompts/Generate glossary.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts",
-    "Communities/ISACA.md",
-    "Communities/IEEE.md",
-    "Communities/CompTIA.md",
     "Communities",
     "Clippings",
     "99_Daily Logs",
