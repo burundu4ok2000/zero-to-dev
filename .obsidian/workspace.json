@@ -13,36 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
-                "mode": "preview",
+                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concepts template for Chat GPT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concepts template for Chat GPT"
+            }
+          },
+          {
+            "id": "5b49870cf8a1165a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30_Knowledge/05_Obsidian/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Эффективное ведение конспектов в Obsidian при обучении программированию"
-            }
-          },
-          {
-            "id": "3f97b642b2644a3e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "68174138ffc084d2",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://medium.com/@josiah.alen.brown/how-im-using-obsidianmd-to-learn-programming-in-2023-cf3647da874e",
-                "title": "How I’m using ObsidianMD to learn Programming in 2023 | by Josiah Brown | Medium",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "How I’m using ObsidianMD to learn Programming in 2023 | by Josiah Brown | Medium"
             }
           }
         ]
@@ -228,9 +218,14 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "98ba81797ec4cac7",
+  "active": "aa3ae3f3eb02c75d",
   "lastOpenFiles": [
-    "30_Knowledge/00_Hub/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
+    "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concepts template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates",
+    "30_Knowledge/05_Obsidian",
+    "30_Knowledge/00_Hub/Concepts.md",
     "40_Roadmap/40_Planning Instruments/10_Instruments/ОКР-дерево (год → квартал → неделя).md",
     "30_Knowledge/00_Hub/Tools.md",
     "30_Knowledge/00_Hub/Languages.md",
@@ -246,7 +241,6 @@
     "40_Roadmap/40_Planning Instruments/10_Instruments/Evidence Vault.md",
     "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
     "30_Knowledge/00_Hub/Glossary.md",
-    "30_Knowledge/00_Hub/Concepts.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/pre-final Compiling Step - Machine Code.md",
     "40_Roadmap/30_Roadmap/10_DR/💻 Career roadmap guidance for Junior Data Engineer role.md",
     "30_Knowledge/10_Concepts/ELT vs ETL.md",
@@ -255,8 +249,6 @@
     "40_Roadmap/40_Planning Instruments/00_Hub/Agent Task Log — «Что делает за тебя AI».md",
     "40_Roadmap/40_Planning Instruments/00_Hub/12 артефактов планирования.md",
     "40_Roadmap/40_Planning Instruments/00_Hub/приоритет внедрения Артефактов Планирования.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 2 - Arrays/Vocabulary · SENTINEL.md",
-    "30_Knowledge/60_CheatSheets/ASCII CHART.md",
     "01 ASCII chart.png",
     "30_Knowledge/80_Glossary",
     "30_Knowledge/70_Snippets",
@@ -266,8 +258,6 @@
     "30_Knowledge/20_Tools",
     "copilot-custom-prompts",
     "Communities",
-    "Clippings",
-    "99_Daily Logs",
     "40_Roadmap/30_Roadmap/Roadmap.canvas",
     "98_Images/project partfolio backlog.png",
     "98_Images/Screenshot 2025-07-23 at 16.13.55.png",

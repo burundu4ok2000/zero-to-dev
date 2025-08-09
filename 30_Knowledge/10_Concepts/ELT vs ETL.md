@@ -1,5 +1,5 @@
 
-> **One-liner:** Both move data to analytics, but **ETL transforms before loading**, while **ELT loads raw first and transforms inside the warehouse**. [[Concepts]]
+> **One-liner:** Both move data to analytics, but **ETL transforms before loading**, while **ELT loads raw first and transforms inside the warehouse**. [[30_Knowledge/00_Hub/Concepts]]
 
 ---
 

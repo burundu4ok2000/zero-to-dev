@@ -1,7 +1,7 @@
 
   
 
-> **One-liner:** A **Data Warehouse (DWH)** is a centralized, **read-optimized** store of **clean, structured, historical** data for analytics and reporting. [[Concepts]]
+> **One-liner:** A **Data Warehouse (DWH)** is a centralized, **read-optimized** store of **clean, structured, historical** data for analytics and reporting. [[30_Knowledge/00_Hub/Concepts]]
 
 ---
 

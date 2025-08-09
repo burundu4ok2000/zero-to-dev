@@ -2,7 +2,7 @@
 
   
 
-> **One-liner:** **Data ingestion** is the reliable, repeatable **import** of data from sources into your storage/processing platform (lake/warehouse/queue) with guarantees about **freshness, completeness, and order**. [[Concepts]]
+> **One-liner:** **Data ingestion** is the reliable, repeatable **import** of data from sources into your storage/processing platform (lake/warehouse/queue) with guarantees about **freshness, completeness, and order**. [[30_Knowledge/00_Hub/Concepts]]
 
 ---
 

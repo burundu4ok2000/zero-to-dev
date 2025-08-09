@@ -1,5 +1,5 @@
 
-> **One-liner:** ETL is the process of **Extract → Transform → Load** for moving data from sources to an analytics-ready destination. [[Concepts]]
+> **One-liner:** ETL is the process of **Extract → Transform → Load** for moving data from sources to an analytics-ready destination. [[30_Knowledge/00_Hub/Concepts]]
 
 ---
 
