@@ -1,6 +1,6 @@
 
 
-> **One-liner:** **Cisco CCNA** validates core **networking** skills—IP, routing & switching, security basics, automation—on Cisco-centric networks. [[Concepts]]
+> **One-liner:** **Cisco CCNA** validates core **networking** skills—IP, routing & switching, security basics, automation—on Cisco-centric networks. [[30_Knowledge/00_Hub/Concepts]]
 
 ---
 

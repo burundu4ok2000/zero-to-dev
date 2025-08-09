@@ -1,7 +1,7 @@
 
   
 
-> **One-liner:** **ELT** is **Extract → Load → Transform**: load raw data into the warehouse first, then transform it **inside** the warehouse. [[Concepts]]
+> **One-liner:** **ELT** is **Extract → Load → Transform**: load raw data into the warehouse first, then transform it **inside** the warehouse. [[30_Knowledge/00_Hub/Concepts]]
 
 ---
 
