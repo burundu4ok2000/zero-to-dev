@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
+                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture atom note template for Chat GPT"
+              "title": "Concept template for Chat GPT"
             }
           },
           {
@@ -235,11 +235,11 @@
   },
   "active": "eedb4e4f14696b60",
   "lastOpenFiles": [
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Problem Solution template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Problem Solution template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
+    "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates",
     "30_Knowledge/05_Obsidian",
     "30_Knowledge/00_Hub/Concepts.md",
