@@ -1,6 +1,6 @@
 
 YAML:
-```
+
 ---
 title: "<>"
 aliases: ["<>"]
@@ -12,8 +12,6 @@ difficulty: ""
 created: ""
 source: []
 related: []
-```
-
 ---
 
 # {{Concept Name}}
