@@ -1,4 +1,25 @@
-
+---
+title: Arrays Decay to Pointers When Passed to Functions
+aliases: 
+note_type: concept
+topics:
+  - C programming
+  - function arguments
+  - arrays
+  - pointers
+tags:
+  - cs50x
+  - lecture
+  - week2
+status: done
+difficulty: easy
+created: 2025-08-09
+source:
+  - https://cs50.harvard.edu/x/2024/weeks/2/
+related:
+  - Pointers and Addresses
+  - Function Parameters in C
+---
 
 
 # CS50x Harvard – Lecture 2: Arrays – Arrays Decay to Pointers When Passed to Functions
