@@ -4,7 +4,7 @@ aliases:
 note_type: lecture_note
 course: CS50x Harvard
 course_tag: cs50x
-module: ""
+module: 
 lecture_no: 2
 lecture_title: Arrays
 lecture_ref: "[[Lecture 2 — Arrays]]"

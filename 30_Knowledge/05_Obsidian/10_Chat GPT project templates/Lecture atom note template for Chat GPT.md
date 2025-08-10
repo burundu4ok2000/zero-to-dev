@@ -3,11 +3,10 @@ YAML:
 ```
 ---
 title: "{{Lecture Title}} — {{Atom Title}}"     
-aliases: []
-note_type: "lecture_note"                       
+type: "lecture_note"                       
 course: "{{Course Name}}"                       
 course_tag: "{{Course Tag}}"                    
-module: ""                         
+language: ""                                     #c | sql | python ...
 lecture_no: {{Number}}                          
 lecture_title: "{{Lecture Title}}"              
 lecture_ref: "[[Lecture {{Number}} — {{Lecture Title}}]]"  
@@ -19,7 +18,6 @@ difficulty: ""                                 na|easy|medium|hard
 date: "{{date:YYYY-MM-DD}}"                      # дата создания
 timecode: ""                                     
 source: "{{Lecture URL}}"                            
-related: []                                      # [[связанные заметки/концепты]]
 review_next: ""                                  # YYYY-MM-DD для повторения
 ---
 ```
