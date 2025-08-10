@@ -317,3 +317,155 @@
 - #lecture/Moving
     
 
+
+# Теги инструментов. Вставлять в блок YAML под пунктом tool_tags:
+
+- #tool/editor/vscode
+    
+- #tool/editor/vim
+    
+- #tool/ide/pycharm
+    
+- #tool/ide/intellij
+    
+- #tool/vcs/git
+    
+- #tool/vcs/github
+    
+- #tool/vcs/gitlab
+    
+- #tool/shell/bash
+    
+- #tool/shell/zsh
+    
+- #tool/shell/powershell
+    
+- #tool/terminal/iterm2
+    
+- #tool/terminal/windows_terminal
+    
+- #tool/pkg/pip
+    
+- #tool/pkg/conda
+    
+- #tool/pkg/poetry
+    
+- #tool/pkg/npm
+    
+- #tool/pkg/yarn
+    
+- #tool/pkg/pnpm
+    
+- #tool/env/virtualenv
+    
+- #tool/container/docker
+    
+- #tool/container/podman
+    
+- #tool/container/docker_compose
+    
+- #tool/k8s/kubernetes
+    
+- #tool/k8s/helm
+    
+- #tool/k8s/kustomize
+    
+- #tool/iac/terraform
+    
+- #tool/iac/pulumi
+    
+- #tool/iac/ansible
+    
+- #tool/ci/github_actions
+    
+- #tool/ci/gitlab_ci
+    
+- #tool/ci/jenkins
+    
+- #tool/cloud/aws
+    
+- #tool/cloud/gcp
+    
+- #tool/cloud/azure
+    
+- #tool/db/postgres
+    
+- #tool/db/mysql
+    
+- #tool/db/sqlite
+    
+- #tool/db/mongodb
+    
+- #tool/db/redis
+    
+- #tool/db/clickhouse
+    
+- #tool/warehouse/bigquery
+    
+- #tool/warehouse/snowflake
+    
+- #tool/warehouse/redshift
+    
+- #tool/warehouse/databricks
+    
+- #tool/orchestrator/airflow
+    
+- #tool/orchestrator/prefect
+    
+- #tool/orchestrator/dagster
+    
+- #tool/elt/dbt
+    
+- #tool/elt/airbyte
+    
+- #tool/elt/fivetran
+    
+- #tool/etl/meltano
+    
+- #tool/stream/kafka
+    
+- #tool/stream/flink
+    
+- #tool/stream/spark_streaming
+    
+- #tool/notebook/jupyter
+    
+- #tool/notebook/colab
+    
+- #tool/bi/powerbi
+    
+- #tool/bi/tableau
+    
+- #tool/bi/looker
+    
+- #tool/bi/superset
+    
+- #tool/bi/metabase
+    
+- #tool/viz/matplotlib
+    
+- #tool/viz/plotly
+    
+- #tool/viz/seaborn
+    
+- #tool/obs/prometheus
+    
+- #tool/obs/grafana
+    
+- #tool/obs/elk
+    
+- #tool/obs/opentelemetry
+    
+- #tool/security/vault
+    
+- #tool/security/trivy
+    
+- #tool/security/snyk
+    
+- #tool/os/linux
+    
+- #tool/os/macos
+    
+- #tool/os/windows
+    
+
