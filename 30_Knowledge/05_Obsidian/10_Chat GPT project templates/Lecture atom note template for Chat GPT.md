@@ -2,12 +2,12 @@
 YAML:
 ```
 ---
-title: "{{Lecture Title}} — {{Atom Title}}"  
-course: "{{Course Name}}" 
-language: ""                                     #c | sql | python ...
-type: "lecture_note"                                             
-course_tag: "{{Course Tag}}"                    
-lecture_no: {{Number}}                          
+title: "{{Atom Title}}"  
+lang_tags: ""                                      # (#lang/...)
+type_tag: ""                                       # (#type/...)
+course_tag: ""                                     # (#course/...)
+
+lecture_tag: ""                                    # (#lecture/...)
 lecture_title: "{{Lecture Title}}"              
 lecture_ref: "[[Lecture {{Number}} — {{Lecture Title}}]]"  
 atom_type: "{{idea|definition|example|pitfall|question}}"   
