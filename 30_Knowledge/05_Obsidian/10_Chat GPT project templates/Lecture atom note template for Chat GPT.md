@@ -1,30 +1,33 @@
 
+# {{Atom Title}}
+
 YAML:
 ```
 ---
 title: "{{Atom Title}}"  
 lang_tags: ""                                      # (#lang/...)
-type_tag: ""                                       # (#type/...)
-course_tag: ""                                     # (#course/...)
+type_tags: ""                                      # (#type/...)
+course_tags: ""                                    # (#course/...)
+lecture_tags: ""                                   # (#lecture/...)
 
-lecture_tag: ""                                    # (#lecture/...)
-lecture_title: "{{Lecture Title}}"              
-lecture_ref: "[[Lecture {{Number}} — {{Lecture Title}}]]"  
-atom_type: "{{idea|definition|example|pitfall|question}}"   
-atom_idx: 01                                     # порядковый номер внутри лекции (для сортировки)
-tags: [""]             
-status: ""                                  # draft | in-progress | review | done
-difficulty: ""                                 na|easy|medium|hard
-date: "{{date:YYYY-MM-DD}}"                      # дата создания
-timecode: ""                                     
-source: "{{Lecture URL}}"                            
-review_next: ""                                  # YYYY-MM-DD для повторения
+ 
+atom_idx: 01                                       # порядковый номер внутри лекции (для сортировки)         
+status: ""                                         # draft | in-progress | review | done
+difficulty: ""                                     # na|easy|medium|hard
+date: "{{date:YYYY-MM-DD}}"                        # дата создания
+timecode: ""                                       # таймкод заметки внутри лекции
+source: "{{Lecture URL}}"                          # ссылка на источник в интернете
+review_next: ""                                    # YYYY-MM-DD для повторения 
 ---
 ```
 
+---
 
+// Место для фото материалов
 
-# {{Course Name}} – Lecture {{Number}}: {{Lecture Title}} – {{Atom Title}}
+\!\[\[file_name.png\]\]
+
+---
 
 ## Summary
 <!-- 1–2 предложения, суть этой мысли/тезиса. -->
@@ -58,6 +61,5 @@ review_next: ""                                  # YYYY-MM-DD для повто�
 ## See also
 
 <!-- Ссылки на похожие заметки и связанные с заметкой "concepts", ссылки дополняющую эту тему из интернета  -->
-- \[\]
-- \[\]({{}})
-- 
+- \[\]                                                                        # ссылки на связанные заметки внутри обсидиан хранилища 
+- \[\]({{}})                                                               # ссылки на источники в интернете 
