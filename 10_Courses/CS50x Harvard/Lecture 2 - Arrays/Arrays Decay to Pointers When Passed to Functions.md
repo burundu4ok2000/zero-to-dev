@@ -1,28 +1,32 @@
 ---
-title: Arrays Decay to Pointers When Passed to Functions
+title: "Lecture 2 — Arrays: Passing Scalars vs Arrays to Functions"
 aliases: 
-note_type: concept
-topics:
-  - C programming
-  - function arguments
-  - arrays
-  - pointers
+note_type: lecture_note
+course: CS50x Harvard
+course_tag: cs50x
+module: ""
+lecture_no: 2
+lecture_title: Arrays
+lecture_ref: "[[Lecture 2 — Arrays]]"
+atom_type: idea
+atom_idx: 1
 tags:
-  - cs50x
-  - lecture
-  - week2
+  - functions
+  - arrays
+  - memory
+  - value
+  - reference
 status: done
-difficulty: easy
-created: 2025-08-09
-source:
-  - https://cs50.harvard.edu/x/2024/weeks/2/
+difficulty: medium
+date: 2025-08-10
+timecode: 00:13:34
+source: https://cs50.harvard.edu/x/2025/weeks/2/
 related:
-  - Pointers and Addresses
-  - Function Parameters in C
+  - - Pointers Basics
+  - - Function Parameters in C
+review_next: 2025-08-17
 ---
 
-
-# CS50x Harvard – Lecture 2: Arrays – Arrays Decay to Pointers When Passed to Functions
 
 ## Summary
 In C, scalar variables like integers are passed by value to functions, meaning changes inside the function don't affect the original. However, arrays decay to pointers when passed, allowing functions to mutate the original array.
