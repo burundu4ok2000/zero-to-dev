@@ -1,0 +1,1 @@
+https://ru.stackoverflow.com/questions/1013878/Какая-разница-между-stdstring-char-и-char
