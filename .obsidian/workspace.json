@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags Cheat Sheet.md",
+                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/CheatSheet template for Chat GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Command Line Flags Cheat Sheet"
+              "title": "CheatSheet template for Chat GPT"
+            }
+          },
+          {
+            "id": "7b64749b44e42fab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Concept template for Chat GPT"
             }
           },
           {
@@ -220,16 +234,18 @@
   },
   "active": "aa78e353ff0b1701",
   "lastOpenFiles": [
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/CheatSheet template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags Cheat Sheet.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/C Type memory footprint.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Char Type in C.md",
     "01_OLD_NOTES/C Type Sizes and Memory.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags Cheat Sheet.md",
     "00_Inbox/char *.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black-box abstraction in functions.md",
     "01_OLD_NOTES/Black box functions.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Untitled 1.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation via functions.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
     "01_OLD_NOTES/Array mutation with functions.md",
     "00_MOC_MAIN.md",
     "01_OLD_NOTES",
@@ -237,7 +253,6 @@
     "00_MOC_MAIN",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
     "00_Inbox/scalar.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Function Signatures in C.md",
     "00_Inbox/Pass by Value vs Pass by Reference.md",
@@ -258,7 +273,6 @@
     "98_Images/last/Screenshot 2025-07-23 at 16.10.39.png",
     "98_Images/last/Screenshot 2025-07-23 at 16.08.13.png",
     "98_Images/last",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Encryption Basics – Caesar Cipher.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates",
     "30_Knowledge/05_Obsidian",
     "30_Knowledge/80_Glossary",
