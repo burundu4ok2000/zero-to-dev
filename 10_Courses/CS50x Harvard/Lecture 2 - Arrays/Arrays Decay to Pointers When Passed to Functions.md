@@ -1,66 +1,54 @@
----
-title: "Lecture 2 — Arrays: Passing Scalars vs Arrays to Functions"
-aliases: 
-note_type: lecture_note
-course: CS50x Harvard
-course_tag: cs50x
-module: 
-lecture_no: 2
-lecture_title: Arrays
-lecture_ref: "[[Lecture 2 — Arrays]]"
-atom_type: idea
-atom_idx: 1
-tags:
-  - functions
-  - arrays
-  - memory
-  - value
-  - reference
-status: done
-difficulty: medium
-date: 2025-08-10
-timecode: 00:13:34
-source: https://cs50.harvard.edu/x/2025/weeks/2/
-related:
-  - - Pointers Basics
-  - - Function Parameters in C
-review_next: 2025-08-17
+Вот как можно переписать твою заметку **по шаблону лекционного атома** из CS50x. Включены все обязательные блоки, YAML и структура:
+
 ---
 
+# **Array mutation via functions**
 
-## Summary
-In C, scalar variables like integers are passed by value to functions, meaning changes inside the function don't affect the original. However, arrays decay to pointers when passed, allowing functions to mutate the original array.
+  
 
-## Key Points
-- Scalars (e.g., int, char) are passed by value: functions receive a copy and cannot change the original.
-- Arrays are passed as pointers to their first element: functions can modify the original array through this pointer.
-- This behavior explains why attempts to change scalars fail but succeed for arrays.
 
-## Details
-When calling a function like set_int(a), C passes a copy of the value of a (e.g., 10). The function modifies its local copy, which is discarded upon return, leaving the original a unchanged.
 
-In contrast, for set_array(b), C passes a pointer to the first element of b. The function uses this pointer to access and modify the same memory location as the original array, so changes persist after the function returns.
 
-This is a key rule in C: arrays "decay" to pointers in function arguments, effectively passing by reference. Scalars are passed by value unless explicitly passed as pointers (e.g., &a).
+---
 
-Memory visualization:
+![[2025-08-01_17-46-53.png]]
 
-main()
-┌─────┐   copy (10)    set_int()
-│  a  │──────────────► [ x ]  (modified → 22, then discarded)
-└─────┘
+---
 
-┌──────────────┐ pointer   set_array()
-│ b[0] b[1]…   │──────────► [array]── modifies b[0] to 22
-└──────────────┘
+## **Summary**
 
-Take-away patterns:
-1. To mutate a scalar, pass a pointer: void set_int(int *x) { *x = 22; } and call set_int(&a).
-2. Arrays are already passed as pointers, so writes inside the function change the caller's array.
-3. Use pointers for shared memory communication beyond return values.
+  
 
-## Examples/Demos
-Code from the slide demonstrating the behavior:
+The behavior of **function arguments** in C depends on their type: **scalars are passed by value**, while **arrays decay to pointers** — enabling mutation inside a function.
+
+  
+
+## **Key Points**
+
+- **Scalars** like int are passed **by value** → changes affect only a local copy.
+    
+- **Arrays** are passed as **pointers** → modifications affect the caller’s memory.
+    
+- Use **pointers** explicitly if you want to mutate a scalar inside a function.
+    
+- Arrays allow direct in-place modification because they already act as references.
+    
+
+  
+
+## **Details**
+
+  
+
+In this code, set_int(a) doesn’t affect a because a copy of a is passed. The assignment x = 22 modifies only the local copy.
+
+  
+
+Meanwhile, set_array(b) succeeds in changing b[0] to 22 because b decays into a pointer to its first element when passed to the function. This allows the function to modify the actual memory in main().
+
+  
+
+## **Examples/Demos**
 
 ```
 void set_array(int array[4]);
@@ -71,50 +59,83 @@ int main(void)
     int a = 10;
     int b[4] = {0, 1, 2, 3};
 
-    set_int(a);     // try to change a
-    set_array(b);   // try to change b
+    set_int(a);     // no effect on a
+    set_array(b);   // modifies b[0]
 
-    printf("%d %d\n", a, b[0]);
+    printf("%d %d\n", a, b[0]);  // Output: 10 22
 }
 
-// ── helpers ───────────────────────────────────────────
 void set_array(int array[4])
 {
-    array[0] = 22;          // attempt succeeds
+    array[0] = 22;
 }
 
 void set_int(int x)
 {
-    x = 22;                 // attempt fails
+    x = 22;
 }
 ```
 
-**Output**
+### **Output:**
 
 ```
 10 22
 ```
 
-| **Call**     | **What C passes under the hood**      | **Result**                                                                |
-| ------------ | ------------------------------------- | ------------------------------------------------------------------------- |
-| set_int(a)   | **Copy** of a (value 10)              | Function changes its **local** copy; the original a is untouched.         |
-| set_array(b) | **Pointer** to the first element of b | Function writes through the pointer, mutating the same memory b occupies. |
+### **Memory visualization:**
 
-![[2025-08-01_17-46-53.png]]
+```
+main()
+┌─────┐   copy (10)    set_int()
+│  a  │──────────────► [ x ]  (modified → 22, then discarded)
+└─────┘
+
+┌──────────────┐ pointer   set_array()
+│ b[0] b[1]…   │──────────► [array]── modifies b[0] to 22
+└──────────────┘
+```
 
 ## **Why It Matters**
 
-Understanding pass-by-value vs. array decay to pointers is crucial for managing memory and avoiding bugs in C programs, especially when functions need to modify data. It applies to data structures, algorithms, and system programming where efficient memory access is key.
+  
 
-## Questions
-
-- ❓How does this behavior differ in other languages like Python or Java?
-- ❓What happens when passing structs or other compound types?
+This distinction is essential for understanding **function design**, **memory safety**, and **performance** in C. Knowing when and how data can be mutated allows better control over side effects and helps prevent bugs when working with large structures, arrays, or system-level code.
 
   
 
-## See also
+## **Questions**
 
-- [[Lecture 2 — Arrays]]
-- [CS50 Lecture 2 Video]({})
--
+- ❓ Does this apply to structs as well?
+    
+- ❓ How does this compare to references in C++?
+    
+
+  
+
+## **Related Concepts**
+
+- [[Pointers and Memory Addresses in C]] – \pointers\ explain how arrays decay and how memory access works.
+    
+- [[Pass-by-Value vs Pass-by-Reference]] – \comparison\ of function argument mechanisms.
+    
+- [[Function Parameters and Side Effects]] – \effects\ when mutating shared memory.
+    
+- [[Pointer Arithmetic in C]] – \used\ when working with arrays as pointers.
+    
+- [[Arrays vs Pointers in C]] – \clarifies\ their differences and similarities.
+    
+
+  
+
+## **See also**
+
+- [CS50 Lecture on Arrays (YouTube)](https://youtu.be/6kQTKD3CjZ8?si=2ntoGD6cs8M6bZ5y)
+    
+- [CS50x Notes on Arrays](https://cs50.harvard.edu/x/2023/notes/2/)
+    
+- [Arrays and Functions – C Programming Tutorial](https://www.learn-c.org/en/Arrays)
+    
+
+---
+
+Хочешь, я сделаю аналогичную заметку для случая, когда ты передаёшь указатель на int, чтобы мутация сработала?
