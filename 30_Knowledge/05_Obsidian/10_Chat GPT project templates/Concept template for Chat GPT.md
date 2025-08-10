@@ -5,8 +5,7 @@ lang_tags: ""                                      # (#lang/...)
 type_tags: ""                                      # (#type/...)
 course_tags: ""                                    # (#course/...)
 lecture_tags: ""                                   # (#lecture/...)
-
- 
+tool_tags: ""                                          # (#tool/...)
 atom_idx: 01                                       # порядковый номер внутри лекции (для сортировки)         
 status: ""                                         # draft | in-progress | review | done
 difficulty: ""                                     # na|easy|medium|hard
