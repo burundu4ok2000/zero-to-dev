@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
+                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "YAML standart for Obsidian"
+              "title": "Concept template for Chat GPT"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#course/cs50x/fundamentals_of_AI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -275,12 +275,12 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "392894f6ceede76c",
+  "active": "1682173993b2b729",
   "lastOpenFiles": [
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Arrays Decay to Pointers When Passed to Functions.md",
     "30_Knowledge/05_Obsidian/Эффективное ведение конспектов в Obsidian при обучении программированию.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation with functions.md",
