@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Exit status and echo $? (null is OK).md",
+                "file": "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Functions overview in C.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exit status and echo $? (null is OK)"
+              "title": "Functions overview in C"
             }
           }
         ]
@@ -206,9 +206,10 @@
   },
   "active": "7b64749b44e42fab",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Final Step - Link different Machine Codes.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Exit status and echo $? (null is OK).md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Caesar Cipher — encryption basics.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Compiling process — from C to machine code.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Exit status and echo $? (null is OK).md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command-line arguments — argc and argv.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Command Line Flags CheatSheet.md",
     "01_OLD_NOTES/Encryption Basics – Caesar Cipher.md",
@@ -232,7 +233,6 @@
     "01_OLD_NOTES/C Type Sizes and Memory.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Char Type in C.md",
-    "00_Inbox/char *.md",
     "01_OLD_NOTES",
     "00_MOC_MAIN",
     "98_Images/last/project partfolio backlog.png",
