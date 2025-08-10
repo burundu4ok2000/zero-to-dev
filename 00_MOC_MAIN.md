@@ -1,111 +1,326 @@
-
-
-```
 ---
 title: "{{Topic}} Hub (Auto)"
-tags: [MOC, index, auto]
+tags:
+  - MOC
+  - index
+  - auto
 note_type: moc
-# Скоуп индексации: folder (по умолчанию) | vault | tag
-scope: folder
-scope_tag: ""   # если scope: tag, укажи без решётки, напр. "algorithms"
+scope: vault
+scope_tag: ""
 ---
 ```
+---
 
+title: "{{Topic}} Hub (Auto)"
+
+tags: [MOC, index, auto]
+
+note_type: moc
+
+# Скоуп индексации: folder (по умолчанию) | vault | tag
+
+scope: folder
+
+scope_tag: ""   # если scope: tag, укажи без решётки, напр. "algorithms"
+
+---
+```
 
 # {{Topic}} Hub — авто-оглавление
 
 > Требуется плагин **Dataview**. Включать не надо — достаточно иметь его установленным.
 
 ## Index
-
 ```dataviewjs
-// ===== Zero-config Auto MOC =====
+/********************************************************************
+*  Zero-config Auto MOC (DataviewJS) — версия с подробными комментариями
+*
+*  Что это делает:
+*  1) Автоматически находит заметки в нужной области (scope) — папка, весь вольт или тэг.
+*  2) Строит несколько разделов: сводку, таблицы по типам заметок,
+*     «недавно обновлённые», «сироты», популярные теги и полный список.
+*
+*  Требования:
+*  - Плагин Dataview установлен и включён.
+*  - В настройках Dataview включены JavaScript-запросы (Enable JavaScript Queries).
+*
+*  Как читать код:
+*  - Строки, начинающиеся с // — это комментарии, они не выполняются.
+*  - Символы ?? и ?. — это «современный» синтаксис JS:
+*       a ?? b  -> «если a не задано (null/undefined), взять b»
+*       a?.b    -> «если a существует, взять его поле b, иначе вернуть undefined»
+********************************************************************/
+
+// dv.current() — объект про «текущую» страницу (файл), где запущен этот код.
+// .file — метаданные файла (путь, папка, имя, даты и т.д.)
 const here = dv.current().file;
+
+// frontmatter (фронтматтер) — это YAML-блок в начале заметки.
+// dv.current().frontmatter вернёт объект с полями из YAML.
+// «?? {}» означает: если фронтматтер отсутствует, возьми пустой объект {}.
 const fm = dv.current().frontmatter ?? {};
-const scope = (fm.scope ?? "folder").toString().toLowerCase();   // folder | vault | tag
+
+// Из фронтматтера берём «scope» — область индексации:
+//   - "folder": только текущая папка и её подпапки,
+//   - "vault": весь вольт,
+//   - "tag":   все заметки с указанным тегом (см. scope_tag ниже).
+// Если scope не задан — используем "folder" по умолчанию.
+const scope = (fm.scope ?? "folder").toString().toLowerCase();
+
+// Если выбран scope: "tag", то здесь должен быть текст тега БЕЗ решётки.
+// Например, scope_tag: algorithms  => будем искать #algorithms.
 const scopeTag = (fm.scope_tag ?? "").toString().trim();
 
+/**
+ * Функция проверки: «эта страница попадает в область индексации?»
+ * На вход p — это одна найденная Dataview-страница (объект с полями p.file.*).
+ */
 function inScope(p) {
+  // Если «весь вольт» — возвращаем истину для любой страницы.
   if (scope === "vault") return true;
+
+  // Если «по тегу», собираем # + scopeTag (например, "#algorithms"),
+  // приводим к нижнему регистру и проверяем, есть ли такой тег у страницы.
   if (scope === "tag" && scopeTag) {
     const tag = ("#" + scopeTag).toLowerCase();
+    // p.file.tags — массив тегов вида ["#tag1", "#tag2"] или undefined.
+    // «?? []» — если тегов нет, берём пустой массив.
     return (p.file.tags ?? []).some(t => t.toLowerCase() === tag);
   }
+
+  // По умолчанию — «по папке»: проверяем, что папка страницы
+  // начинается с папки текущего файла (то есть это наша папка или подпапка).
   return p.file.folder.startsWith(here.folder);
 }
 
-// Базовый пул заметок в скоупе, без самого MOC и без шаблонов/архива
+// Список всех страниц (заметок), которые мы будем индексировать.
+// dv.pages() — даёт все заметки в вольте (как «таблица»).
+// .where(...) — фильтрует их по условию.
+/*
+  Здесь три условия:
+  1) Исключить сам MOC-файл (чтобы он не попал в собственный индекс).
+  2) Оставить только те, что «в области» (inScope).
+  3) Исключить папки с шаблонами и архивами (регулярное выражение /.../i):
+     - «/i» = регистр букв не важен;
+     - «(A|B|C)» = любая из трёх папок;
+     - «\/» внутри RegExp — просто символ слэша в пути.
+*/
 let pages = dv.pages()
   .where(p => p.file.path !== here.path)
   .where(p => inScope(p))
   .where(p => !/\/(97_Templates|Templates|99_Archive)\//i.test(p.file.path));
 
-// Утилиты
+// Небольшая утилита: привести любое значение к строке и в нижний регистр.
+// Нужно, чтобы искать подстроки «concept», «lecture» без ошибки регистра.
 const lower = v => (v ?? "").toString().toLowerCase();
 
-// Авто-бакеты по твоим полям из шаблонов
+/**
+ * «Авто-бакеты» (автоматические корзины/группы) по твоим полям из шаблонов.
+ * Ожидается, что в заметках есть поля:
+ *   - type_tags: например, "concept" или "lecture" (или массив — Dataview сгладит).
+ *   - lecture_tags, course_tags: для лекционных заметок.
+ *   - atom_idx: число для «атомов» лекций (порядковый номер).
+ *
+ * Важно: если в каких-то файлах этих полей нет — фильтры просто их пропустят.
+ */
 const concepts = pages.where(p => lower(p.type_tags).includes("concept"));
-const lectures = pages.where(p => lower(p.type_tags).includes("lecture") || lower(p.lecture_tags).length > 0);
-const atoms    = pages.where(p => p.atom_idx != null);
+const lectures = pages.where(p =>
+  lower(p.type_tags).includes("lecture") || (lower(p.lecture_tags).length > 0)
+);
+const atoms = pages.where(p => p.atom_idx != null); // != null — поймает и null, и undefined
 
-// Сводка
-dv.paragraph(`В области: **${pages.length}** заметок — концептов: **${concepts.length}**, лекций: **${lectures.length}**, атомов: **${atoms.length}**.`);
-
-// Концепты
-dv.header(2, "Концепты");
-dv.table(["Note","Status","Difficulty","Updated"],
-  concepts
-    .sort(p => p.title ?? p.file.name, 'asc')
-    .map(p => [p.file.link, p.status ?? "", p.difficulty ?? "", p.file.mtime?.toFormat?.("yyyy-LL-dd") ?? ""])
+// Сводка по количеству найденных заметок.
+// dv.paragraph — вставляет простой параграф Markdown в результат.
+dv.paragraph(
+  `В области: **${pages.length}** заметок — ` +
+  `концептов: **${concepts.length}**, ` +
+  `лекций: **${lectures.length}**, ` +
+  `атомов: **${atoms.length}**.`
 );
 
-// Лекции по курсам
+// =======================
+// Раздел: КОНЦЕПТЫ
+// =======================
+
+// Заголовок второго уровня «Концепты»
+dv.header(2, "Концепты");
+
+// dv.table(заголовки, строки)
+// Строки — это массив массивов, где каждая «внутренняя» строка — один ряд таблицы.
+// .sort(...) — сортируем по названию (title) или имени файла (file.name).
+// .map(...) — собираем нужные колонки: ссылка, статус, сложность, дата обновления.
+//
+// p.file.link — это кликабельная ссылка на заметку.
+// p.status / p.difficulty — ожидаем поля из фронтматтера (если нет — пустая строка).
+// p.file.mtime — дата последнего изменения (Luxon DateTime), у него есть .toFormat("yyyy-LL-dd").
+// «?.» — если .toFormat нет, то не упадём, вернём undefined, а потом «?? ""» подменит.
+dv.table(
+  ["Note", "Status", "Difficulty", "Updated"],
+  concepts
+    .sort(p => p.title ?? p.file.name, 'asc')
+    .map(p => [
+      p.file.link,
+      p.status ?? "",
+      p.difficulty ?? "",
+      p.file.mtime?.toFormat?.("yyyy-LL-dd") ?? ""
+    ])
+);
+
+// =======================
+// Раздел: ЛЕКЦИИ (по курсам)
+// =======================
+
 dv.header(2, "Лекции по курсам");
+
+// groupBy(...) — разбивает набор на группы по какому-то ключу.
+// Здесь ключ — p.course_tags (или "—", если его нет).
 for (const group of lectures.groupBy(p => p.course_tags ?? "—")) {
+  // Заголовок уровня 3: название группы (курс).
   dv.header(3, group.key);
-  dv.table(["Lecture","Date","Status"],
+
+  // В таблице показываем ссылку, дату и статус.
+  // (p.date ?? p.file.cday) — берём «date» из фронтматтера,
+  //  иначе дату создания файла (creation day).
+  // .toFormat(...) — форматируем в «год-месяц-день».
+  dv.table(
+    ["Lecture", "Date", "Status"],
     group.rows
       .sort(p => p.date ?? p.file.ctime, 'asc')
-      .map(p => [p.file.link, (p.date ?? p.file.cday)?.toFormat?.("yyyy-LL-dd") ?? "", p.status ?? ""])
+      .map(p => [
+        p.file.link,
+        (p.date ?? p.file.cday)?.toFormat?.("yyyy-LL-dd") ?? "",
+        p.status ?? ""
+      ])
   );
 }
 
-// Лекционные атомы (по источнику/папке), сортируем по порядковому номеру
-dv.header(2, "Лекционные атомы");
+// =======================================
+// Раздел: ЛЕКЦИОННЫЕ ЗАМЕТКИ (по источнику/папке)
+// =======================================
+
+dv.header(2, "Лекционные заметки");
+
+// Сгруппируем «атомы» по источнику: либо по полю p.source,
+// либо, если его нет, по папке, где лежит файл.
 for (const group of atoms.groupBy(p => p.source ?? p.file.folder)) {
   dv.header(3, group.key);
-  dv.table(["Atom","№","Date"],
+
+  // Сортируем атомы по порядковому номеру (atom_idx).
+  // В таблице покажем ссылку, номер и дату.
+  dv.table(
+    ["Atom", "№", "Date"],
     group.rows
       .sort(p => p.atom_idx ?? 0, 'asc')
-      .map(p => [p.file.link, p.atom_idx ?? "", (p.date ?? p.file.cday)?.toFormat?.("yyyy-LL-dd") ?? ""])
+      .map(p => [
+        p.file.link,
+        p.atom_idx ?? "",
+        (p.date ?? p.file.cday)?.toFormat?.("yyyy-LL-dd") ?? ""
+      ])
   );
 }
 
-// Недавно обновлённые
+// =======================
+// Раздел: НЕДАВНО ОБНОВЛЁННЫЕ
+// =======================
+
 dv.header(2, "Недавно обновлённые");
-dv.list(pages.sort(p => p.file.mtime, 'desc').slice(0, 15).map(p => p.file.link));
 
-// Сироты (без входящих ссылок)
+// Берём все страницы «в области», сортируем по времени последнего изменения (mtime)
+// в порядке убывания (последние сверху), берём только первые 15, выводим как список.
+dv.list(
+  pages
+    .sort(p => p.file.mtime, 'desc')
+    .slice(0, 15)
+    .map(p => p.file.link)
+);
+
+// =======================
+// Раздел: СИРОТЫ (нет входящих ссылок)
+// =======================
+
 dv.header(2, "Сироты (нет входящих ссылок)");
-dv.list(pages.where(p => (p.file.inlinks ?? []).length === 0).map(p => p.file.link));
 
-// Популярные теги (совместимо; без dv.func.tag)
+// file.inlinks — массив входящих ссылок на файл (кто ссылается на эту заметку).
+// Если его длина 0 — на заметку никто не ссылается (она «сирота»).
+dv.list(
+  pages
+    .where(p => (p.file.inlinks ?? []).length === 0)
+    .map(p => p.file.link)
+);
+
+// =======================
+// Раздел: ПОПУЛЯРНЫЕ ТЕГИ
+// =======================
+
 dv.header(2, "Популярные теги");
+
+// Считаем, сколько раз встречается каждый тег.
+// tagCounts — обычный JS-объект (словарь): { "#tag": число_встреч }
 const tagCounts = {};
-for (const p of pages) for (const t of (p.file.tags ?? [])) {
-  tagCounts[t] = (tagCounts[t] ?? 0) + 1;
+
+// Двойной «for»: проходим по всем страницам, внутри — по всем тегам страницы.
+// «?? []» — если тегов нет, используем пустой массив, чтобы не было ошибки.
+for (const p of pages) {
+  for (const t of (p.file.tags ?? [])) {
+    tagCounts[t] = (tagCounts[t] ?? 0) + 1;
+  }
 }
+
+// Object.entries(tagCounts) => массив пар [тег, счётчик].
+// .sort(...) — сортируем по счётчику по убыванию (самые популярные сверху).
+// .slice(0, 20) — берём топ-20.
+// .map(...) — превращаем каждую пару в строку таблицы [тег, число].
 const topTags = Object.entries(tagCounts)
   .sort((a, b) => b[1] - a[1])
   .slice(0, 20)
-  .map(([t, c]) => [t, c]);   // просто текст тега
+  .map(([t, c]) => [t, c]);   // просто текст тега в первой колонке
 
+// Выводим таблицу с двумя колонками: "Tag" и "Count".
 dv.table(["Tag", "Count"], topTags);
 
-// Полный список
-dv.header(2, "Полный список");
-dv.list(pages.sort(p => p.file.name, 'asc').map(p => p.file.link));
+// =======================
+// Раздел: ПОЛНЫЙ СПИСОК
+// =======================
 
+dv.header(2, "Полный список");
+
+// Полный алфавитный список всех страниц «в области», кроме текущей.
+// .sort(..., 'asc') — сортировка по возрастанию (A→Я).
+dv.list(
+  pages
+    .sort(p => p.file.name, 'asc')
+    .map(p => p.file.link)
+);
+
+/********************************************************************
+*  Подсказки по настройке области индексации (scope) в YAML MOC-заметки:
+*
+*  ---        # это фронтматтер вверху MOC-страницы
+*  title: "Data Engineering Hub (Auto)"
+*  scope: folder          # варианты: folder | vault | tag
+*  scope_tag: algorithms  # нужно ТОЛЬКО если scope: tag (без решётки)
+*  ---
+*
+*  Примеры:
+*  1) Индексировать только текущую папку и подпапки:
+*     scope: folder
+*
+*  2) Индексировать весь вольт:
+*     scope: vault
+*
+*  3) Индексировать все заметки с тегом #algorithms:
+*     scope: tag
+*     scope_tag: algorithms
+*
+*  Важно:
+*  - Поля вроде type_tags, course_tags, lecture_tags, atom_idx — опциональны,
+*    но если ты их используешь в шаблонах, таблицы станут информативнее.
+*  - Регулярка для исключения Templates/Archive настроена на
+*    /\/(97_Templates|Templates|99_Archive)\//i — адаптируй под свои папки.
+*  - Производительность: Dataview пересчитывает результат при изменении
+*    заметок/папок. На очень больших вольтах это может занимать секунды —
+*    это нормально.
+********************************************************************/
 ```
 
 
