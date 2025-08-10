@@ -91,7 +91,7 @@ sizeof(s);   // 4 (includes '\0')
 
 ## **Mini check-yourself snippet**
 
-```
+``` 
 for (int i = 0; i < sizeof(s); i++)
 {
     printf("s[%d] = '%c' (0x%02X)\n", i,
