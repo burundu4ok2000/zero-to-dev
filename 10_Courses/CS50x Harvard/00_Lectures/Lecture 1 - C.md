@@ -50,7 +50,7 @@
 - [[Terminal Commands Advanced]]
 - [[Terminal Commands Basics]]
 - [[Terminal Shortcuts VS Code]]
-- [[Ternary Operator in C (condition ? value_if_true  value_if_false)]]
+- [[Lecture 1 - C/Ternary Operator in C (condition ? value_if_true  value_if_false)]]
 - [[Type Casting to Float in C]]
 - [[Variable Scope in C]]
 - [[While Loop Countdown in C]]
