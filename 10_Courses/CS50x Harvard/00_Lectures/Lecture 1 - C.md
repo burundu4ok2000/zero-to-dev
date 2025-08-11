@@ -20,17 +20,17 @@
 
 ## 💡 Concepts & Course Notes
 
-- [[Arithmetic Operators in C]]
+- [[Lecture 1 - C/Arithmetic Operators in C]]
 - [[Arithmetic Shorthand Operators in C]]
-- [[Boolean Operators in C]]
+- [[Lecture 1 - C/Boolean Operators in C]]
 - [[C Comparison Operators]]
 - [[C Snippet · hello.c]]
 - [[Char Type in C]]
 - [[CLI]]
 - [[Conditionals Overview in C]]
-- [[Correctness Design Style]]
+- [[Lecture 1 - C/Correctness Design Style]]
 - [[CS50 Library · get_Functions]]
-- [[Do While Loop in C]]
+- [[Lecture 1 - C/Do While Loop in C]]
 - [[Floating Point Precision Limits]]
 - [[For Loop in C]]
 - [[Function Definition in C]]

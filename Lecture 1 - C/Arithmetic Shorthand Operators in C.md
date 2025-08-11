@@ -2,7 +2,7 @@
 
 > **Lecture reference:** [[Lecture 1 - C]]  
 > **Course:** [[CS50x Harvard]]
-> [[Arithmetic Operators in C]]
+> [[Lecture 1 - C/Arithmetic Operators in C]]
 
 ---
 
