@@ -18,10 +18,10 @@ Even after casting, floating‑point math has a _hard_ ceiling on accuracy bec
 
 ### Mitigation strategies (starter list)
 
-|Need|Possible solution|
-|---|---|
-|Exact decimal math (finance)|Use fixed‑point libraries or `decimal` types|
-|Arbitrary precision (science)|GMP / MPFR, Python’s `decimal`, or languages like Julia|
-|Robust comparisons|Compare floats with an **epsilon** margin instead of `==`|
+| Need                          | Possible solution                                         |
+| ----------------------------- | --------------------------------------------------------- |
+| Exact decimal math (finance)  | Use fixed‑point libraries or `decimal` types              |
+| Arbitrary precision (science) | GMP / MPFR, Python’s `decimal`, or languages like Julia   |
+| Robust comparisons            | Compare floats with an **epsilon** margin instead of `==` |
 
 > **Rule of thumb:** treat floating‑point numbers as _approximations_. Design algorithms that tolerate tiny errors rather than assuming perfect arithmetic.

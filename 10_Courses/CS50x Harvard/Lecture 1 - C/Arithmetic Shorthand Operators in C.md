@@ -1,16 +1,16 @@
 ---
-title: "Arithmetic Shorthand Operators in C"
+title: Arithmetic Shorthand Operators in C
 lang_tags: "#lang/c"
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_1_C"
 tool_tags: ""
-atom_idx: 05
-status: "done"
-difficulty: "easy"
-date: "2025-08-11"
+atom_idx: 1
+status: done
+difficulty: easy
+date: 2025-08-11
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/1/"
+source: https://cs50.harvard.edu/x/2025/weeks/1/
 review_next: ""
 ---
 
@@ -108,7 +108,7 @@ pos = (pos + 1) % capacity;   // or: pos += 1; pos %= capacity;
 
 ## Related Concepts
 
-- [[Arithmetic Operators in C]] – contrasts **simple arithmetic** with **compound assignment**.
+- [[Lecture 1 - C/Arithmetic Operators in C]] – contrasts **simple arithmetic** with **compound assignment**.
 - [[Increment and Decrement in C]] – deeper dive into **pre** vs **post** forms and side effects.
 - [[Operator Precedence in C]] – how **+=**, **++**, and friends bind in expressions.
 - [[Integer Division in C]] – why `/=` can silently **truncate** and how to cast.
