@@ -1,16 +1,16 @@
 ---
-title: "Capitalizing Constants — Why and When"  
+title: 
 lang_tags: "#lang/c"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_2_Arrays"
 tool_tags: ""
-atom_idx: 07
-status: "done"
-difficulty: "easy"
-date: "2025-08-10"
+atom_idx: 8
+status: done
+difficulty: easy
+date: 2025-08-10
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/2/"
+source: https://cs50.harvard.edu/x/2025/weeks/2/
 review_next: ""
 ---
 

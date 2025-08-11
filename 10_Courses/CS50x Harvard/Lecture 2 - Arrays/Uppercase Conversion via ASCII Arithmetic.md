@@ -1,16 +1,40 @@
-
-![[2025-07-30_16-49-01.png]]
-  
-
-> **Lecture reference:** [[Lecture 2 - Arrays]]
-
-> **Course:** [[CS50x Harvard]]
+---
+title: Uppercase Conversion via ASCII Arithmetic
+lang_tags: "#lang/c"
+type_tags: "#type/lecture"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_2_Arrays"
+atom_idx: 13
+status: done
+difficulty: easy
+date: 2025-08-11
+timecode: ""
+source: https://cs50.harvard.edu/x/2025/weeks/2/
+review_next: ""
+---
 
 ---
 
-## **Program (uppercase.c )**
+![[2025-07-30_16-49-01.png]]
 
-```
+---
+
+## Summary
+Convert lowercase letters to uppercase using **ASCII** arithmetic (subtract a constant **offset** of 32) or with the **standard library** helper `toupper`. Cache **strlen** in the **for-loop** initializer to keep the loop **O(n)**.
+
+## Key Points
+- **ASCII case offset** is 32: `'a' - 'A'` → **32**, so `c - 32` maps `'a'→'A'`, `'b'→'B'`, … when `c` is **lowercase**.
+- Always do a **bounds check**: only transform when `c >= 'a' && c <= 'z'` to avoid mangling digits/punctuation.
+- Cache `n = strlen(s)` once in the **for initializer** to avoid repeated scans (**perf** micro-optimization).
+- Printing the transformed char is **non-destructive** — it doesn’t **mutate** the original **string**.
+- Prefer `<ctype.h>` **toupper** for readability and **locale-agnostic** behavior over manual math when in doubt.
+
+## Details
+Lowercase and uppercase Latin letters are contiguous ranges in **ASCII**, which lets you flip case via simple integer math. Subtracting the fixed **offset** works only when the input is in the lowercase range. To keep things fast and clean, compute the string length once, then index chars by `i`. Using `<ctype.h>`'s `toupper` removes the need to reason about ranges and is the idiomatic C approach.
+
+## Examples
+### Manual ASCII arithmetic
+```c
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
@@ -20,70 +44,53 @@ int main(void)
     string s = get_string("Before: ");
     printf("After:  ");
 
-    // Cache length once
     for (int i = 0, n = strlen(s); i < n; i++)
     {
         if (s[i] >= 'a' && s[i] <= 'z')
-        {
-            // Convert lowercase → uppercase
-            printf("%c", s[i] - ('a' - 'A'));
-        }
+            printf("%c", s[i] - ('a' - 'A'));   // 32
         else
-        {
-            // Already uppercase (or not a letter)
             printf("%c", s[i]);
-        }
     }
     printf("\n");
 }
 ```
 
-i may use 32 instead of ('a' - 'A') because ASCII difference  capital A letter and lowercase A letter
+### Using <ctype.h>
+```c
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 
----
+int main(void)
+{
+    string s = get_string("Before: ");
+    printf("After:  ");
 
-## **How the logic works**
+    for (int i = 0, n = strlen(s); i < n; i++)
+        printf("%c", toupper((unsigned char)s[i]));
 
-|**Part of code**|**Purpose**|**Detail**|
-|---|---|---|
-|for (int i = 0, n = strlen(s); … )|Iterates once per character while **caching** the string’s length in n (avoids repeated strlen calls).|Initialization clause can declare **multiple variables** separated by commas.|
-|s[i] >= 'a' && s[i] <= 'z'|Checks if the current char is a **lowercase ASCII letter**.|'a' is 97, 'z' is 122.|
-|s[i] - ('a' - 'A')|Converts a lowercase char to uppercase.|('a' - 'A') is **32** in ASCII. Subtracting 32 shifts 'a' → 'A', 'b' → 'B', …|
-|printf("%c", …)|Writes either the converted char or the original char directly to stdout.|Does **not** modify the original string in memory, just the output stream.|
-
----
-
-## **Example run**
-
-```
-$ make uppercase
-$ ./uppercase
-Before: David
-After:  DAVID
+    printf("\n");
+}
 ```
 
-- Only the lowercase letters a, v, i, d were shifted up by 32.
-    
-- The initial uppercase D stayed unchanged.
-    
+## **Why It Matters**
+Understanding **byte-level** **char** math sharpens your mental model of **strings** and encodings, while `toupper` is the production-ready, portable way. You’ll use these patterns in **parsers**, **tokenizers**, and CLI text processing.
 
----
+## Questions
+- ❓ When should I prefer `toupper` over manual math in code that must handle non-ASCII locales?
 
-## **Key takeaways**
+## Related Concepts
+- [[ASCII Table]] – mapping characters to integer codes underpins case math.
+- [[Characters and Strings in C]] – how **char** arrays and **NUL** terminators work.
+- [[For Loop Anatomy in C]] – caching **strlen** in the initializer.
+- [[<ctype.h> Utilities]] – `toupper`, `tolower`, and friends.
+- [[String Immutability vs Mutation in C]] – printing vs in-place edits.
 
-1. **ASCII arithmetic**: You can transform case by adding/subtracting the fixed offset 32.
-    
-2. **Bounds check**: Always verify a char is lowercase before shifting; otherwise punctuation and numbers will be mangled.
-    
-3. **Efficiency**: Caching n in the for initializer makes the loop O(n) instead of O(n²).
-    
-4. **Non-destructive**: Printing the converted character leaves the original string intact—a good pattern when you only need transformed output.
-    
+## See also
+- [[Lecture 2 - Arrays]]
+- [ASCII on Wikipedia](https://en.wikipedia.org/wiki/ASCII)
+- [cppreference – <ctype.h> toupper](https://en.cppreference.com/w/c/string/byte/toupper)
 
----
-
-### **Possible extensions**
-
-- Replace the manual arithmetic with library helpers: printf("%c", toupper(s[i])); from <ctype.h>.
-    
-- Modify s[i] in place rather than just printing, if you need the altered string later.
+## Terms
+[[ASCII]], [[char]], [[string]], [[offset]], [[bounds check]], [[for initializer]], [[time complexity]], [[non-destructive]], [[ctype.h]], [[toupper]]
