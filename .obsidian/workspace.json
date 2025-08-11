@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 1 - C/Meow Function Evolution.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 1 - C/Ternary Operator in C (condition ? value_if_true  value_if_false).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Meow Function Evolution"
+              "title": "Ternary Operator in C (condition ? value_if_true  value_if_false)"
             }
           },
           {
@@ -258,6 +258,12 @@
   },
   "active": "7b64749b44e42fab",
   "lastOpenFiles": [
+    "01_OLD_NOTES/Lecture 1 - C/00_done/Ternary Operator in C (condition ? value_if_true  value_if_false).md",
+    "01_OLD_NOTES/Lecture 1 - C/00_done/Terminal Shortcuts VS Code.md",
+    "01_OLD_NOTES/Lecture 1 - C/00_done/Terminal Commands Basics.md",
+    "01_OLD_NOTES/Lecture 1 - C/00_done/Terminal Commands Advanced.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Meow Function Evolution.md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Ternary Operator in C (condition ? value_if_true  value_if_false).md",
     "01_OLD_NOTES/Lecture 1 - C/00_done/Switch Statement in C.md",
     "01_OLD_NOTES/Lecture 1 - C/00_done/Meow Function Evolution.md",
     "01_OLD_NOTES/Lecture 1 - C/00_done/Magic Numbers and define in C.md",
@@ -266,7 +272,6 @@
     "10_Courses/CS50x Harvard/Lecture 1 - C/Linux Command Line Rationale.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Lecture 1 - WEB LECTURE NOTES.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Keyboard-first Programming.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Meow Function Evolution.md",
     "01_OLD_NOTES/Lecture 1 - C/00_done/Keyboard-first programming.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Lecture 1 - C.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Incrementing a variable in C.md",
@@ -279,11 +284,6 @@
     "01_OLD_NOTES/Lecture 1 - C/00_done/GUI.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Get Positive Int Abstraction.md",
     "01_OLD_NOTES/Lecture 1 - C/00_done/Get Positive Int Abstraction.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Function Signatures in C.md",
-    "01_OLD_NOTES/Lecture 1 - C/00_done/Function Signatures in C.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Function Prototype in C.md",
-    "01_OLD_NOTES/Lecture 1 - C/00_done/Function Prototype in C.md",
-    "01_OLD_NOTES/Lecture 1 - C/00_done/Function Parameter in C.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Untitled",
     "01_OLD_NOTES/Lecture 1 - C/00_done",
     "01_OLD_NOTES/Lecture 1 - C/done",
