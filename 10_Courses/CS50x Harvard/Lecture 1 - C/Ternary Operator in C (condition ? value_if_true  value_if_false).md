@@ -124,15 +124,11 @@ int result = flag ? (a + b) : (a - b);
 
   
 
-| Goal | Snippet |
-
-|---|---|
-
-| Clamp negative to 0 | `value = (value < 0) ? 0 : value;` |
-
-| Pick label | `char level = (score >= 60) ? 'P' : 'F';` |
-
-| Choose pointer | `node *best = prefer_a ? a : b;` |
+| Goal                | Snippet                                   |
+| ------------------- | ----------------------------------------- |
+| Clamp negative to 0 | `value = (value < 0) ? 0 : value;`        |
+| Pick label          | `char level = (score >= 60) ? 'P' : 'F';` |
+| Choose pointer      | `node *best = prefer_a ? a : b;`          |
 
   
 
