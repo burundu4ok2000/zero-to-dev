@@ -1,3 +1,7 @@
 {
-  "minimal-advanced@@cursor": "default"
+  "minimal-advanced@@cursor": "default",
+  "baseline-style@@callouts-style": "callouts-outlined",
+  "baseline-style@@h1-size": "1.5em",
+  "baseline-style@@h2-size": "1.3em",
+  "baseline-style@@h3-size": "1.2em"
 }
