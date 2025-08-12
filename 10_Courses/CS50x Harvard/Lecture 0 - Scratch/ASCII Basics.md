@@ -1,43 +1,75 @@
+---
+title: "ASCII Basics"  
+lang_tags: "#lang/c"
+type_tags: "#type/concept"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_0_Scratch"
+tool_tags: ""
+atom_idx: 02
+status: "done"
+difficulty: "easy"
+date: "2025-08-11"
+timecode: ""
+source: "https://cs50.harvard.edu/x/2025/weeks/0/"
+review_next: ""
+---
+
 ![[Screenshot 2025-06-23 at 18.44.26.png]]
+
+---
+
+## **One-liner**
+
+**ASCII** maps characters to numbers (0–127) so text can be stored and moved as **bytes**; under the hood, every letter is just a **code** in **binary**.
+
 ## What is ASCII?
 
-ASCII stands for **American Standard Code for Information Interchange**.  
-It is a character encoding standard used to represent text in computers.
+- **American Standard Code for Information Interchange** — a **character encoding** that assigns **code points** 0–127 to letters, digits, punctuation, and control signals.  
+- Stored as **8 bits** per character in practice (a **byte**), though **standard ASCII** uses only the lower **7 bits** (0–127).  
+- Examples: **'A' = 65 = 01000001₂**, **'a' = 97 = 01100001₂**.
 
-Each character (letters, numbers, symbols) is represented by a number between 0 and 127.
+## Binary representation (mental model)
 
-## Binary Representation of ASCII
+Text → **numbers** → **binary** → **bits in memory**. The same bits travel over networks and land in files — the UI just renders the codes back into glyphs.
 
-Computers store everything as bits (0s and 1s). Each ASCII character is stored using **8 bits** (a byte), though only the first 7 bits are used in standard ASCII.
+## Why it matters in Week 0
 
-For example:
+- Explains how Scratch and C strings eventually reduce to raw **bytes**.  
+- Demystifies input/output: keyboards send **codes**, screens render based on **codes**.  
+- Sets the stage for **Unicode** (when 128 symbols isn’t enough).
 
-- The capital letter **A** is represented by the decimal number **65**, which is **01000001** in binary.
-    
-- The lowercase **a** is **97**, which is **01100001** in binary.
-    
+## Limitations (preview)
 
-## ASCII in CS50x Lecture
+- Only **128** codes → English-centric. No emojis, accented letters, or most world scripts.  
+- Multiple “extended ASCII” variants (0–255) exist but **aren’t standardized**.  
+- Modern software prefers **Unicode/UTF‑8** for broad coverage and compatibility.
 
-In Lecture 0, David Malan introduces ASCII by showing how characters like **"A"** are encoded in binary.
+## Quick peek code (C)
 
-He also mentions that understanding ASCII isn't always necessary in practice, but it's important CS trivia that helps you understand how computers work internally.
+```c
+#include <stdio.h>
+int main(void)
+{
+    char ch = 'A';                 // 65
+    printf("%c %i\n", ch, ch);    // A 65
+}
+```
 
-## Key Concept
+## Related Concepts
 
-> Every letter you type is just a number under the hood.
+- [[ASCII and Its Limitations]] – what breaks when you leave plain English.  
+- [[ASCII Control Characters]] – non-printing codes (0–31, 127).  
+- [[Binary Example - CS Trivia]] – fun binary/ASCII decoding demos.  
+- [[Unicode and UTF-8 Basics]] – modern successor covering most scripts.  
+- [[Char Type in C]] – how characters live as small integers in C.  
+- [[Strings in C]] – arrays of `char` terminated with NUL.
 
-- Characters → Numbers
-    
-- Numbers → Binary
-    
-- Binary → Stored in memory via transistors
-    
+## See Also
 
-## Tags
+- [CS50x 2025 — Week 0 overview](https://cs50.harvard.edu/x/2025/weeks/0/)  
+- [Wikipedia — ASCII](https://en.wikipedia.org/wiki/ASCII)  
+- [man ascii — ASCII table](https://man7.org/linux/man-pages/man7/ascii.7.html)
 
-[[CS50x Harvard]]  
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]  
-[[ASCII and Its Limitations]]
-[[ASCII Control Characters]]
-[[Binary Example - "CS Trivia"]]
+## Terms
+
+[[ASCII]], [[character encoding]], [[code point]], [[byte]], [[bit]], [[binary]], [[glyph]], [[control character]], [[Unicode]], [[UTF-8]], [[string]], [[char]]

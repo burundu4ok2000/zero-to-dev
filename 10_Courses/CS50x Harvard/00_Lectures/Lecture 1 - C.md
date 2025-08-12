@@ -51,10 +51,10 @@
 - [[Terminal Commands Basics]]
 - [[Terminal Shortcuts VS Code]]
 - [[Lecture 1 - C/Ternary Operator in C (condition ? value_if_true  value_if_false)]]
-- [[Type Casting to Float in C]]
-- [[Variable Scope in C]]
-- [[While Loop Countdown in C]]
-- [[Year 2038 funny Bug Reminder]]
+- [[Lecture 1 - C/Type Casting to Float in C]]
+- [[Lecture 1 - C/Variable Scope in C]]
+- [[Lecture 1 - C/While Loop Countdown in C]]
+- [[Lecture 1 - C/Year 2038 funny Bug Reminder]]
 
 ---
 ## 🖼️ Vault Growth (Graph Snapshot)
