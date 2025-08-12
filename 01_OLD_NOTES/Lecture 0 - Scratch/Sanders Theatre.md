@@ -1,7 +1,7 @@
 ![[Screenshot 2025-06-25 at 10.14.57 1.png]]
 
 ## 🏛 Overview  
-Sanders Theatre is a 1 166-seat auditorium inside **Memorial Hall** at [[Harvard University (USA)]].  
+Sanders Theatre is a 1 166-seat auditorium inside **Memorial Hall** at [[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]].  
 Completed in 1875 and named after alumni donor Charles Sanders, it is famous for its warm acoustics, Victorian-Gothic architecture, and for hosting everything from orchestral concerts to CS50’s legendary first lecture.
 
 ---
@@ -21,7 +21,7 @@ Completed in 1875 and named after alumni donor Charles Sanders, it is famous for
 ## 🎓 CS50 Connection  
 - **Lecture 0** of [[CS50x Harvard]] is filmed here each year.  
 - After the opening lecture, students traditionally **adjourn for cake in the transept** (the side hall that crosses the main aisle). See [[Vocabulary · TRANSEPT]] for the architectural term.  
-- The theatre’s giant [[Inflatable Duck 🦆 (CS50 Prop)]] and stacks of apples are recurring stage props for CS50.
+- The theatre’s giant [[01_OLD_NOTES/Lecture 0 - Scratch/Inflatable Duck 🦆 (CS50 Prop)]] and stacks of apples are recurring stage props for CS50.
 
 ---
 

@@ -10,7 +10,7 @@
 
 | Item | Detail |
 |------|--------|
-| University | [[Harvard University (USA)]] |
+| University | [[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]] |
 | Sister course | CS50 for MBAs at Harvard Business School |
 | Instructor | Prof. **David J. Malan** |
 | First offered | 1989 (revamped by Malan in 2007) |
@@ -20,7 +20,7 @@
 
 | Prop                               | Purpose                                    | Note                              |
 | ---------------------------------- | ------------------------------------------ | --------------------------------- |
-| [[Inflatable Duck 🦆 (CS50 Prop)]] | Rubber-duck debugging come to life         | Photo icon of the course          |
+| [[01_OLD_NOTES/Lecture 0 - Scratch/Inflatable Duck 🦆 (CS50 Prop)]] | Rubber-duck debugging come to life         | Photo icon of the course          |
 | [[Stack of Apples (CS50 Prop)]] | Hospitality, tradition, playful math demos | Students grab one after Lecture 0 |
 
 ## 🌐 Why So Famous?  
@@ -96,10 +96,10 @@
 - [[CS50x – 4-Week Learning Plan]]
 - [[Four Fundamentals Algorithm of each programm]]
 - [[Harvard – MIT & Cambridge (MA, USA)]]
-- [[Harvard University (USA)]]
+- [[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]]
 - [[How code & algorythm becomes 0 s and 1 s.]]
 - [[How computers represent colors using only 0s and 1s]]
-- [[Inflatable Duck 🦆 (CS50 Prop)]]
+- [[01_OLD_NOTES/Lecture 0 - Scratch/Inflatable Duck 🦆 (CS50 Prop)]]
 - [[Introduction to Binary Logic]]
 - [[Massachusetts Institute of Technology]]
 - [[Media — Audio]]

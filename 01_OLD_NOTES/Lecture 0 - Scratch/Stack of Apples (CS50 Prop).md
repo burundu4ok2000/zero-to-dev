@@ -16,9 +16,9 @@ Pyramids of bright-red apples arranged on a table at the front of Sanders Theatr
 - Shows up in press photos alongside the giant duck.
 
 ### Related  
-[[Inflatable Duck 🦆 (CS50 Prop)]]  
+[[01_OLD_NOTES/Lecture 0 - Scratch/Inflatable Duck 🦆 (CS50 Prop)]]  
 [[CS50x Harvard]]
-[[Harvard University (USA)]]
+[[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]]
 [[Sanders Theatre]]
 
 ---
