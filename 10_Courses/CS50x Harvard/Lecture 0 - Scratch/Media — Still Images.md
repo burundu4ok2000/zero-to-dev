@@ -1,16 +1,16 @@
 ---
-title: "Media — Still Images"  
-lang_tags: "#lang/foundations"
+title: Media — Still Images
+lang_tags: 
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_scratch"
 tool_tags: "#tool/image #tool/rgb #tool/compression"
 atom_idx: 16
-status: "done"
-difficulty: "easy"
-date: "2025-08-12"
+status: done
+difficulty: easy
+date: 2025-08-12
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/0/"
+source: https://cs50.harvard.edu/x/2025/weeks/0/
 review_next: ""
 ---
 

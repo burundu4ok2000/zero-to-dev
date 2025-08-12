@@ -1,6 +1,6 @@
 ---
 title: M2 Chip — What Voltage Do Its Transistors Use?
-lang_tags: "#lang/hardware"
+lang_tags: 
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_scratch"

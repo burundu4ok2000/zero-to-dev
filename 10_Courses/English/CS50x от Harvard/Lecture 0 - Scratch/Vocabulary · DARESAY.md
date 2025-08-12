@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · DARESAY"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ## 📖 Definition  
 **DARESAY** *(fixed phrase: “I daresay …”)* — a polite, slightly old-fashioned way to say **“I suppose / I think it’s likely.”**
 

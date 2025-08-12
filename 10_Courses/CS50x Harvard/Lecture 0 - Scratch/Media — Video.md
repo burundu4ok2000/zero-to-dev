@@ -1,16 +1,16 @@
 ---
-title: "Media — Video"  
-lang_tags: "#lang/media"
+title: Media — Video
+lang_tags: 
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_scratch"
 tool_tags: "#tool/codecs #tool/ffmpeg"
 atom_idx: 17
-status: "done"
-difficulty: "easy"
-date: "2025-08-12"
+status: done
+difficulty: easy
+date: 2025-08-12
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/0/"
+source: https://cs50.harvard.edu/x/2025/weeks/0/
 review_next: ""
 ---
 

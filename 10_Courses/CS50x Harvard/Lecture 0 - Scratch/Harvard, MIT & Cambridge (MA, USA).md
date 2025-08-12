@@ -80,7 +80,7 @@ Harvard and MIT are neighbors in **Cambridge, MA** (across the Charles from Bost
 
 - [[Massachusetts Institute of Technology]] – Kendall Square, Great Dome.  
 
-- [[University of Cambridge (UK)]] – different city, same name.  
+- [[01_OLD_NOTES/Lecture 0 - Scratch/University of Cambridge (UK)]] – different city, same name.  
 
 - [[CS50x Harvard]] – course hub and resources.  
 
