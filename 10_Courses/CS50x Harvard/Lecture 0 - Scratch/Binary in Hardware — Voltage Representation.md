@@ -1,16 +1,16 @@
 ---
-title: "Binary in Hardware — Voltage Representation"  
+title: Binary in Hardware — Voltage Representation
 lang_tags: "#lang/binary"
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_scratch"
 tool_tags: ""
-atom_idx: 02
-status: "done"
-difficulty: "easy"
-date: "2025-08-11"
-timecode: "23:03"
-source: "https://cs50.harvard.edu/x/2025/weeks/0/"
+atom_idx: 6
+status: done
+difficulty: easy
+date: 2025-08-11
+timecode: 23:03
+source: https://cs50.harvard.edu/x/2025/weeks/0/
 review_next: ""
 ---
 

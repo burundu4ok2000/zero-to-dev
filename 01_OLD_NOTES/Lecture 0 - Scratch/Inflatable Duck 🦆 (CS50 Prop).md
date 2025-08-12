@@ -18,7 +18,7 @@ A giant **yellow rubber duck** that appears on stage during CS50’s first lectu
 [[Stack of Apples (CS50 Prop)]]  
 [[CS50x Harvard]]  
 [[Sanders Theatre]]
-[[Harvard University (USA)]]
+[[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]]
 
 
 ---

@@ -4,7 +4,7 @@
 - Independent **city** on the north side of the Charles River, across from Boston.  
 - Population ≈ 118 000; part of the “Greater Boston” metro area.  
 - Home to **two world-class universities only ~1 mile apart**:  
-  - [[Harvard University (USA)]]  (1636) – Harvard Square.  
+  - [[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]]  (1636) – Harvard Square.  
   - [[Massachusetts Institute of Technology]]  (1861) – Kendall Square / MIT Campus.  
 
 > **“Down the street”** in CS50 refers to this literal walking distance.
@@ -38,7 +38,7 @@ The US city was named after the English one in 1638, so *Cambridge* can mean two
 ---
 
 ### 🔗 See also  
-- [[Harvard University (USA)]]  
+- [[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]]  
 - [[Massachusetts Institute of Technology]]  
 - [[University of Cambridge (UK)]]
 

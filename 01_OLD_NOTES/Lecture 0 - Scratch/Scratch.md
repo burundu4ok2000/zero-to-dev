@@ -16,8 +16,8 @@ Instead of typing code, learners snap colored **blocks** together (like digital 
 ## 🔗 How It Connects  
 
 * **[[Massachusetts Institute of Technology]]** – birthplace of Scratch; the project is still maintained by MIT’s Scratch Team.  
-* **[[Harvard University (USA)]] / [[CS50x Harvard]]** – adopts Scratch in Week 0 to help newcomers “think algorithmically” before diving into C.  
-* **[[University of Cambridge (UK)]]** and **[[Harvard University (USA)]]**– both MIT and Harvard sit just blocks apart in this city; Malan’s phrase “down the street at MIT” is literal.  
+* **[[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]] / [[CS50x Harvard]]** – adopts Scratch in Week 0 to help newcomers “think algorithmically” before diving into C.  
+* **[[University of Cambridge (UK)]]** and **[[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]]**– both MIT and Harvard sit just blocks apart in this city; Malan’s phrase “down the street at MIT” is literal.  
 * **[[Vocabulary · STEM]]** – Scratch is often the *first* tool in K-12 STEM programs, lowering the barrier to computer-science exploration.
 
 ---
