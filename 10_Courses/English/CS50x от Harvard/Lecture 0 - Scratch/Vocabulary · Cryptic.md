@@ -52,8 +52,3 @@ Used of code, puzzles, or messages that aren’t clear at first glance.
 
 ---
 
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]
-
-[[CS50x Harvard]]
-
-[[English]]

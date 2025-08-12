@@ -41,4 +41,3 @@ Keep it lean and expressive!
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

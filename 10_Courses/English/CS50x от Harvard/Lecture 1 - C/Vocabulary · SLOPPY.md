@@ -45,4 +45,3 @@ Avoid sloppy code by:
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

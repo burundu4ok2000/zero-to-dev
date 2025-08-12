@@ -86,6 +86,4 @@ review_next: "2025-09-12"
 > **Take-away:** *Trivia* tickles your curiosity; *nitty-gritty* powers your solutions.  
 
 
-[[Vocabulary · NITTY-GRITTY]]
 [[Binary Example - "CS Trivia"]]
-[[English]]

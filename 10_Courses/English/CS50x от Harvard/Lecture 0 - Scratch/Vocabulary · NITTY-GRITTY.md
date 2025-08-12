@@ -47,7 +47,3 @@ review_next: "2025-09-12"
 In the lecture, Malan stacks abstraction layers (scratch → C code → machine code → bits). He calls the zeros and ones “the **nitty-gritty**,” emphasizing that they are the **fundamental building blocks** beneath all higher-level languages.
 
 ---
-
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]  
-[[CS50x Harvard]]  
-[[English]]

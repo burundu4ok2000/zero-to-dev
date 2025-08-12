@@ -22,7 +22,7 @@ Boolean logic is named after **George Boole**, the mathematician who developed t
 | `&&`                 | logical AND          | true if **both** sides are true | `x > 0 && y > 0`  | true only if **x > 0** and **y > 0**  |
 | \| \|                | logical OR           | true if **either** side is true | x > 0 \| \| y > 0 | true if **x > 0**, **y > 0**, or both |
 | `!`                  | logical NOT          | inverts truth value             | `!true`           | false                                 |
-| `==`                 | equal to             | true if values are equal        | `x == 5`          | true if x is 5                        |
+| \`\=\=\`             | equal to             | true if values are equal        | `x == 5`          | true if x is 5                        |
 | `!=`                 | not equal to         | true if values differ           | `x != 5`          | true if x is **not** 5                |
 | `<`, `>`, `<=`, `>=` | comparison operators | true based on value comparison  | `x <= 10`         | true if x is less than or equal to 10 |
 
@@ -35,7 +35,7 @@ Boolean logic is named after **George Boole**, the mathematician who developed t
 | `&&`       | "and" or "double ampersand"                         |
 | \| \|      | "or" or "double pipe" \|                            |
 | `!`        | "not" or "bang"                                     |
-| `==`       | "equals equals"                                     |
+| \`\=\=\`   | "equals equals"                                     |
 | `!=`       | "not equal"                                         |
 | `<`, `>`   | "less than", "greater than"                         |
 | `<=`, `>=` | "less than or equal to", "greater than or equal to" |

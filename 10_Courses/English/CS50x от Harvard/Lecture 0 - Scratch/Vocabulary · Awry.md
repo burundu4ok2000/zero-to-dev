@@ -35,6 +35,3 @@ meaning he realizes where he’s made a mistake.
 
 ---
 
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]
-[[CS50x Harvard]]
-[[English]]

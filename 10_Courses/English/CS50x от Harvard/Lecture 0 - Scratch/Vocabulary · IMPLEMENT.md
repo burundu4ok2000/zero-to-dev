@@ -37,4 +37,3 @@ execute · carry out · put in place · realize
 
 ---
 
-[[English]] [[CS50x Harvard]] [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]

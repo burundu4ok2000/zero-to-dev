@@ -36,7 +36,3 @@ Used to describe education, careers, or initiatives that emphasize these discipl
 
 ---
 
-[[Harvard – MIT & Cambridge (MA, USA)]]  
-[[English]]
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]
-[[CS50x Harvard]]

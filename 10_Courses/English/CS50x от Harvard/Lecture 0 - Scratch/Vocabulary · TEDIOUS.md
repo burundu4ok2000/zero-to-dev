@@ -36,4 +36,3 @@ boring · monotonous · tiresome · dreary · mind-numbing
 
 ---
 
-[[English]] [[CS50x Harvard]] [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]

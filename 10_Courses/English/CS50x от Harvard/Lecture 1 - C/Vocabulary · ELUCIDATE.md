@@ -33,4 +33,3 @@ clarify · explain · illuminate · demystify · expound · shed light on
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

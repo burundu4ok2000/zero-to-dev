@@ -39,6 +39,3 @@ review_next: "2025-09-12"
 
 ---
 
-[[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]  
-[[CS50x Harvard]]  
-[[English]]

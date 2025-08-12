@@ -35,4 +35,3 @@ review_next: "2025-09-12"
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

@@ -70,4 +70,3 @@ When reading code aloud or asking for help, **using the correct operator names**
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

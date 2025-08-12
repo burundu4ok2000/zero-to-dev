@@ -36,4 +36,3 @@ In CS50, Malan uses it when wrapping up serious issues like **floating-point imp
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]
