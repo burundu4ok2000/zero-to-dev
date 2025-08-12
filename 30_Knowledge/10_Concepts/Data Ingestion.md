@@ -1,85 +1,97 @@
-
-
-  
-
-> **One-liner:** **Data ingestion** is the reliable, repeatable **import** of data from sources into your storage/processing platform (lake/warehouse/queue) with guarantees about **freshness, completeness, and order**. [[30_Knowledge/00_Hub/Concepts]]
+---
+title: "Data Ingestion"
+lang_tags: "#lang/python"
+type_tags: "#type/concept"
+course_tags: ""
+lecture_tags: ""
+tool_tags: "#tool/elt/airbyte"
+atom_idx: 01
+status: "in-progress"
+difficulty: "medium"
+date: "2025-08-12"
+timecode: ""
+source: ""
+review_next: "2025-09-12"
+---
 
 ---
 
-## **The Big Idea**
-
-  
-
-Get data **from where it is** (APIs, files, DBs, streams, sensors) **to where it can be used** (lake/warehouse/message bus) **without losing or duplicating** records—and do it on a schedule or continuously.
+![[Data Ingestion.png]]
 
 ---
+## **One-liner**
+A practical blueprint for moving data from source systems into a target platform using **connectors**, **batch** or **streaming** pipelines, with guardrails for **schema**, **quality**, and **reliability**.
 
-## **Where it fits**
+## The Big Idea
+- Data ingestion is the entry point of a **data platform**: getting bytes from many places into one place **safely**, **repeatably**, and **observably**.
+- Two operating modes dominate: **batch ingestion** (periodic loads of files or tables) and **streaming ingestion** (continuous events).
+- Robust ingestion designs prioritize **idempotency** (safe re-runs), **ordering** and **deduplication**, **schema evolution** handling, and **backpressure** control.
+- For analytics, ingestion usually targets a **data lake** and/or **data warehouse**; downstream **ELT**/**ETL** handles transforms.
 
-```
-[ Sources ] → Ingestion → [ Raw/Staging ] → Transform/Model → [ Analytics / ML ]
-```
+## Key Characteristics
+- **Sources**: databases (**CDC** via binlogs), SaaS APIs, files (CSV/JSON/Parquet), message queues, webhooks.
+- **Modes**: **batch** (cron/triggered) vs **streaming** (low **latency**, higher operational complexity).
+- **Transport**: **HTTP** pulls, S3/GCS drops, **Kafka** topics, managed connectors (Airbyte, Fivetran).
+- **Reliability**: **at-least-once** by default; aim for **exactly-once** semantics with checkpoints + dedupe keys.
+- **Schema strategy**: **schema-on-write** (warehouse tables) vs **schema-on-read** (lake with late-binding).
+- **Quality**: validation, **dead-letter queues** (DLQ), row-level **quarantine**, replay.
+- **Security**: secrets management, **TLS**, IP allowlists, **PII** masking, row/object-level controls.
+- **Operations**: **SLA/SLO**, retries with exponential backoff, idempotent writes, observability (**metrics**, **logs**, **traces**).
 
----
+## Examples
 
-## **Common Modes (at a glance)**
+### Batch pull → land → load
+```bash
+# 1) Pull daily report from SaaS API
+curl -sS -H "Authorization: Bearer $TOKEN"   "https://api.vendor.com/v1/report?date=$(date -u +%F)"   -o /landing/reports/report-$(date -u +%F).json
 
-- **Batch vs Streaming:** timed chunks vs event-by-event. [[Batch vs Streaming]]
-    
-- **Pull vs Push:** your job fetches vs source emits (webhooks/queues).
-    
-- **Change Data Capture (CDC):** ingest **only** inserts/updates/deletes. [[CDC (Change Data Capture)]]
-    
-- **File vs DB vs API vs Queue:** CSV/Parquet; SQL dumps; REST/GraphQL; Kafka/Kinesis.
-    
+# 2) Stage to object storage (immutable, versioned)
+aws s3 cp /landing/reports/report-$(date -u +%F).json s3://company-raw/reports/
 
----
-
-## **Minimal checklist (what “good” looks like)**
-
-- **Idempotent**: safe to rerun without duplicates.
-    
-- **Schema-aware**: detect drift, enforce types.
-    
-- **Incremental**: use watermarks/checkpoints; avoid full reloads.
-    
-- **Backpressure & retries**: handle rate limits and outages gracefully.
-    
-- **Observability**: log counts, lag, errors; alert on anomalies.
-    
-- **Security**: secrets, least-privilege, PII handling.
-    
-
----
-
-## **Tiny pseudo-example**
-
-```
-1) List new files in /landing/2025-08-03
-2) Validate schema (required fields, types)
-3) Write raw → lake (append-only, partition by date)
-4) Record checkpoint (last file/offset)
+# 3) Load to warehouse table (append-only)
+bq load --source_format=NEWLINE_DELIMITED_JSON analytics.raw_reports s3://company-raw/reports/report-*.json
 ```
 
----
+### Streaming (Kafka) → warehouse with dedupe
+```python
+from uuid import UUID
+from somewhere import kafka, warehouse, checkpoint
 
-## **Pitfalls to avoid**
+consumer = kafka.Consumer(topic="events")
+last_offset = checkpoint.read("events")
 
-- Silent drops/dupes (no idempotency).
-    
-- Schema drift ignored until transforms break.
-    
-- “SELECT *” over sources (slow/costly; project only what you need).
-    
-- No lineage: can’t answer “where did this row come from?”
-    
+for msg in consumer.read(from_offset=last_offset):
+    event = msg.json()
+    # idempotency: use a natural/business key or event id
+    key = UUID(event["event_id"])
+    warehouse.upsert(table="events_raw", key="event_id", row=event)
+    checkpoint.write("events", msg.offset)
+```
 
----
+### CDC (Change Data Capture) with Airbyte
+```yaml
+# airbyte connection (conceptual)
+source: mysql_orders_binlog
+destination: s3_raw
+sync_mode: incremental+dedup
+primary_key: [order_id]
+cursor_field: updated_at
+```
+This replicates inserts/updates/deletes by reading the source binlog, lands them in the lake, and preserves a change stream for replay.
 
-## **See also**
+## Related Concepts
+- [[ETL]] – ingestion is often the first leg before transforms.
+- [[ELT]] – load raw, then transform in-warehouse.
+- [[Data Warehouse]] – common target for curated, query-optimized data.
+- [[Data Lake]] – cheap, immutable landing zone for raw/staged data.
+- [[Batch Processing]] – periodic jobs for large volumes.
+- [[Stream Processing]] – continuous event pipelines and low-latency use cases.
 
-  
+## See Also
+- [[ELT vs ETL]]
+- [Airbyte: What is data ingestion?](https://airbyte.com/learn/what-is-data-ingestion)
+- [Google Cloud: Batch vs streaming data processing](https://cloud.google.com/architecture/batch-vs-streaming-data) 
+- [Snowflake: Data ingestion patterns](https://docs.snowflake.com/en/user-guide/data-load-overview)
 
-[[ETL]] · [[ELT]] · [[CDC (Change Data Capture)]] · [[Batch vs Streaming]] · [[Data Pipeline]] · [[Data Warehouse]] · [[Data Lakehouse]] · [[Data Quality]] · [[Orchestration & DAGs]]
-
----
+## Terms
+[[batch]], [[streaming]], [[connector]], [[schema-on-write]], [[schema-on-read]], [[CDC]], [[idempotency]], [[deduplication]], [[ordering]], [[backpressure]], [[latency]], [[throughput]], [[dead-letter queue]], [[SLA]], [[checkpointing]], [[upsert]], [[exactly-once delivery]], [[at-least-once delivery]], [[observability]], [[PII]]

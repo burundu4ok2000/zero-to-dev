@@ -1,68 +1,121 @@
-
-> **One-liner:** ETL is the process of **Extract → Transform → Load** for moving data from sources to an analytics-ready destination. [[30_Knowledge/00_Hub/Concepts]]
+---
+title: "ETL"
+lang_tags: "#lang/python"
+type_tags: "#type/concept"
+course_tags: ""
+lecture_tags: ""
+tool_tags: "#tool/orchestration/airflow"
+atom_idx: 01
+status: "in-progress"
+difficulty: "medium"
+date: "2025-08-12"
+timecode: ""
+source: ""
+review_next: "2025-09-12"
+---
 
 ---
 
-## **The Big Idea**
-
-  
-
-**ETL** is a repeatable pipeline that **collects raw data**, **cleans/shapes it**, and **stores** the result in a system built for analysis (e.g., a **data warehouse** or **lakehouse**).
-
-Goal: turn messy inputs into **trustworthy, structured tables** for dashboards, reports, and ML.
+![[ETL.png]]
 
 ---
+## **One-liner**
+**ETL** (**Extract → Transform → Load**) cleans, standardizes, and reshapes data **before** loading it into the **data warehouse** so only curated, governance-compliant datasets land inside.
 
-## **The Three Steps (at a glance)**
+## The Big Idea
+- Transforms happen on **external compute** (Python/**Spark**, Beam, SQL-on-files, vendor tools) and produce **curated outputs** that the warehouse simply ingests.
+- Fits teams with strong **data engineering** chops and strict **compliance** (e.g., **PII** needs masking/tokenization **pre-load**).
+- Reduces warehouse churn and storage of sensitive **raw** data; trades that for more moving parts and infra to operate.
+- Often coexists with **ELT**. Use ETL for privacy-critical or non-SQL-heavy logic; use ELT for mainstream analytics models.
 
-|**Step**|**What it means (plain English)**|**Tiny example**|
-|---|---|---|
-|**Extract**|Pull data from sources (APIs, files, databases).|Download yesterday’s orders as JSON.|
-|**Transform**|Clean, validate, and reshape the data.|Fix dates, dedupe by order_id.|
-|**Load**|Write the final result to the destination.|Upsert into analytics.orders table.|
-
-Minimal flow:
+## Core Workflow
+1) **Extract** — pull from DBs (**CDC**/**binlog**), SaaS APIs, files, or streams into a **staging** area.  
+2) **Transform** — run cleansing, type-casting, joins, aggregations, and **SCD** handling on external engines; write outputs as **partitioned**/versioned files (Parquet) or temp tables.  
+3) **Load** — **idempotent** insert/merge into final warehouse tables (facts/dimensions or wide curated tables).
 
 ```
-[ Sources ] → Extract → Transform → Load → [ Warehouse/Lakehouse ]
+sources  -> staging -> external compute (Spark/Python) -> curated artifacts -> warehouse load
 ```
 
----
+## Reliability & Governance
+- **Idempotency**: stable keys + **UPSERT/MERGE**; retries with **exponential backoff**.  
+- **Schema management**: contracts, evolution rules, validation; **DLQ** for bad records.  
+- **Security**: **PII** masking/tokenization/redaction **before** the warehouse; secrets in a vault; **TLS** everywhere.  
+- **Observability**: pipeline **metrics/logs/traces**, row counts, freshness **SLA/SLO**.
 
-## **Why It Exists (beginner-friendly)**
+## Performance Notes
+- **Parallel extraction** (by key ranges or time windows), **chunking**, and **backpressure**.  
+- Write **columnar** (Parquet/ORC), **partition** by date/entity, and compact small files.  
+- Push heavy joins/aggregations to **Spark**/**Beam**; keep loads **append-only** then merge in the warehouse during a short maintenance window.
 
-- **Raw data is messy:** missing values, different formats, duplicates.
-    
-- **Analytics need structure:** typed columns, clear keys, stable schemas.
-    
-- **Repeatability:** the same steps run on a schedule and produce the same result.
-    
+## Example: Airflow DAG for ETL (conceptual)
+```python
+from airflow import DAG
+from airflow.operators.empty import EmptyOperator
+from airflow.operators.bash import BashOperator
+from datetime import datetime
 
----
+with DAG("etl_orders", start_date=datetime(2025, 1, 1), schedule="@hourly", catchup=False) as dag:
+    start = EmptyOperator(task_id="start")
 
-## **Tiny Pseudo-Example**
+    extract = BashOperator(
+        task_id="extract_orders",
+        bash_command="python etl/extract_orders.py --since { ds } --out s3://raw/orders/{ ds }"
+    )
 
+    transform = BashOperator(
+        task_id="transform_orders",
+        bash_command="spark-submit etl/transform_orders.py s3://raw/orders/{ ds } s3://curated/orders/{ ds }"
+    )
+
+    load = BashOperator(
+        task_id="load_to_warehouse",
+        bash_command="python etl/load_orders.py --src s3://curated/orders/{ ds } --table analytics.orders"
+    )
+
+    start >> extract >> transform >> load
 ```
-1) Extract: read orders_2025-08-02.json from the API
-2) Transform: keep paid orders, parse timestamps, drop duplicates by order_id
-3) Load: upsert rows into analytics.orders (safe to rerun)
+
+## Example: Spark transform step (conceptual)
+```python
+from pyspark.sql import SparkSession, functions as F
+
+spark = SparkSession.builder.getOrCreate()
+df = spark.read.parquet("s3://raw/orders/2025-08-12")
+
+clean = (df
+    .withColumn("order_ts", F.to_timestamp("order_ts"))
+    .withColumn("email", F.lower(F.col("email")))
+    .filter(F.col("status").isin("paid","shipped"))
+)
+
+# partitioned, compressed Parquet
+(clean
+ .repartition(8, "order_date")
+ .write.mode("overwrite")
+ .partitionBy("order_date")
+ .parquet("s3://curated/orders/2025-08-12"))
 ```
 
----
+## Common Gotchas
+- Skipping a clear **grain** in facts leads to duplicates and broken sums.  
+- Forgetting **late-arriving** data and **SCD Type 2** rules rewrites history silently.  
+- Writing tons of tiny files kills downstream performance—**compact** aggressively.  
+- No **data contract** → schema drift breaks loads without alerts.
 
-## **See also**
+## Related Concepts
+- [[ELT vs ETL]] – decision trade-offs and when to prefer each.  
+- [[ELT]] – load raw then transform inside the warehouse.  
+- [[Data Ingestion]] – connectors and landing patterns feeding ETL.  
+- [[Data Warehouse]] – curated home for analytics-ready tables.  
+- [[Data Lake]] – object storage layer for raw/staged/curated files.  
+- [[Orchestration]] – scheduling dependencies and retries (Airflow, Dagster).  
+- [[Dimensional Modeling]] – facts/dimensions and SCD handling.
 
-- [[ELT vs ETL]] — when to transform **before** vs **inside** the warehouse
-    
-- [[Data Warehouse]] — the typical ETL destination
-    
-- [[Data Lakehouse]] — files + tables with ACID
-    
-- [[Data Quality]] — tests for freshness, uniqueness, validity
-    
-- [[Orchestration & DAGs]] — scheduling and monitoring pipelines
-    
-- [[CDC (Change Data Capture)]] — capturing row changes from sources
-    
+## See Also
+- [Apache Airflow: Concepts](https://airflow.apache.org/docs/apache-airflow/stable/concepts/index.html)
+- [Databricks: ETL Best Practices](https://docs.databricks.com/en/delta/best-practices/etl.html)
+- [AWS Glue: What is ETL?](https://docs.aws.amazon.com/glue/latest/dg/what-is-glue.html)
 
----
+## Terms
+[[extract]], [[transform]], [[load]], [[staging area]], [[CDC]], [[binlog]], [[SCD Type 2]], [[UPSERT]], [[MERGE]], [[idempotency]], [[deduplication]], [[partitioning]], [[Parquet]], [[object storage]], [[DLQ]], [[tokenization]], [[masking]], [[vault]], [[exponential backoff]], [[backpressure]], [[freshness]], [[SLA]], [[observability]]
