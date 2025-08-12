@@ -1,16 +1,16 @@
 ---
-title: "Massachusetts Institute of Technology"  
-lang_tags: "#lang/general"
+title: Massachusetts Institute of Technology
+lang_tags: 
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_scratch"
 tool_tags: ""
-atom_idx: 08
-status: "done"
-difficulty: "easy"
-date: "2025-08-12"
+atom_idx: 8
+status: done
+difficulty: easy
+date: 2025-08-12
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/0/"
+source: https://cs50.harvard.edu/x/2025/weeks/0/
 review_next: ""
 ---
 

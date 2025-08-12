@@ -1,6 +1,6 @@
 ---
 title: Lecture 0 - Harvard University (USA)
-lang_tags: "#lang/misc"
+lang_tags: 
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_Scratch"

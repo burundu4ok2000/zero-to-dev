@@ -1,6 +1,6 @@
 ---
 title: ASCII Basics
-lang_tags: "#lang/c"
+lang_tags: 
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_Scratch"

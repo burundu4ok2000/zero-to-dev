@@ -1,6 +1,6 @@
 ---
 title: Inflatable Duck 🦆 (CS50 Prop)
-lang_tags: "#lang/tools"
+lang_tags: 
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_scratch"

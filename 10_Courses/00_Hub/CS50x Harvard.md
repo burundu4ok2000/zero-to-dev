@@ -112,7 +112,7 @@
 - [[Stack of Apples (CS50 Prop)]]
 - [[Ternary Computers]]
 - [[Unicode and Emojis]]
-- [[University of Cambridge (UK)]]
+- [[01_OLD_NOTES/Lecture 0 - Scratch/University of Cambridge (UK)]]
 - [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]
 
 ---

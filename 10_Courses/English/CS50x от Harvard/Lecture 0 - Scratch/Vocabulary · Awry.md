@@ -1,3 +1,10 @@
+---
+title: "Vocabulary · Awry"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
 ## 📖 Definition
 
 **Awry** *(adverb & adjective)* — means **off-course, wrong, or not as expected**.

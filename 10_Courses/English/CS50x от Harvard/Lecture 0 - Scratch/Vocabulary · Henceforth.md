@@ -1,3 +1,12 @@
+---
+title: "Vocabulary · Henceforth"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
+
 ## 📖 Definition
 
 **Henceforth** *(adverb)* — a formal way to say **"from now on"** or **"starting now and continuing into the future."*

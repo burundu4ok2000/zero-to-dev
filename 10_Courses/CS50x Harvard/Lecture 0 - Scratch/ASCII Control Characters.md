@@ -1,16 +1,16 @@
 ---
-title: "ASCII Control Characters"  
-lang_tags: "#lang/fundamentals"
+title: ASCII Control Characters
+lang_tags: 
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_0_Scratch"
 tool_tags: ""
-atom_idx: 04
-status: "done"
-difficulty: "easy"
-date: "2025-08-11"
+atom_idx: 4
+status: done
+difficulty: easy
+date: 2025-08-11
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/0/"
+source: https://cs50.harvard.edu/x/2025/weeks/0/
 review_next: ""
 ---
 

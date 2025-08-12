@@ -1,4 +1,4 @@
-
+Vocabulary · AGENDA
 ---
 title: ""
 sourse: ""
@@ -8,12 +8,6 @@ date: "{{date:YYYY-MM-DD}}"                        # дата создания
 source: "{{Lecture URL}}"                          # ссылка на источник в интернете
 review_next: ""                                    # YYYY-MM-DD для повторения 
 ---
-
-
-
-
-
-
 
 ## 📖 Definition  
 **AGENDA** *(noun)* — a **list of items to be discussed, done, or accomplished**, usually in a meeting or plan.  
