@@ -50,5 +50,3 @@ Always quote vocabulary and add an article (*a / the*).
 Share your sentences for feedback! 🌟
 
 ---
-
-[[English]] [[CS50x Harvard]] [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]

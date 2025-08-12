@@ -33,4 +33,3 @@ binary · runnable file · program · compiled build
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

@@ -31,4 +31,3 @@ information overload · avalanche of data · torrent · flood · barrage
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

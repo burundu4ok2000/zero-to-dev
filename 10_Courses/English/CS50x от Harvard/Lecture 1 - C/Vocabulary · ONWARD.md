@@ -30,4 +30,3 @@ Pair it with **from** or **today/now** for clarity.”
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

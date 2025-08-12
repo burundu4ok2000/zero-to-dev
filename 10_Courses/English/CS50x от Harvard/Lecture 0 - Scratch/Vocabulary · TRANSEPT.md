@@ -37,4 +37,4 @@ In Sanders Theatre, the **transept** is the side-hall area where CS50 students t
 
 ---
 
-[[English]] [[CS50x Harvard]] [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]] [[Sanders Theatre]]
+[[Sanders Theatre]]

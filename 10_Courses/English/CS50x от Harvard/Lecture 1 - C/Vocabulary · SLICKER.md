@@ -39,4 +39,3 @@ He means that **shorthand operators** (like `x *= 5;`) look **cleaner and more e
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]
