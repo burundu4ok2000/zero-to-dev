@@ -85,7 +85,7 @@
 
 ### 💡 Concepts & Course Notes
 - [[Vocabulary · PRECISE]]
-- [[M2 Chip — What Voltage Do Its Transistors Use?]]
+- [[01_OLD_NOTES/Lecture 0 - Scratch/M2 Chip — What Voltage Do Its Transistors Use?]]
 - [[Artificial Intelligence]]
 - [[01_OLD_NOTES/Lecture 0 - Scratch/Artificial Intelligence · CS50x Week 0]]
 - [[ASCII and Its Limitations]]
