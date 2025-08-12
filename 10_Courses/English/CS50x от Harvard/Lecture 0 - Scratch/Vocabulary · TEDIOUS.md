@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · TEDIOUS"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ## 📖 Definition  
 **TEDIOUS** *(adjective)* — something that feels **long, dull, or repetitive**, so it becomes tiresome.
 

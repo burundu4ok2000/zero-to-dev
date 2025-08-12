@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · TEDIOUSLY"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ### 📖 Definition  
 **Tediously** *(sentence adverb / manner adverb)* — describes an action done in a **slow, boring, and tiresome** way; so repetitive or detailed that it tests one’s patience.
 

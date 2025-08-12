@@ -1,12 +1,10 @@
 Vocabulary · AGENDA
 ---
-title: ""
-sourse: ""
-status: ""                                         # draft | in-progress | review | done
-difficulty: ""                                     # na|easy|medium|hard
-date: "{{date:YYYY-MM-DD}}"                        # дата создания
-source: "{{Lecture URL}}"                          # ссылка на источник в интернете
-review_next: ""                                    # YYYY-MM-DD для повторения 
+title: "Vocabulary · AGENDA"
+status: done
+date: "yyyy-mm-dd"
+source: ""
+review_next: "2025-09-12"
 ---
 
 ## 📖 Definition  

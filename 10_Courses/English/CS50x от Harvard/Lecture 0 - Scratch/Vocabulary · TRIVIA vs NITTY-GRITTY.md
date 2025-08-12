@@ -1,4 +1,10 @@
-  [[English]]  [[CS50x Harvard]]  [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]
+---
+title: "Vocabulary · TRIVIA vs NITTY-GRITTY"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
 
 ---
 

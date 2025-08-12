@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · TRANSEPT"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ![[Screenshot 2025-06-25 at 10.14.57.png]]
 ## 📖 Definition  
 **TRANSEPT** *(noun)* — the shorter, cross-wise arm of a large church that intersects the main aisle (the **nave**), forming a cross-shaped (cruciform) floor plan.

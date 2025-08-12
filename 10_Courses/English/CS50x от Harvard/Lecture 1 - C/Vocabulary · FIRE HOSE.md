@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · FIRE HOSE"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ## 📖 Definition  
 **FIRE HOSE** *(idiom, sing.)* — a metaphor for an **overwhelming, high-pressure flow of information, tasks, or experience**.  
 • everyday use: “to drink from a fire hose” = to receive more data than you can absorb  

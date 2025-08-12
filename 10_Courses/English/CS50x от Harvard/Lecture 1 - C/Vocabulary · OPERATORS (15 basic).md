@@ -1,4 +1,10 @@
-
+---
+title: "Vocabulary · OPERATORS (15 basic)"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
 ## 📖 Definition  
 **OPERATORS** *(noun, plural)* — **symbols used to perform actions** in code, such as arithmetic, logic, comparison, or assignment.  
 In this note, we focus on **arithmetic operators** and common **punctuation marks** used in C.
