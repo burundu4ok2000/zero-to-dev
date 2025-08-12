@@ -1,11 +1,3 @@
----
-title: "Vocabulary · QUANTIFY"
-status: done
-date: "2025-08-12"
-source: "#course/cs50x/intoduction_to_CS"
-review_next: "2025-09-12"
----
-
 ![[Screenshot 2025-07-22 at 10.05.29.png]]
 
 ## 📖 Definition  
@@ -47,3 +39,4 @@ He means they’ll try to **measure** or **put a number on** something previousl
 
 ---
 
+[[English]] [[CS50x Harvard]] [[Lecture 2 - Arrays]]

@@ -1,11 +1,3 @@
----
-title: "Vocabulary · SEMICOLON"
-status: done
-date: "2025-08-12"
-source: "#course/cs50x/intoduction_to_CS"
-review_next: "2025-09-12"
----
-
 ## 📖 Definition
 **SEMICOLON** *(noun)* — a punctuation mark “;” used  
 • in English: to separate two closely related independent clauses  
@@ -31,3 +23,4 @@ review_next: "2025-09-12"
 
 ---
 
+[[English]] [[CS50x Harvard]] [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]

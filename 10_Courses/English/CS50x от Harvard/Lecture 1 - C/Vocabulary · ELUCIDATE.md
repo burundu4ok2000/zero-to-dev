@@ -1,11 +1,3 @@
----
-title: "Vocabulary · ELUCIDATE"
-status: done
-date: "2025-08-12"
-source: "#course/cs50x/intoduction_to_CS"
-review_next: "2025-09-12"
----
-
 ## 📖 Definition  
 **ELUCIDATE** *(verb)* — to **make something clear; to explain; to shed light on**.  
 • everyday use: to clarify a difficult topic for better understanding  
@@ -33,3 +25,4 @@ clarify · explain · illuminate · demystify · expound · shed light on
 
 ---
 
+[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]
