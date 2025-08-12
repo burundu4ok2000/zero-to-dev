@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · NITTY-GRITTY"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ### 📖 Definition  
 **Nitty-gritty** *(noun, informal)* — the **most essential, practical, down-to-earth details** of a subject; the core facts you must deal with.
 

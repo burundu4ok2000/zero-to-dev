@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · STEM"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ## 📖 Definition  
 **STEM** *(acronym noun / adjective)* — collective term for the academic fields of **S**cience, **T**echnology, **E**ngineering, and **M**athematics.  
 Used to describe education, careers, or initiatives that emphasize these disciplines.

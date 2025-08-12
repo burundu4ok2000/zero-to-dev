@@ -1,5 +1,11 @@
-
-
+---
+title: "Vocabulary · GLOOM AND DOOM"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+ 
 ## 📖 Definition  
 **GLOOM AND DOOM** *(idiom, noun phrase)* — a phrase used to describe a **very negative or pessimistic outlook**, often about the future.  
 It combines two dark-sounding words:  

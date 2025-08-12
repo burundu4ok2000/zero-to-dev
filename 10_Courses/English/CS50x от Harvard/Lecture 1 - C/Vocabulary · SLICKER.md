@@ -1,4 +1,10 @@
-
+---
+title: "Vocabulary · SLICKER"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
 
 ## 📖 Definition  
 **SLICKER** *(comparative adjective)* — **more smooth, polished, stylish, or efficient** than something else.  

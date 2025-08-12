@@ -1,12 +1,9 @@
-
 ---
-title: ""
-sourse: ""
-status: ""                                         # draft | in-progress | review | done
-difficulty: ""                                     # na|easy|medium|hard
-date: "{{date:YYYY-MM-DD}}"                        # дата создания
-source: "{{Lecture URL}}"                          # ссылка на источник в интернете
-review_next: ""                                    # YYYY-MM-DD для повторения 
+title: "Vocabulary · AGENDA"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
 ---
 
 
