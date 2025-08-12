@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/00_Hub/CS50x Harvard.md",
+                "file": "10_Courses/00_Hub/CS50x Harvard - Course Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS50x Harvard"
+              "title": "CS50x Harvard - Course Overview"
             }
           },
           {
@@ -244,6 +244,9 @@
   },
   "active": "42bf19ab6a4a5f4a",
   "lastOpenFiles": [
+    "10_Courses/00_Hub/CS50x Harvard - Course Overview.md",
+    "10_Courses/00_Hub/CS50x Harvard.md",
+    "CS50x Harvard.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
     "10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch.md",
     "10_Courses/CS50x Harvard/00_Lectures/Lecture 3 - Algorithms.md",
@@ -251,7 +254,6 @@
     "10_Courses/CS50x Harvard/00_Lectures/Lecture 1 - C.md",
     "10_Courses/10_MOC's/VOCABULARY_MOC.md",
     "10_Courses/10_MOC's",
-    "10_Courses/00_Hub/CS50x Harvard.md",
     "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
     "10_Courses/Apple shortcuts/00_Lessons/Lesson 1 - Shortcut-Ops 101.md",
     "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
@@ -269,8 +271,6 @@
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · EXECUTABLE.md",
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · ELUCIDATE.md",
     "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · CLUNKY.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · BOOLEAN OPERATORS.md",
-    "10_Courses/English/CS50x от Harvard/Lecture 1 - C/Vocabulary · ARCANELY.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch",
     "01_OLD_NOTES/Lecture 0 - Scratch/00_done",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Untitled",
