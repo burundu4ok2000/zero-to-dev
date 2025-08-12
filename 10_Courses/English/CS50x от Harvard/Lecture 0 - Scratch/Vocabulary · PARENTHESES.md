@@ -1,11 +1,3 @@
----
-title: "Vocabulary · PARENTHESES"
-status: done
-date: "2025-08-12"
-source: "#course/cs50x/intoduction_to_CS"
-review_next: "2025-09-12"
----
-
 ## 📖 Definition  
 **PARENTHESES** *(noun, plural)* — the curved brackets “( … )”. Also called *round brackets*.  
 Used to enclose extra information in English and to **group** or **call** things in programming.
@@ -30,3 +22,4 @@ Parentheses “**hug**” what needs to stay together.
 
 ---
 
+[[English]] [[CS50x Harvard]] [[10_Courses/CS50x Harvard/00_Lectures/Lecture 0 - Scratch]]

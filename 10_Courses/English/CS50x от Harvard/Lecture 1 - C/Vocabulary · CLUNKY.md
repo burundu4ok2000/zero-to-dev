@@ -1,11 +1,3 @@
----
-title: "Vocabulary · CLUNKY"
-status: done
-date: "2025-08-12"
-source: "#course/cs50x/intoduction_to_CS"
-review_next: "2025-09-12"
----
-
 ![[Screenshot 2025-07-19 at 13.08.31.png]]
 
 ## 📖 Definition  
@@ -41,3 +33,4 @@ Keep it lean and expressive!
 
 ---
 
+[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]
