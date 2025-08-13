@@ -15,8 +15,6 @@ review_next: "2025-09-12"
 ---
 ![[2025-08-07_15-07-16.png]]
 
-> **Week:** [[Week 3 — Algorithms]]  
-> **Course:** [[CS50x Harvard]]
 
 ## One Liner
 Arrays in C live **contiguously** in memory: elements sit back‑to‑back, so **indexing** is O(1) and sequential loops are cache‑friendly.

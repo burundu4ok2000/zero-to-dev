@@ -1,3 +1,17 @@
+---
+title: "Vocabulary · AGENDA"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
+
+
+
+
+
+
 ## 📖 Definition  
 **AGENDA** *(noun)* — a **list of items to be discussed, done, or accomplished**, usually in a meeting or plan.  
 Originally plural (from Latin), but now treated as a singular noun in English.
@@ -27,4 +41,3 @@ It’s also used in a **figurative** way to talk about someone’s intentions:
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]

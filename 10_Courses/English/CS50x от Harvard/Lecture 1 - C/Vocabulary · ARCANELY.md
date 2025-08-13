@@ -1,3 +1,11 @@
+---
+title: "Vocabulary · ARCANELY"
+status: done
+date: "2025-08-12"
+source: "#course/cs50x/intoduction_to_CS"
+review_next: "2025-09-12"
+---
+
 ## 📖 Definition  
 **ARCANE** *(adjective)* — mysterious, obscure, or understood by only a few people.  
 **ARCANELy** *(adverb)* — *in a mysterious or obscure manner*.  
@@ -27,4 +35,3 @@
 
 ---
 
-[[English]] [[CS50x Harvard]] [[Lecture 1 - C]]
