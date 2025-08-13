@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asymptotic Notation · O, Ω, Θ"
+              "title": "Big-O Notation - Upper Bound (O)"
             }
           }
         ]
@@ -185,13 +185,14 @@
   },
   "active": "c798b28899253c9c",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Human Demo of Divide & Conquer.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Linear Search — Definition & Edge Cases.md",
     "00_MOC_MAIN.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Linear Search — Definition & Edge Cases.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Data Structures — Why They Matter.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation via functions.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black-box abstraction in functions.md",
