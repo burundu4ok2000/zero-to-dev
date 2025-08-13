@@ -2,7 +2,7 @@
 title: Arithmetic Operators in C
 lang_tags: "#lang/c"
 type_tags: "#type/cheatsheet"
-course_tags: "#course/cs50x/introduction_to_CS"
+course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#shorts/week_1_C/operators"
 tool_tags: ""
 atom_idx: 2
