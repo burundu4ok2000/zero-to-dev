@@ -32,11 +32,11 @@ The **asymptotic notation** family — **O** (upper bound), **Ω** (lower bound)
 Together they let you reason precisely without over‑ or under‑promising.
 
 ## When to use which
-| Goal | Use | Example statement |
-|---|---|---|
-| Guarantee an algorithm won’t exceed some cost | **O** | “Linear search is **O(n)** in the worst case.” |
-| Prove inherent difficulty / best‑case floor | **Ω** | “Any comparison sort is **Ω(n log n)** comparisons.” |
-| Show tight growth rate (best=avg=worst in order) | **Θ** | “Binary search is **Θ(log n)** on a sorted array.” |
+| Goal                                             | Use   | Example statement                                    |
+| ------------------------------------------------ | ----- | ---------------------------------------------------- |
+| Guarantee an algorithm won’t exceed some cost    | **O** | “Linear search is **O(n)** in the worst case.”       |
+| Prove inherent difficulty / best‑case floor      | **Ω** | “Any comparison sort is **Ω(n log n)** comparisons.” |
+| Show tight growth rate (best=avg=worst in order) | **Θ** | “Binary search is **Θ(log n)** on a sorted array.”   |
 
 ## Rules of thumb
 - Ignore **constant factors** and **lower‑order terms**: they don’t change the class.
