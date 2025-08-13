@@ -1,62 +1,20 @@
 {
   "main": {
-    "id": "8062afe80d7d1aeb",
+    "id": "b56a673ba6558239",
     "type": "split",
     "children": [
       {
-        "id": "c11ecd85e00eff4a",
+        "id": "132050f3f93388f9",
         "type": "tabs",
         "children": [
           {
-            "id": "42bf19ab6a4a5f4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30_Knowledge/10_Concepts/Data Observability & Lineage (OpenLineage-Marquez).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Data Observability & Lineage (OpenLineage-Marquez)"
-            }
-          },
-          {
-            "id": "9972aff3dee5d0fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Arithmetic Operators in C"
-            }
-          },
-          {
-            "id": "5a13c113591b636f",
+            "id": "c798b28899253c9c",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
-            }
-          },
-          {
-            "id": "fb697b8aaf3c3482",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture atom note template for Chat GPT"
             }
           }
         ]
@@ -65,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "2045103260565c21",
+    "id": "64cd4fa1757977a9",
     "type": "split",
     "children": [
       {
-        "id": "8310eeecdd7a83e3",
+        "id": "91c02c1fc69db23f",
         "type": "tabs",
         "children": [
           {
-            "id": "98ba81797ec4cac7",
+            "id": "7ec63055e5d98111",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -86,12 +44,12 @@
             }
           },
           {
-            "id": "0179f996fa0ad615",
+            "id": "20a9493fc1a6b41e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#security",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +61,7 @@
             }
           },
           {
-            "id": "d2c3a442512bec79",
+            "id": "4b29c31fddd8930c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -116,23 +74,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 300
   },
   "right": {
-    "id": "f26c69b17bb5c656",
+    "id": "d6e33cb07f08850f",
     "type": "split",
     "children": [
       {
-        "id": "c96e43cabfa80b2d",
+        "id": "fe89ec64631ced51",
         "type": "tabs",
         "children": [
           {
-            "id": "2b676894f023d5f9",
+            "id": "d73038f9a829470f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
+                "file": "30_Knowledge/10_Concepts/Query Optimization Basics & EXPLAIN Lite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Query Optimization Basics & EXPLAIN Lite"
             }
           },
           {
-            "id": "c74d94a4eddbbb10",
+            "id": "08874867d8f6403e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
+                "file": "30_Knowledge/10_Concepts/Query Optimization Basics & EXPLAIN Lite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links from Query Optimization Basics & EXPLAIN Lite"
             }
           },
           {
-            "id": "f42f3ec91c16bb7a",
+            "id": "5bce260e52dbc4d0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -175,22 +133,22 @@
             }
           },
           {
-            "id": "f22d7ed8121681c2",
+            "id": "13c48666798030ef",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "40_Roadmap/40_Planning Instruments/20_Examples/Untitled.md",
+                "file": "30_Knowledge/10_Concepts/Query Optimization Basics & EXPLAIN Lite.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline of Query Optimization Basics & EXPLAIN Lite"
             }
           },
           {
-            "id": "a7b060f0cd8878a7",
+            "id": "9886ad99ec3d79aa",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -198,29 +156,8 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "157558185669a779",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
-            "id": "c84938991a400892",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,63 +172,35 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false,
-      "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "templater-obsidian:Templater": false,
+      "copilot:Open Copilot Chat": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "42bf19ab6a4a5f4a",
+  "active": "c798b28899253c9c",
   "lastOpenFiles": [
-    "30_Knowledge/10_Concepts/Local Analytics & Arrow-Native Tools (DuckDB-Polars-PyArrow).md",
-    "30_Knowledge/10_Concepts/Data Catalog & Governance (DataHub-OpenMetadata).md",
-    "30_Knowledge/10_Concepts/Data Versioning & Reproducibility (lakeFS-DVC).md",
-    "30_Knowledge/10_Concepts/Cloud IAM & Networking Basics for Data Pipelines.md",
-    "30_Knowledge/10_Concepts/CI-CD for Data (GitHub Actions, dbt build, Airflow deploy).md",
-    "30_Knowledge/10_Concepts/Data Observability & Lineage (OpenLineage-Marquez).md",
-    "30_Knowledge/10_Concepts/Lakehouse Table Formats (Delta vs Iceberg vs Hudi).md",
-    "30_Knowledge/10_Concepts/Data Formats & Compression for Analytics (CSV-JSON-Parquet-ORC).md",
-    "30_Knowledge/10_Concepts/Data Ingestion.md",
-    "30_Knowledge/10_Concepts/Data Contracts & Schema Management (Avro-Protobuf-JSON Schema).md",
-    "30_Knowledge/10_Concepts/Change Data Capture (CDC).md",
-    "30_Knowledge/10_Concepts/SQL Patterns & Window Functions for Data Engineers.md",
-    "30_Knowledge/10_Concepts/Spark Basics for Data Engineering.md",
-    "30_Knowledge/10_Concepts/Docker for Data Engineering.md",
-    "30_Knowledge/10_Concepts/dbt Core Concepts.md",
-    "30_Knowledge/10_Concepts/Stream Processing & Kafka Fundamentals.md",
-    "30_Knowledge/10_Concepts/Data Quality & Testing (Great Expectations).md",
-    "30_Knowledge/10_Concepts/Orchestration & Scheduling (Airflow-Cron-Dagster).md",
-    "30_Knowledge/10_Concepts/Data Lake vs Lakehouse.md",
-    "30_Knowledge/10_Concepts/Medallion Architecture (Bronze-Silver-Gold).md",
-    "30_Knowledge/10_Concepts/Dimensional Modeling (Kimball).md",
-    "30_Knowledge/Medallion Architecture (Bronze-Silver-Gold).md",
-    "30_Knowledge/10_Concepts/ELT.md",
-    "30_Knowledge/Dimensional Modeling (Kimball).md",
-    "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
-    "40_Roadmap/30_Roadmap/10_DR/Путь в Data Engineering и переезд в США за 12 месяцев.md",
-    "98_Images/2025-08-07_20-21-14.png",
-    "98_Images/2025-08-07_20-16-30.png",
-    "98_Images/2025-08-07_19-59-33.png",
-    "98_Images/2025-08-07_19-44-21.png",
-    "98_Images/2025-08-07_18-45-30.png",
-    "98_Images/2025-08-07_18-44-26.png",
-    "98_Images/2025-08-07_18-04-16.png",
-    "98_Images/2025-08-07_18-00-05.png",
-    "98_Images/2025-08-07_17-58-20.png",
-    "98_Images/2025-08-07_17-28-56.png",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms",
-    "10_Courses/10_MOC's",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch",
-    "01_OLD_NOTES/Lecture 0 - Scratch/00_done",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Untitled",
-    "01_OLD_NOTES/Lecture 1 - C/00_done",
-    "01_OLD_NOTES/Lecture 1 - C/done",
-    "10_Courses/CS50x Harvard/Lecture 1 - C",
-    "01_OLD_NOTES/Lecture 1 - C",
-    "Lecture 1 - C",
-    "40_Roadmap/30_Roadmap/Roadmap.canvas",
-    "98_Images/Untitled.canvas",
-    "98_Images/Untitled 1.canvas"
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+    "00_MOC_MAIN.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation via functions.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black-box abstraction in functions.md",
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Assembly basics — reading compiler output.md",
+    "30_Knowledge/10_Concepts/Query Optimization Basics & EXPLAIN Lite.md",
+    "30_Knowledge/10_Concepts/Dates, Times & Time Zones in SQL.md",
+    "30_Knowledge/10_Concepts/DML Basics (INSERT, UPDATE, DELETE, UPSERT).md",
+    "30_Knowledge/10_Concepts/Table Design & Constraints (PK, FK, UNIQUE, CHECK, NOT NULL).md",
+    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics.md",
+    "30_Knowledge/10_Concepts/Ordering & Pagination (ORDER BY, LIMIT-OFFSET, Keyset).md",
+    "30_Knowledge/10_Concepts/Filtering & Predicates (WHERE, IN, BETWEEN, LIKE).md",
+    "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING.md",
+    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics .md",
+    "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING .md",
+    "30_Knowledge/10_Concepts/Set Operations & DISTINCT.md",
+    "30_Knowledge/10_Concepts/Join Types 101 (INNER, LEFT, RIGHT, FULL, CROSS).md",
+    "30_Knowledge/10_Concepts/SQL Data Types & Casting Essentials.md",
+    "30_Knowledge/10_Concepts/SQL NULL & Three-Valued Logic.md"
   ]
 }
