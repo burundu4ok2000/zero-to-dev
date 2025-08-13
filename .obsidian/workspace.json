@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
+                "file": "30_Knowledge/10_Concepts/Medallion Architecture (Bronze-Silver-Gold).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Big-O Notation - Upper Bound (O)"
+              "title": "Medallion Architecture (Bronze-Silver-Gold)"
             }
           }
         ]
@@ -185,14 +185,18 @@
   },
   "active": "c798b28899253c9c",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+    "30_Knowledge/10_Concepts/Table Design & Constraints (PK, FK, UNIQUE, CHECK, NOT NULL).md",
+    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics.md",
+    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
+    "30_Knowledge/70_Snippets/PNG compression 5-30% ffmpeg.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Human Demo of Divide & Conquer.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Linear Search — Definition & Edge Cases.md",
     "00_MOC_MAIN.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Data Structures — Why They Matter.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation via functions.md",
     "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black-box abstraction in functions.md",
@@ -200,16 +204,12 @@
     "30_Knowledge/10_Concepts/Query Optimization Basics & EXPLAIN Lite.md",
     "30_Knowledge/10_Concepts/Dates, Times & Time Zones in SQL.md",
     "30_Knowledge/10_Concepts/DML Basics (INSERT, UPDATE, DELETE, UPSERT).md",
-    "30_Knowledge/10_Concepts/Table Design & Constraints (PK, FK, UNIQUE, CHECK, NOT NULL).md",
-    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics.md",
     "30_Knowledge/10_Concepts/Ordering & Pagination (ORDER BY, LIMIT-OFFSET, Keyset).md",
     "30_Knowledge/10_Concepts/Filtering & Predicates (WHERE, IN, BETWEEN, LIKE).md",
     "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING.md",
     "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics .md",
     "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING .md",
     "30_Knowledge/10_Concepts/Set Operations & DISTINCT.md",
-    "30_Knowledge/10_Concepts/Join Types 101 (INNER, LEFT, RIGHT, FULL, CROSS).md",
-    "30_Knowledge/10_Concepts/SQL Data Types & Casting Essentials.md",
-    "30_Knowledge/10_Concepts/SQL NULL & Three-Valued Logic.md"
+    "30_Knowledge/10_Concepts/Join Types 101 (INNER, LEFT, RIGHT, FULL, CROSS).md"
   ]
 }
