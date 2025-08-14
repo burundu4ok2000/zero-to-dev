@@ -200,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,6 +220,16 @@
   },
   "active": "784bd36678e00f58",
   "lastOpenFiles": [
+    "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
+    "30_Knowledge/10_Concepts/Data Formats & Compression for Analytics (CSV-JSON-Parquet-ORC).md",
+    "copilot-custom-prompts/Translate to Russian.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "30_Knowledge/80_Termins/Amortized analysis.md",
     "30_Knowledge/80_Termins",
     "54A61231-E0EC-4E02-A93C-E36295D6F984.png",
@@ -231,7 +240,6 @@
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING.md",
     "00_Inbox/Untitled Kanban 3.md",
     "00_Inbox/Untitled Kanban 2.md",
@@ -239,15 +247,6 @@
     "00_Inbox/Untitled Kanban.md",
     "30_Knowledge/10_Concepts/Medallion Architecture (Bronze-Silver-Gold).md",
     "30_Knowledge/10_Concepts/Table Design & Constraints (PK, FK, UNIQUE, CHECK, NOT NULL).md",
-    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics.md",
-    "30_Knowledge/50_HowTo/Registration on LinkedIn by Russian nationals (August 2025).md",
-    "30_Knowledge/70_Snippets/PNG compression 5-30% ffmpeg.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Human Demo of Divide & Conquer.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Linear Search — Definition & Edge Cases.md",
-    "00_MOC_MAIN.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Data Structures — Why They Matter.md"
+    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics.md"
   ]
 }
