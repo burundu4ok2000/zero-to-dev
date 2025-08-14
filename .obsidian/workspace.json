@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+                "file": "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Termin note template for Chat GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asymptotic Notation · O, Ω, Θ"
+              "title": "Termin note template for Chat GPT"
+            }
+          },
+          {
+            "id": "f293d1c7d332f150",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://en.wikipedia.org/wiki/Big_O_notation",
+                "title": "Big O notation - Wikipedia",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Big O notation - Wikipedia"
             }
           }
         ]
@@ -186,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +219,15 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "86ac3a742a5d803f",
+  "active": "784bd36678e00f58",
   "lastOpenFiles": [
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Vocabulary word template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Termin note template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING.md",
     "00_Inbox/Untitled Kanban 3.md",
     "00_Inbox/Untitled Kanban 2.md",
@@ -218,19 +240,12 @@
     "30_Knowledge/70_Snippets/PNG compression 5-30% ffmpeg.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Human Demo of Divide & Conquer.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Linear Search — Definition & Edge Cases.md",
     "00_MOC_MAIN.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Arithmetic Operators in C.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Data Structures — Why They Matter.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation via functions.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Black-box abstraction in functions.md",
-    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Assembly basics — reading compiler output.md",
-    "30_Knowledge/10_Concepts/Query Optimization Basics & EXPLAIN Lite.md",
-    "30_Knowledge/10_Concepts/Dates, Times & Time Zones in SQL.md",
-    "30_Knowledge/10_Concepts/DML Basics (INSERT, UPDATE, DELETE, UPSERT).md",
-    "30_Knowledge/10_Concepts/Ordering & Pagination (ORDER BY, LIMIT-OFFSET, Keyset).md"
+    "10_Courses/CS50x Harvard/Lecture 2 - Arrays/Array mutation via functions.md"
   ]
 }
