@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Asymptotic Notation · O, Ω, Θ"
-            }
-          },
-          {
-            "id": "f293d1c7d332f150",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://en.wikipedia.org/wiki/Big_O_notation",
-                "title": "Big O notation - Wikipedia",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Big O notation - Wikipedia"
+              "title": "Theta Notation - Tight Bound (Θ)"
             }
           }
         ]
@@ -218,8 +204,74 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "784bd36678e00f58",
+  "floating": {
+    "id": "92b660c8cd69279b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "e725ac3f45726a75",
+        "type": "window",
+        "children": [
+          {
+            "id": "2d90fe44ba460a49",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6d7c644a3abfc2ee",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://www.obsidiancopilot.com/en",
+                    "title": "Copilot for Obsidian - The Ultimate AI Assistant for Your Second Brain",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Copilot for Obsidian - The Ultimate AI Assistant for Your Second Brain"
+                }
+              },
+              {
+                "id": "9de133df92c2e4a2",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://www.youtube.com/watch?v=WxcBEXkQoSE&t=121s",
+                    "title": "Creating the MOST POWERFUL AI Agent for Your Second Brain - YouTube",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Creating the MOST POWERFUL AI Agent for Your Second Brain - YouTube"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 33,
+        "width": 1470,
+        "height": 923,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "9de133df92c2e4a2",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Omega Notation - Lower Bound (Ω).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Termin note template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Vocabulary word template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
+    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/CheatSheet template for Chat GPT.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
     "30_Knowledge/05_Obsidian/YAML standart for Obsidian.md",
     "30_Knowledge/10_Concepts/Data Formats & Compression for Analytics (CSV-JSON-Parquet-ORC).md",
     "copilot-custom-prompts/Translate to Russian.md",
@@ -228,25 +280,13 @@
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
     "30_Knowledge/80_Termins/Amortized analysis.md",
     "30_Knowledge/80_Termins",
     "54A61231-E0EC-4E02-A93C-E36295D6F984.png",
     "00_Inbox/Potential method.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Termin note template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Vocabulary word template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Tag list for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
-    "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Concept template for Chat GPT.md",
     "30_Knowledge/10_Concepts/Aggregations & GROUP BY and HAVING.md",
     "00_Inbox/Untitled Kanban 3.md",
     "00_Inbox/Untitled Kanban 2.md",
-    "00_Inbox/Untitled Kanban 1.md",
-    "00_Inbox/Untitled Kanban.md",
-    "30_Knowledge/10_Concepts/Medallion Architecture (Bronze-Silver-Gold).md",
-    "30_Knowledge/10_Concepts/Table Design & Constraints (PK, FK, UNIQUE, CHECK, NOT NULL).md",
-    "30_Knowledge/10_Concepts/Subqueries & EXISTS Basics.md"
+    "00_Inbox/Untitled Kanban 1.md"
   ]
 }

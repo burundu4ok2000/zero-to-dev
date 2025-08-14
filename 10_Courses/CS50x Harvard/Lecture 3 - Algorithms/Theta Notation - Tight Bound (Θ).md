@@ -22,6 +22,9 @@ review_next: "2025-09-12"
 ## Summary
 **Θ (theta)** expresses a **tight bound**: the running time grows *both* no faster than and no slower than some function of **n**. Use it when an algorithm’s **best-, average-, and worst-case** are the **same order** asymptotically.
 
+## Very simple
+Theta (Θ) is like a way to say how long something takes to do. Imagine you have a toy car that always takes about the same time to go from start to finish, no matter what. Theta is like saying, "It will take about this much time, no matter what." It helps us understand that the time it takes doesn’t change much—it’s always about the same amount.
+
 ## Big picture (for the trio)
 - This note: **Θ** — the **tight bound** view (what it *is exactly* up to constants).
 - Next note: **Ω** — the **lower bound** (what any input guarantees at least).

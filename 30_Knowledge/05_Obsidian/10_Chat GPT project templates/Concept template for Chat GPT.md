@@ -26,6 +26,14 @@ review_next: ""                                    # YYYY-MM-DD для повт�
 
 > (short definition or description in 1-2 sentence). 
 
+
+## Very simple
+
+> Explain {} in simple terms that a 5-year-old would understand:
+    1. Use basic vocabulary
+    2. Include simple analogies
+    3. Break down complex concepts
+
 ## The Big Idea 
 <!-- Развернутое объяснение концепции. Без воды, только самое важное-->
 - ...

@@ -26,6 +26,13 @@ review_next: ""                                    # YYYY-MM-DD для повт�
 ## Summary
 <!-- 1–2 предложения, суть этой мысли/тезиса. -->
 
+## Very simple
+
+> Explain {} in simple terms that a 5-year-old would understand:
+    1. Use basic vocabulary
+    2. Include simple analogies
+    3. Break down complex concepts
+
 ## Key Points
 - <!-- **Основные идеи и тезисы**  списком. -->
 - <!-- ... -->
