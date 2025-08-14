@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30_Knowledge/10_Concepts/Dimensional Modeling (Kimball).md",
+                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dimensional Modeling (Kimball)"
+              "title": "Theta Notation - Tight Bound (Θ)"
             }
           }
         ]
@@ -144,8 +144,8 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       },
       {
@@ -154,8 +154,8 @@
         "state": {
           "type": "git-view",
           "state": {},
-          "icon": "git-pull-request",
-          "title": "Source Control"
+          "icon": "lucide-file",
+          "title": "Plugin no longer active"
         }
       }
     ],
@@ -163,11 +163,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "copilot:Open Copilot Chat": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -178,6 +173,16 @@
   },
   "active": "f33025e53cbbadd0",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Theta Notation - Tight Bound (Θ).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Big-O Notation - Upper Bound (O).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
+    "30_Knowledge/80_Termins/Amortized analysis.md",
+    "00_Inbox/Potential method.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Selection Sort — From Summation to O(n²).md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Data Structures — Why They Matter.md",
+    "54A61231-E0EC-4E02-A93C-E36295D6F984.png",
+    "30_Knowledge/80_Termins",
+    "30_Knowledge/10_Concepts/Dimensional Modeling (Kimball).md",
     "30_Knowledge/10_Concepts/Stream Processing & Kafka Fundamentals.md",
     "30_Knowledge/10_Concepts/Data Formats & Compression for Analytics (CSV-JSON-Parquet-ORC).md",
     "30_Knowledge/10_Concepts/Data Versioning & Reproducibility (lakeFS-DVC).md",
@@ -196,14 +201,6 @@
     "Payhip.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Boolean Operators in C.md",
     "10_Courses/CS50x Harvard/Lecture 1 - C/Terminal Commands Basics.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/CLI.md",
-    "10_Courses/CS50x Harvard/Lecture 1 - C/While Loop Countdown in C.md",
-    "Lesson 1 – Shortcut-Ops 101.md",
-    "10_Courses/Apple shortcuts/Apple shortcuts.md",
-    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Lesson 1 - Shortcut-Ops 101.md",
-    "10_Courses/Apple shortcuts/Program Overview – Shortcuts Mastery 2025.md",
-    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101.md",
-    "10_Courses/00_Course/Program Overview – Shortcuts Mastery 2025.md",
     "Untitled",
     "10_Courses/Apple shortcuts"
   ]
