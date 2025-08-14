@@ -23,7 +23,7 @@ review_next: "2025-09-12"
 
 ## One Liner
 The **asymptotic notation** family — **O** (upper bound), **Ω** (lower bound), **Θ** (tight bound) — describes how an algorithm’s **time/space complexity** scales with **n**.
-
+![[54A61231-E0EC-4E02-A93C-E36295D6F984.png]]
 ## Why three symbols?
 - **O** gives a **ceiling**: your algorithm takes *no more than* this order of work for large **n** (safe **worst‑case** claim).
 - **Ω** gives a **floor**: any algorithm (or your algorithm on some inputs) needs *at least* this much work.
