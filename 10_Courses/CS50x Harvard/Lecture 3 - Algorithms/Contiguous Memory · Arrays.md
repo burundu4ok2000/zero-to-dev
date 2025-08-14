@@ -19,8 +19,14 @@ review_next: "2025-09-12"
 ## One Liner
 Arrays in C live **contiguously** in memory: elements sit back‑to‑back, so **indexing** is O(1) and sequential loops are cache‑friendly.
 
+## Very simple
+Arrays are like a row of boxes placed right next to each other. Each box has a number on it, like 0, 1, 2, and so on. If you want to find a box, you can just count from the start, and it’s very quick. Because the boxes are all in a line, it’s easy for the computer to look at them one after another.
+
 ## Core Idea
-A C **array** reserves a single block of RAM. The block is **contiguous**: address of `a[i+1]` is address of `a[i]` plus `sizeof(element)`. This enables **pointer arithmetic**, fast **iteration**, and predictable **strides**.
+A C **array** reserves a single block of RAM. The block is **contiguous ( смежный )**: address of `a[i+1]` is address of `a[i]` plus `sizeof(element)`. This enables **pointer arithmetic**, fast **iteration**, and predictable **strides**.
+
+## Very simple
+An array is like a row of boxes all in a line. Each box has a number inside. The boxes are next to each other, so if you know where the first box is, you can find the others easily by counting. This makes it quick to look at each box one after the other.
 
 ### Mental Model
 ```
@@ -28,6 +34,9 @@ base → [ a[0] ][ a[1] ][ a[2] ][ a[3] ] …
 addr   0x1000  0x1004  0x1008  0x100C     ← for **int** (4 bytes)
 ```
 Change the type, change the stride: for **char** it’s +1, for **double** it’s +8 (on most platforms).
+
+## Very simple
+Think of an array as a row of boxes. Each box holds one item, like a number or a letter. The address (like a house address) tells you where each box is. For integers, each box is 4 bytes apart. If you change the type, like to a character (which is 1 byte), the boxes are closer together. If you use a double (which is 8 bytes), the boxes are farther apart. So, changing the type changes how far apart the boxes are in memory.
 
 ### Micro‑demo (C)
 ```c
@@ -50,9 +59,9 @@ Reading addresses you’ll see each **element** is exactly one **stride** apart.
 - **Interop**: many **algorithms** (e.g., **binary search**, **merge sort**) assume indexable, contiguous storage.
 
 ## Gotchas
-- **Out‑of‑bounds** is **undefined behavior**; there’s no bounds check.
-- Arrays have **fixed size**; they don’t grow. Use **dynamic memory** (e.g., `malloc`) or **vectors** in higher‑level languages.
-- `sizeof(a)` inside the same scope is bytes of the whole array; when **decayed** to a **pointer** (e.g., passed to a function), size info is lost.
+- **Out‑of‑bounds** means going outside the array. If this happens, the program might do strange things because there is no check to stop you.
+- Arrays have a **fixed size**, which means they cannot get bigger or smaller. If you want an array that can change size, use **dynamic memory** (like `malloc`) or **vectors** in more advanced languages.
+- When you use `sizeof(a)` inside the same part of the code, it tells you how many bytes the whole array takes. But if you pass the array to a function, it becomes a **pointer**, and `sizeof` no longer shows the size of the whole array.
 
 ## Related Concepts
 - [[Arrays in C — Basics]] – foundation for indexing and iteration.
