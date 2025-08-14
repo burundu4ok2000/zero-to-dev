@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Running Time - Big-O (O(n), O(n_div_2), O(log2 n)).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -249,7 +249,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -271,7 +271,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "86ac3a742a5d803f",
+  "active": "e770e8d175ba0b5c",
   "lastOpenFiles": [
     "00_MOC_MAIN.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
