@@ -20,21 +20,21 @@ review_next: "2025-09-12"
 ---
 
 ## Summary
-Why **data structures** matter: they let one variable manage **bunches of things** efficiently, shaping your algorithm’s **time** and **space** costs. Choosing the right container is often a bigger win than micro-optimizing code.
+Why **data structures** are important: they help one variable hold **lots of things** easily. They also affect how fast and how much space your program uses. Picking the right data structure is often more helpful than making small code changes.
 
 ## Big idea
-A **data structure** packages **layout of memory** and **operations** (insert, search, delete, iterate). With the same algorithmic goal, swapping the structure can change complexity from **O(n)** to **O(log n)** or **O(1)**.
+A **data structure** is a way to organize **memory** and **how to do things** like **add**, **find**, **remove**, or **go through** the data. Using different data structures can make these tasks faster or slower. For example, some can do these tasks in **O(n)** time, while others can do them in **O(log n)** or **O(1)** time.
 
 ## Examples you just met
-- **Array**: contiguous block; fast **indexing** O(1), slow **insertion in middle** O(n). Great for **sequential scans** and cache friendliness.
-- **Struct**: groups heterogeneous fields into one **record** (e.g., `person { name; number; }`), improving locality and readability over parallel arrays.
-- **Array of structs**: model a **table** of records; enables searching by **field** and later upgrades to **sorted** arrays or **hash tables** without rewriting callers.
+- **Array**: a group of items next to each other. It is quick to find an item by its position (index). But adding or removing items in the middle takes more time. Arrays are good for going through all items one by one and work well with computers' memory.
+- **Struct**: a way to put different types of information together in one **record**. For example, a `person` can have a `name` and a `number`. Using structs makes the data easier to read and find nearby information.
+- **Array of structs**: a list of many records, like a table. It helps find data by a specific **field**. Later, it can be changed to faster types like **sorted arrays** or **hash tables** without changing how the program works.
 
 ## Choosing structures (quick heuristics)
-- Need **random access** and small, fixed size → use an **array**.
-- Need to bundle attributes → define a **struct** (clean **dot access** and fewer bugs).
-- Expect lots of lookups by key → start with a **sorted array** (binary search) or plan to switch to a **hash table / tree** later.
-- Always ask: what are the **hot operations** and their **complexities**?
+-If you need to quickly find items in any order and the size is small and fixed, use an **array**.  
+If you want to group different pieces of information together, make a **struct**. This makes it easier to access data with dots and reduces mistakes.  
+If you will search for items often using a key, start with a **sorted array** and use **binary search**. Later, you can switch to a **hash table** or **tree** for faster searching.  
+Always ask: what are the most important tasks, and how hard are they to do?
 
 ## Pitfalls
 - Forcing everything into arrays → painful **O(n)** inserts/deletes.

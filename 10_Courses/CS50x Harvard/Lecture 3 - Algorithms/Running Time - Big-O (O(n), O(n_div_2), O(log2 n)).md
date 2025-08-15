@@ -35,7 +35,7 @@ A quick visual for **Big-O** growth rates: **O(n)** (linear), **O(n÷2)** (same 
 ## Details
 - If an algorithm does a loop over every element once, its time is proportional to **n** → **O(n)**.
 - If it does a constant‑fraction of that work, like **n/2** checks, we still write **O(n)** because constants are ignored.
-- **O(log₂ n)** arises when each step reduces the problem size by a constant factor (½, ⅓, etc.). A classic example is **binary search** on a **sorted** array.
+- **O(log₂ n)** happens when each step makes the problem smaller by a fixed amount, like cutting it in half or into thirds. A common example is **binary search** on a **sorted** list.
 - When comparing algorithms, constants and low‑order terms matter in practice for small inputs, but **asymptotics** tell you how it scales.
 
 ## Examples

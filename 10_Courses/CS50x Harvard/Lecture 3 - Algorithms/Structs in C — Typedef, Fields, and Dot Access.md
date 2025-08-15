@@ -48,12 +48,14 @@ void print_person(const person *p) {
     printf("%s: %s\n", p->name, p->number);  // arrow for pointers
 }
 ```
-- By value copies the whole **record**; by pointer passes an **address** and uses the **arrow operator** (`->`).
+- By value copies the whole **record**.  
+- By pointer passes an **address** of the record.  
+- When using a pointer, we use the **arrow operator** (`->`) to access the record's parts.
 
 ## Common pitfalls
 - Forgetting **typedef** (not wrong, just noisy: `struct person` everywhere).
-- Mixing **parallel arrays** with a **struct** → duplicated state and drift.
-- Mishandling **C-strings**: ensure **null-terminated** strings and compare with **strcmp**, not `==`.
+- Using **parallel arrays** with a **struct** can cause problems. It can lead to repeated data and errors that are hard to find.
+- Mishandling **C-strings**: ensure **null-terminated** strings and compare with **strcmp**, not \=\=.
 
 ## When to reach for a struct
 - You have an **entity** with multiple **fields** (name, phone, id).

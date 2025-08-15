@@ -19,7 +19,7 @@ review_next: "2025-09-12"
 ---
 
 ## Summary
-Turning the toy **person** type into a working **phonebook.c**: store **records** in an **array of structs**, access fields with the **dot operator**, and perform a baseline **linear search** using **strcmp**. This pattern scales from tiny demos to real datasets and can later be upgraded to **sorted arrays** or a **hash table** without changing callers.
+Turning the toy **person** into a working **phonebook.c**: store **records** in an **array of structs**. Use the **dot operator** to get information from each record. To find a record, do a simple **linear search** with **strcmp**. This method works for small examples and real data. Later, you can change it to use **sorted arrays** or a **hash table** without changing the way you call the functions.
 
 ## Minimal scaffold
 ```c
@@ -58,13 +58,13 @@ int main(void)
 
 ### Notes
 - **Array of structs (AoS)** gives **contiguous** memory; `people[i]` is a full **record** (`name`, `number`).  
-- Always compare **C-strings** with **strcmp**, not `==` (which compares pointers).  
+- Always compare **C-strings** with **strcmp**, not \`\=\=\` (which compares pointers).  
 - Complexity: **O(n)** time, **O(1)** extra space. For faster lookups, keep the array **sorted** and use **binary search** (**Θ(log n)**), or switch to a **hash table** (**amortized O(1)**).
 
 ## Common pitfalls
-- Mixing **parallel arrays** (`names[i]`, `numbers[i]`) instead of one **struct** → invites index bugs.
-- Forgetting preconditions (claiming **O(log n)** without **sorted** data).  
-- Returning a pointer to a **stack-allocated** buffer when building numbers dynamically (prefer **string** from CS50 or heap-allocate and free).
+- Using **parallel arrays** (like `names[i]`, `numbers[i]`) instead of one **struct** can cause mistakes with indexes.  
+- Saying something is **O(log n)** (fast) without making sure the data is **sorted** (organized in order).  
+- Returning a pointer to a **stack-allocated** buffer when creating numbers on the fly. It's better to use a **string** from CS50 or to allocate memory on the heap and free it later.
 
 ## Related Concepts
 - [[Structs in C — Typedef, Fields, and Dot Access]] – the underlying type design

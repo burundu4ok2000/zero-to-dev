@@ -34,7 +34,7 @@ Given array `a` of length `n` and value `x`, check `a[0], a[1], …, a[n-1]` in 
 - **Empty array** (`n == 0`) → immediately “not found”.
 - **Duplicates** → returns **first** match; define policy if you need **all** indices.
 - **Null pointer** / invalid `n` → guard or assert; avoid **undefined behavior**.
-- **Type/compare mismatch** (strings): use **strcmp** for C-strings, not `==`.
+- **Type/compare mismatch** (strings): use **strcmp** for C-strings, not \`\=\=\`.
 - Confusing **best** with **Ω(1)** and **worst** with **O(n)** — both are true, but they describe different scenarios.
 - If you can maintain **sorted** data, switch to **binary search** (**Θ(log n)**).
 

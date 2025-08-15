@@ -19,7 +19,7 @@ review_next: "2025-09-12"
 ---
 
 ## Summary
-**Selection sort** repeatedly selects the **minimum** remaining element and swaps it into place. Its **time complexity** is **O(n²)** because the number of **comparisons** forms an **arithmetic series** that grows quadratically with **n**.
+**Selection sort** is a way to sort a list. It works by finding the **smallest** remaining item and swapping it to the front. It does this over and over until the list is sorted. The **time it takes** to do this is called **O(n²)**. This is because it has to compare many pairs of items, and the number of comparisons gets bigger very fast as the list gets longer.
 
 ## Algorithm snapshot
 1. For each index `i` from `0` to `n-2`:
