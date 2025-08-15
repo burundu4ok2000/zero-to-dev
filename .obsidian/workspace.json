@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/week_3_shorts_call_stacks_factorial_walkthrough.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Week_3_Shorts_-_Collatz_Recursion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "week_3_shorts_call_stacks_factorial_walkthrough"
+              "title": "Week_3_Shorts_-_Collatz_Recursion"
             }
           }
         ]
@@ -217,9 +217,12 @@
   },
   "active": "784bd36678e00f58",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/week_3_shorts_call_stacks_factorial_walkthrough.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Week_3_Shorts_-_Collatz_Recursion.md",
+    "98_Images/Screenshot 2025-08-15 at 19.59.12.png",
+    "98_Images/Screenshot 2025-08-15 at 19.59.01.png",
     "98_Images/Screenshot 2025-08-15 at 18.57.42.png",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Sort Race — Selection vs Merge vs Bubble (Visualized).md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/week_3_shorts_call_stacks_factorial_walkthrough.md",
     "00_MOC_MAIN.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Recurrence Tree and O(n log n).md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Human Demo of Divide & Conquer.md",
@@ -244,6 +247,6 @@
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/MOC template for Chat GPT.md",
     "30_Knowledge/05_Obsidian/10_Chat GPT project templates/Lecture atom note template for Chat GPT.md",
     "30_Knowledge/80_Termins",
-    "54A61231-E0EC-4E02-A93C-E36295D6F984.png"
+    "98_Images/54A61231-E0EC-4E02-A93C-E36295D6F984.png"
   ]
 }
