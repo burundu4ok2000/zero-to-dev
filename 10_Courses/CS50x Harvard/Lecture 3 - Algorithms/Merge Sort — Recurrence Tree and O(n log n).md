@@ -20,14 +20,14 @@ review_next: "2025-09-12"
 
 ## Summary
 Why **merge sort** runs in **O(n log n)**: the **recurrence tree** shows **log₂ n** levels of recursion, each performing **Θ(n)** work to **merge**. Summing level costs yields **Θ(n log n)** total time and **Θ(n)** extra space for the auxiliary buffer.
+## Recurrence and Level-Cost View
 
-## Recurrence and level-cost view
-- Work per call: **T(n) = 2·T(n/2) + Θ(n)** (two half-size sorts + linear **merge**).
-- **Tree depth**: splitting by 2 gives **log₂ n** levels until subproblems reach size 1.
-- **Cost per level**: across all subproblems on a level, elements merged total **n** ⇒ level cost **Θ(n)**.
-- **Total**: **log₂ n** levels × **Θ(n)** per level ⇒ **Θ(n log n)**.
+- Work for each call: **T(n) = 2·T(n/2) + Θ(n)**. This means we do two smaller sorts and then combine them.
+- **Tree depth**: When we split the problem in half each time, we get about **log₂ n** levels until the pieces are size 1.
+- **Cost at each level**: At each level, all the merges together cost about **n**. So, each level costs **Θ(n)**.
+- **Total work**: Since there are about **log₂ n** levels and each costs **Θ(n)**, the total work is **Θ(n log n)**.
 
-```text
+```
 Level 0:       n          →  Θ(n)
 Level 1:   n/2 + n/2      →  Θ(n)
 Level 2: n/4 + n/4 + ...  →  Θ(n)

@@ -22,14 +22,16 @@ review_next: "2025-09-12"
 A side‑by‑side **visual race** of **selection sort**, **merge sort**, and **bubble sort** makes the complexity gaps visceral: **O(n log n)** algorithms pull away as **n** grows, while **O(n²)** sorts stall under quadratic work.
 
 ## What to watch for
-- **Startup vs scaling**: for tiny arrays, constant factors hide differences; as **n** increases, **log‑linear** growth wins decisively.
-- **Work profile**: **selection** does a fixed set of **comparisons** each pass; **bubble** repeatedly **swaps** neighbors (often more data movement); **merge** spends effort in linear **merge** phases after recursive splits.
-- **Stability**: **merge sort** is **stable** by default; **selection/bubble** are typically **unstable**/**stable** respectively (implementation‑dependent for selection).
+- **Startup vs scaling**: For very small lists, the differences between methods are small. But as the list gets bigger, the method that grows in a **log‑linear** way works much better.
+
+- **Work profile**: **Selection** compares a fixed number of items each time. **Bubble** keeps swapping neighbors over and over, which can move a lot of data. **Merge** spends time in linear **merge** steps after splitting the list into parts.
+
+- **Stability**: **Merge sort** keeps the order of equal items the same by default. **Selection** is usually **unstable**, and **bubble** is usually **stable** (but it can depend on how you do it).
 
 ## Complexity snapshot
-- **Selection**: **Θ(n²)** comparisons, ≤ **n−1** swaps, **O(1)** extra space (in‑place).  
-- **Bubble**: **Θ(n²)** comparisons and swaps in the worst case; can early‑exit when already sorted.  
-- **Merge**: **Θ(n log n)** time across cases; **Θ(n)** extra space; naturally **stable**.
+- **Selection**: **Θ(n²)** comparisons, up to **n−1** swaps, and **O(1)** extra space (uses no extra space).  
+- **Bubble**: **Θ(n²)** comparisons and swaps in the worst case; it can stop early if the list is already sorted.  
+- **Merge**: Takes about **Θ(n log n)** time in all cases; needs **Θ(n)** extra space; it keeps the same order of equal items (stable).
 
 ## Practical takeaways
 - Prefer **merge sort** (or other **O(n log n)** sorts) once **n** passes classroom sizes.  

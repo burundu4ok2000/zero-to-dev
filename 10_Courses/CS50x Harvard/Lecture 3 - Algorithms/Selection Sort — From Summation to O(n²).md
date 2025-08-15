@@ -50,7 +50,10 @@ void selection_sort(int a[], int n) {
         int m = i;
         for (int j = i + 1; j < n; j++)      // (n-1) + (n-2) + ... + 1 comparisons total
             if (a[j] < a[m]) m = j;
-        if (m != i) { int t = a[i]; a[i] = a[m]; a[m] = t; }  // at most n-1 swaps
+        if (m != i) 
+        { 
+        int t = a[i]; a[i] = a[m]; a[m] = t; 
+        }  // at most n-1 swaps
     }
 }
 ```

@@ -26,7 +26,8 @@ review_next: "2025-09-12"
 // Draws a left-aligned pyramid of height n
 #include <stdio.h>
 
-void draw(int n) {
+void draw(int n) 
+{
     if (n <= 0) return;                  // **base case**
     draw(n - 1);                         // **recursive case**: solve smaller problem
     for (int i = 0; i < n; i++) printf("#");
@@ -49,9 +50,9 @@ Output:
 ```
 
 ## How it works (step-by-step)
-- **Base case**: `n <= 0` → do nothing and unwind. Prevents infinite recursion.
-- **Recursive case**: compute `draw(n-1)` first, then print the `n`th row.
-- The **call stack** keeps a **stack frame** per active call; as `n` grows, depth is **O(n)**.
+- **Base case**: If `n` is less than or equal to 0, do nothing and stop. This keeps the process from going on forever.
+- **Recursive case**: First, do the same thing with `n-1`. Then, print the `n`th row.
+- The **call stack** is like a pile of boxes. Each box holds a call. As `n` gets bigger, the pile gets taller, up to about `n` boxes high.
 
 ## Complexity
 - **Time**: printing `1 + 2 + ... + n = n(n+1)/2` characters ⇒ **O(n²)** overall.
@@ -64,7 +65,8 @@ Output:
 
 ## Iterative alternative
 ```c
-void draw_iter(int n) {
+void draw_iter(int n) 
+{
     for (int r = 1; r <= n; r++) {
         for (int i = 0; i < r; i++) printf("#");
         printf("\n");

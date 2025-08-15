@@ -34,7 +34,8 @@ review_next: "2025-09-12"
 
 ## Pseudocode (C-ish)
 ```c
-void merge(int a[], int l, int m, int r) {
+void merge(int a[], int l, int m, int r) 
+{
     int n1 = m - l + 1, n2 = r - m;
     int L[n1], R[n2];
     for (int i = 0; i < n1; i++) L[i] = a[l + i];
