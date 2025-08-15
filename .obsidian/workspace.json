@@ -192,12 +192,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 447.5,
-    "collapsed": true
+    "width": 447.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,7 +214,7 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "784bd36678e00f58",
+  "active": "1b2d85328e279f8c",
   "lastOpenFiles": [
     "98_Images/Screenshot 2025-08-15 at 18.57.42.png",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Sort Race — Selection vs Merge vs Bubble (Visualized).md",
