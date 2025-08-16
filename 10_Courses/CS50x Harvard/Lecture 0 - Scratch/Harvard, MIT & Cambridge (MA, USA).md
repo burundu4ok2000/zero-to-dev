@@ -52,13 +52,10 @@ Harvard and MIT are neighbors in **Cambridge, MA** (across the Charles from Bost
 
   
 
-| City | Country | Famous university | Vibe |
-
-|---|---|---|---|
-
-| Cambridge | USA (Massachusetts) | **Harvard**, **MIT** | Dense urban campus clusters |
-
-| Cambridge | UK (England) | **University of Cambridge** | Historic collegiate town |
+| City      | Country             | Famous university           | Vibe                        |
+| --------- | ------------------- | --------------------------- | --------------------------- |
+| Cambridge | USA (Massachusetts) | **Harvard**, **MIT**        | Dense urban campus clusters |
+| Cambridge | UK (England)        | **University of Cambridge** | Historic collegiate town    |
 
   
 
@@ -75,16 +72,6 @@ Harvard and MIT are neighbors in **Cambridge, MA** (across the Charles from Bost
 ## Related Concepts
 
   
-
-- [[01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA)]] – quick facts and landmarks (Harvard Yard, Harvard Square).  
-
-- [[Massachusetts Institute of Technology]] – Kendall Square, Great Dome.  
-
-- [[01_OLD_NOTES/Lecture 0 - Scratch/University of Cambridge (UK)]] – different city, same name.  
-
-- [[CS50x Harvard]] – course hub and resources.  
-
-- [[Lecture 0 - Scratch]] – main lecture note for the week.
 
   
 
