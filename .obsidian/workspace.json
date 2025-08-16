@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Week_3_Shorts_-_Collatz_Recursion.md",
-                "mode": "source",
+                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Collatz Recursion.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week_3_Shorts_-_Collatz_Recursion"
+              "title": "Collatz Recursion"
             }
           }
         ]
@@ -217,8 +217,8 @@
   },
   "active": "784bd36678e00f58",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/week_3_shorts_call_stacks_factorial_walkthrough.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Week_3_Shorts_-_Collatz_Recursion.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Call Stacks — factorial walkthrough.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Collatz Recursion.md",
     "98_Images/Screenshot 2025-08-15 at 19.59.12.png",
     "98_Images/Screenshot 2025-08-15 at 19.59.01.png",
     "98_Images/Screenshot 2025-08-15 at 18.57.42.png",

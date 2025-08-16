@@ -1,5 +1,5 @@
 ---
-title: Week 3 Shorts — Call Stacks — factorial walkthrough
+title: Call Stacks — factorial walkthrough
 lang_tags: "#lang/c"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
