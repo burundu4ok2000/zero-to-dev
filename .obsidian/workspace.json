@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/Tideman - CS50x 2025.md",
+                "file": "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tideman - CS50x 2025"
+              "title": "Directed Acyclic Graph (DAG)"
             }
           }
         ]
@@ -217,8 +217,12 @@
   },
   "active": "784bd36678e00f58",
   "lastOpenFiles": [
+    "30_Knowledge/80_Termins/Amortized analysis.md",
+    "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
+    "20_Projects/CS50x Harvard/Lecture 3 - Algorythms/Tideman - CS50x 2025.md",
+    "20_Projects/CS50x Harvard/Lecture 3 - Algorythms",
+    "20_Projects/CS50x Harvard/Untitled.md",
     "30_Knowledge/10_Concepts/Lakehouse Table Formats (Delta vs Iceberg vs Hudi).md",
-    "Clippings/Tideman - CS50x 2025.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Harvard, MIT & Cambridge (MA, USA).md",
     "01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA).md",
     "01_OLD_NOTES/Lecture 0 - Scratch/University of Cambridge (UK).md",
@@ -245,9 +249,6 @@
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Running Time - Big-O (O(n), O(n_div_2), O(log2 n)).md",
     "copilot-custom-prompts/Explain like I am dev-beginner.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Asymptotic Notation · O, Ω, Θ.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Contiguous Memory · Arrays.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Translate to Russian.md",
     "30_Knowledge/80_Termins",
     "98_Images/54A61231-E0EC-4E02-A93C-E36295D6F984.png"
   ]
