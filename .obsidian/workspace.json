@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Sorting Algorithms — Selection vs Bubble vs Merge (Cheat Sheet).md",
+                "file": "10_Courses/English/CS50x от Harvard/Vocabulary · AGENDA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sorting Algorithms — Selection vs Bubble vs Merge (Cheat Sheet)"
+              "title": "Vocabulary · AGENDA"
             }
           }
         ]
@@ -215,12 +215,16 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "784bd36678e00f58",
+  "active": "7ec63055e5d98111",
   "lastOpenFiles": [
-    "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Sorting Algorithms — Selection vs Bubble vs Merge (Cheat Sheet).md",
-    "30_Knowledge/80_Termins/Amortized analysis.md",
+    "10_Courses/English/CS50x от Harvard/Vocabulary · ADJOURN.md",
+    "10_Courses/English/CS50x от Harvard/Vocabulary · HEURISTIC.md",
     "20_Projects/CS50x Harvard/Lecture 3 - Algorythms/Tideman - CS50x 2025.md",
+    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Sorting Algorithms — Selection vs Bubble vs Merge (Cheat Sheet).md",
+    "20_Projects/CS50x Harvard/Lecture 4 - Memory",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory",
+    "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
+    "30_Knowledge/80_Termins/Amortized analysis.md",
     "20_Projects/CS50x Harvard/Lecture 3 - Algorythms",
     "20_Projects/CS50x Harvard/Untitled.md",
     "30_Knowledge/10_Concepts/Lakehouse Table Formats (Delta vs Iceberg vs Hudi).md",
@@ -247,8 +251,6 @@
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Structs in C — Typedef, Fields, and Dot Access.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Linear Search — Definition & Edge Cases.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Data Structures — Why They Matter.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Running Time - Big-O (O(n), O(n_div_2), O(log2 n)).md",
-    "copilot-custom-prompts/Explain like I am dev-beginner.md",
     "30_Knowledge/80_Termins",
     "98_Images/54A61231-E0EC-4E02-A93C-E36295D6F984.png"
   ]
