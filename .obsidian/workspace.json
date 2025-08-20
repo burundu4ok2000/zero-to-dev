@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers Don’t Exist Unless Declared.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pointer Declaration and %p — Printing Addresses"
+              "title": "Pointers Don’t Exist Unless Declared"
             }
           }
         ],
@@ -228,9 +228,12 @@
   },
   "active": "93ceb49d3f166df5",
   "lastOpenFiles": [
+    "00_Inbox/Variables in C.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers Don’t Exist Unless Declared.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
+    "98_Images/Screenshot 2025-08-20 at 19.34.29.png",
     "Pasted image 20250820191743.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hex vs Decimal — Why Hex is Used.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Memory Grid & 0x Convention.md",
     "98_Images/Screenshot 2025-08-20 at 18.47.19.png",
@@ -262,7 +265,6 @@
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort.md",
     "00_Inbox/Asymptotic Analysis — Big O, Ω, Θ.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Collatz Recursion.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Call Stacks — factorial walkthrough.md",
     "98_Images/Screenshot 2025-08-15 at 19.59.12.png",
     "98_Images/Screenshot 2025-08-15 at 19.59.01.png",
     "98_Images/Screenshot 2025-08-15 at 18.57.42.png",
