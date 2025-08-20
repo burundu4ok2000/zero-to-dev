@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Counting in Hex — FF Equals 255.md",
+                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Counting in Hex — FF Equals 255"
+              "title": "Pointers in C — Address-of (&) and Dereference (*)"
             }
           }
         ],
@@ -228,8 +228,13 @@
   },
   "active": "93ceb49d3f166df5",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Notation.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hex vs Decimal — Why Hex is Used.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Memory Grid & 0x Convention.md",
+    "98_Images/Screenshot 2025-08-20 at 18.47.19.png",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Notation.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/RGB, RGBA & Color Representation in Bytes.md",
+    "98_Images/Screenshot 2025-08-20 at 18.38.13.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Counting in Hex — FF Equals 255.md",
     "98_Images/Screenshot 2025-08-20 at 16.08.29.png",
     "20_Projects/CS50x Harvard/Lecture 0 - Scratch/Problem Set  Scratch.md",
@@ -261,9 +266,6 @@
     "98_Images/Screenshot 2025-08-15 at 18.57.42.png",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Sort Race — Selection vs Merge vs Bubble (Visualized).md",
     "00_MOC_MAIN.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Recurrence Tree and O(n log n).md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort — Human Demo of Divide & Conquer.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Recursion Basics — Drawing a Pyramid.md",
     "30_Knowledge/80_Termins",
     "98_Images/54A61231-E0EC-4E02-A93C-E36295D6F984.png"
   ]
