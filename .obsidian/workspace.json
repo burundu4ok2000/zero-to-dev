@@ -21,12 +21,14 @@
             "id": "93ceb49d3f166df5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "98_Images/Screenshot 2025-06-23 at 18.10.35.png"
+                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Strings in C — char Arrays and Common Mistakes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Screenshot 2025-06-23 at 18.10.35"
+              "icon": "lucide-file",
+              "title": "Strings in C — char Arrays and Common Mistakes"
             }
           }
         ],
@@ -226,6 +228,8 @@
   },
   "active": "93ceb49d3f166df5",
   "lastOpenFiles": [
+    "98_Images/Screenshot 2025-06-23 at 18.10.35.png",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Strings in C — char Arrays and Common Mistakes.md",
     "98_Images/Screenshot 2025-06-23 at 18.14.48.png",
     "98_Images/Screenshot 2025-06-23 at 18.44.26.png",
     "98_Images/Screenshot 2025-06-23 at 18.51.32.png",
@@ -244,7 +248,6 @@
     "98_Images/Screenshot 2025-08-20 at 18.47.19.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Notation.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/RGB, RGBA & Color Representation in Bytes.md",
-    "98_Images/Screenshot 2025-08-20 at 18.38.13.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Counting in Hex — FF Equals 255.md",
     "20_Projects/CS50x Harvard/Lecture 0 - Scratch/Problem Set  Scratch.md",
     "10_Courses/English/CS50x от Harvard/Vocabulary · AGENDA.md",
@@ -266,7 +269,6 @@
     "01_OLD_NOTES",
     "00_Inbox/CS50x Harvard.md",
     "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort.md",
-    "00_Inbox/Asymptotic Analysis — Big O, Ω, Θ.md",
     "30_Knowledge/80_Termins"
   ]
 }
