@@ -66,10 +66,5 @@ My game is titled **“Shark-VS-Pufferfish”**, and features:
 
 ---
 
-🔗links
-
-[[CS50x Harvard]]
-[[Lecture 0 - Scratch]]
-[[Scratch]]
 
 ---
