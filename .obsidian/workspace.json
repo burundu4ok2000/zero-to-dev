@@ -23,12 +23,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50_Career/Try to find Job in Russia.md",
+                "file": "50_Career/План поиска работы в Москве на 4–6 недель.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "План поиска работы в Москве на 4–6 недель"
+            }
+          },
+          {
+            "id": "44e47eba5e650716",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://openalternative.co/alternatives/metabase",
+                "title": "6 Best Open Source Metabase Alternatives in 2025 – OpenAlternative",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "6 Best Open Source Metabase Alternatives in 2025 – OpenAlternative"
+            }
+          },
+          {
+            "id": "f710d15621735694",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Courses/00_Hub/30 Days of SQL - From Basic to Advanced Level.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Try to find Job in Russia"
+              "title": "30 Days of SQL - From Basic to Advanced Level"
+            }
+          },
+          {
+            "id": "ca61fd53263b3fda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10_Courses/00_Hub/Automate the Boring Stuff.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Automate the Boring Stuff"
             }
           }
         ],
@@ -228,8 +270,16 @@
   },
   "active": "93ceb49d3f166df5",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Strings in C — char Arrays and Common Mistakes.md",
+    "50_Career/План поиска работы в Москве на 4–6 недель.md",
+    "10_Courses/00_Hub/30 Days of SQL - From Basic to Advanced Level.md",
+    "10_Courses/00_Hub/Automate the Boring Stuff.md",
+    "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
+    "10_Courses/00_Hub/Apple shortcuts.md",
+    "10_Courses/30 Days of SQL",
+    "Untitled",
+    "50_Career/30 Days of SQL From Basic to Advanced Level.md",
     "50_Career/Try to find Job in Russia.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Strings in C — char Arrays and Common Mistakes.md",
     "98_Images/Screenshot 2025-06-23 at 18.10.35.png",
     "98_Images/Screenshot 2025-06-23 at 18.14.48.png",
     "98_Images/Screenshot 2025-06-23 at 18.44.26.png",
@@ -242,7 +292,7 @@
     "00_Inbox/Variables in C.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
     "98_Images/Screenshot 2025-08-20 at 19.34.29.png",
-    "Pasted image 20250820191743.png",
+    "98_Images/Pasted image 20250820191743.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hex vs Decimal — Why Hex is Used.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Memory Grid & 0x Convention.md",
@@ -261,14 +311,8 @@
     "30_Knowledge/80_Termins/Amortized analysis.md",
     "20_Projects/CS50x Harvard/Lecture 3 - Algorythms",
     "20_Projects/CS50x Harvard/Untitled.md",
-    "30_Knowledge/10_Concepts/Lakehouse Table Formats (Delta vs Iceberg vs Hudi).md",
-    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Harvard, MIT & Cambridge (MA, USA).md",
-    "01_OLD_NOTES/Lecture 0 - Scratch/Harvard University (USA).md",
-    "01_OLD_NOTES/Lecture 0 - Scratch/University of Cambridge (UK).md",
     "01_OLD_NOTES/Lecture 0 - Scratch",
     "01_OLD_NOTES",
-    "00_Inbox/CS50x Harvard.md",
-    "10_Courses/CS50x Harvard/Lecture 3 - Algorithms/Merge Sort.md",
     "30_Knowledge/80_Termins"
   ]
 }
