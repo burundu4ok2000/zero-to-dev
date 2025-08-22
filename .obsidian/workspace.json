@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 255? Why Hex? (Byte Limits and Pointer Display).md",
+                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 1 Byte = 8 Bits (History & Logic).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why 255? Why Hex? (Byte Limits and Pointer Display)"
+              "title": "Why 1 Byte = 8 Bits (History & Logic)"
             }
           },
           {
@@ -252,8 +252,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5,
-    "collapsed": true
+    "width": 447.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,9 +272,10 @@
   },
   "active": "784bd36678e00f58",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 255? Why Hex? (Byte Limits and Pointer Display).md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 1 Byte = 8 Bits (History & Logic).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/The s Format Specifier — Reading Until Null in C.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 255? Why Hex? (Byte Limits and Pointer Display).md",
     "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
     "50_Career/План поиска работы в Москве на 4–6 недель.md",
     "10_Courses/00_Hub/30 Days of SQL - From Basic to Advanced Level.md",
@@ -310,7 +310,6 @@
     "10_Courses/English/CS50x от Harvard/Vocabulary · AGENDA.md",
     "10_Courses/English/CS50x от Harvard/Vocabulary · ADJOURN.md",
     "10_Courses/English/CS50x от Harvard/Vocabulary · HEURISTIC.md",
-    "20_Projects/CS50x Harvard/Lecture 3 - Algorythms/Tideman - CS50x 2025.md",
     "20_Projects/CS50x Harvard/Lecture 4 - Memory",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory",
     "20_Projects/CS50x Harvard/Lecture 3 - Algorythms",
