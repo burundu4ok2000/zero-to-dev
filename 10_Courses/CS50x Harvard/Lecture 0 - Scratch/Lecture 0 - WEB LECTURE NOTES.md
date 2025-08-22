@@ -8,8 +8,7 @@ description: "Harvard University's introduction to the intellectual enterprises 
 tags:
   - "clippings"
 ---
-[[Lecture 0 - Scratch]]
-[[CS50x Harvard]]
+
 
 ## Lecture 0
 
