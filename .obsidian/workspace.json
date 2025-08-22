@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 1 Byte = 8 Bits (History & Logic).md",
+                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/How Strings Are Stored · Low vs High Level.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why 1 Byte = 8 Bits (History & Logic)"
+              "title": "How Strings Are Stored · Low vs High Level"
             }
           },
           {
@@ -271,12 +271,13 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "7ec63055e5d98111",
+  "active": "784bd36678e00f58",
   "lastOpenFiles": [
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 1 Byte = 8 Bits (History & Logic).md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/How Strings Are Stored · Low vs High Level.md",
     "98_Images/Screenshot 2025-08-22 at 16.42.51.png",
     "98_Images/Screenshot 2025-08-22 at 16.32.01.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 255? Why Hex? (Byte Limits and Pointer Display).md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 1 Byte = 8 Bits (History & Logic).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/The s Format Specifier — Reading Until Null in C.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
     "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
@@ -301,7 +302,6 @@
     "98_Images/Screenshot 2025-08-20 at 19.48.50.png",
     "00_Inbox/Variables in C.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
-    "98_Images/Screenshot 2025-08-20 at 19.34.29.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hex vs Decimal — Why Hex is Used.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Memory Grid & 0x Convention.md",
