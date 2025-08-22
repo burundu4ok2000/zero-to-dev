@@ -105,5 +105,3 @@ CS50’s giant yellow **duck** is a live mascot for **rubber‑duck debugging**:
   
 
 [[rubber-duck debugging]], [[debugging]], [[printf debugging]], [[unit test]], [[algorithm]], [[assumption]], [[mental model]], [[CS50]], [[Sanders Theatre]], [[lecture prop]], [[mascot]]
-
-"""

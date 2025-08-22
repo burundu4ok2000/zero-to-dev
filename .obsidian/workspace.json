@@ -8,31 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "784bd36678e00f58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/Dynamic Memory in C — malloc and free.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dynamic Memory in C — malloc and free"
-            }
-          },
-          {
             "id": "93ceb49d3f166df5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_Courses/CS50x Harvard/Lecture 4 - Memory/The s Format Specifier — Reading Until Null in C.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The s Format Specifier — Reading Until Null in C"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -271,10 +253,16 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "784bd36678e00f58",
+  "active": "93ceb49d3f166df5",
   "lastOpenFiles": [
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/What is a Memory Leak? · Causes, Consequences, Prevention.md",
+    "00_Inbox/Calling Convention (System V x86-64).md",
+    "10_Courses/CS50x Harvard/Lecture 1 - C/Lecture 1 - WEB LECTURE NOTES.md",
+    "00_Inbox/Asymptotic notation.md",
+    "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Inflatable Duck 🦆 (CS50 Prop).md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/The s Format Specifier — Reading Until Null in C.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Valgrind for CS50 · Detecting Memory Leaks and Invalid Access.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Dynamic Memory in C — malloc and free.md",
+    "10_Courses/CS50x Harvard/Lecture 4 - Memory/What is a Memory Leak? · Causes, Consequences, Prevention.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Arithmetic in C.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Does C Have Strings · CS50 String Type Explained.md",
     "98_Images/Screenshot 2025-08-22 at 17.31.05.png",
@@ -286,7 +274,6 @@
     "98_Images/Screenshot 2025-08-22 at 16.42.51.png",
     "98_Images/Screenshot 2025-08-22 at 16.32.01.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 255? Why Hex? (Byte Limits and Pointer Display).md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/The s Format Specifier — Reading Until Null in C.md",
     "10_Courses/CS50x Harvard/Lecture 0 - Scratch/Lecture 0 - WEB LECTURE NOTES.md",
     "30_Knowledge/80_Termins/Directed Acyclic Graph (DAG).md",
     "50_Career/План поиска работы в Москве на 4–6 недель.md",
@@ -306,11 +293,6 @@
     "98_Images/Screenshot 2025-06-23 at 19.24.35.png",
     "98_Images/Screenshot 2025-06-23 at 19.12.33.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers Don’t Exist Unless Declared.md",
-    "00_Inbox/Variables in C.md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hex vs Decimal — Why Hex is Used.md",
-    "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Memory Grid & 0x Convention.md",
     "20_Projects/CS50x Harvard/Lecture 4 - Memory",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory",
     "20_Projects/CS50x Harvard/Lecture 3 - Algorythms",
