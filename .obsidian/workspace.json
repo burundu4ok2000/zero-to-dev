@@ -252,7 +252,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 447.5
+    "width": 447.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,8 +271,10 @@
       "pomodoro-timer:Toggle timer panel": false
     }
   },
-  "active": "784bd36678e00f58",
+  "active": "7ec63055e5d98111",
   "lastOpenFiles": [
+    "98_Images/Screenshot 2025-08-22 at 16.42.51.png",
+    "98_Images/Screenshot 2025-08-22 at 16.32.01.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 255? Why Hex? (Byte Limits and Pointer Display).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Why 1 Byte = 8 Bits (History & Logic).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/The s Format Specifier — Reading Until Null in C.md",
@@ -299,7 +302,6 @@
     "00_Inbox/Variables in C.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointer Declaration and %p — Printing Addresses.md",
     "98_Images/Screenshot 2025-08-20 at 19.34.29.png",
-    "98_Images/Pasted image 20250820191743.png",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Pointers in C — Address-of (&) and Dereference (*).md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hex vs Decimal — Why Hex is Used.md",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory/Hexadecimal Memory Grid & 0x Convention.md",
@@ -309,7 +311,6 @@
     "20_Projects/CS50x Harvard/Lecture 0 - Scratch/Problem Set  Scratch.md",
     "10_Courses/English/CS50x от Harvard/Vocabulary · AGENDA.md",
     "10_Courses/English/CS50x от Harvard/Vocabulary · ADJOURN.md",
-    "10_Courses/English/CS50x от Harvard/Vocabulary · HEURISTIC.md",
     "20_Projects/CS50x Harvard/Lecture 4 - Memory",
     "10_Courses/CS50x Harvard/Lecture 4 - Memory",
     "20_Projects/CS50x Harvard/Lecture 3 - Algorythms",
