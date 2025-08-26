@@ -1,11 +1,14 @@
+# macOS
 .DS_Store
-/copilot-custom-prompts/
-/99_Daily Logs/
-/98_Images/.obsidian/plugins/copilot/data.json
-.obsidian/plugins/copilot/data.json
-/98_Images/
-.git
-.obsidian
-/01_OLD_NOTES/
-/98_Images/
 
+# Obsidian vault stuff we don't want in Git
+.obsidian/
+98_Images/
+99_Daily Logs/
+01_OLD_NOTES/
+
+# Copilot plugin state (точечное игнорирование на всякий случай)
+.obsidian/plugins/copilot/data.json
+
+# Локальные промпты Copilot
+/copilot-custom-prompts/
