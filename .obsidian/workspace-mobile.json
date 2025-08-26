@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1"
             }
+          },
+          {
+            "id": "1197433b62190502",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,8 +183,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f33025e53cbbadd0",
+  "active": "1197433b62190502",
   "lastOpenFiles": [
+    "40_Roadmap/30_Roadmap/10_DR/План развития карьеры от Junior Data Analyst Engineer к Data Engineer и digital nomad 1.md",
     "10_Courses/00_Hub/Fullstack Academy Bootcamps.md",
     "10_Courses/00_Hub/365 Data Science vs DataCamp.md",
     "10_Courses/00_Hub/30 Days of SQL - From Basic to Advanced Level.md",
@@ -201,7 +213,6 @@
     "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Action Anatomy & Privacy Tiers.md",
     "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/UI Tour.md",
     "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Context Kick-off.md",
-    "10_Courses/Apple shortcuts/Lesson 1 - Shortcut-Ops 101/Tips How I May Earn the Money.md",
     "Untitled",
     "10_Courses/Apple shortcuts"
   ]
