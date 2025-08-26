@@ -1,17 +1,17 @@
 ---
-title: "01 — Hexadecimal Notation"  
-lang_tags: "#lang/c"                                      
-type_tags: "#type/lecture"                                      
-course_tags: "#course/cs50x/intoduction_to_CS"                                    
-lecture_tags: "#lecture/week_4_Memory"                                   
-tool_tags: ""                                          
-atom_idx: 01                                       
-status: "done"                                         
-difficulty: "easy"                                     
-date: "2025-08-20"                        
-timecode: "00:10:18"                                       
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"                          
-review_next: "2025-09-20"                                  
+title: Hexadecimal Notation
+lang_tags: "#lang/c"
+type_tags: "#type/lecture"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_4_Memory"
+tool_tags: ""
+atom_idx: 1
+status: done
+difficulty: easy
+date: 2025-08-20
+timecode: 00:10:18
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-20
 ---
 
 ![[Screenshot 2025-08-20 at 15.56.54.png]]

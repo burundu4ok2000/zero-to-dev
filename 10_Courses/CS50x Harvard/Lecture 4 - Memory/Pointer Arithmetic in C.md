@@ -1,16 +1,16 @@
 ---
-title: "Pointer Arithmetic in C"
+title: Pointer Arithmetic in C
 lang_tags: "#lang/c"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_4_Memory"
-atom_idx: 23
-status: "done"
-difficulty: "medium"
-date: "2025-08-22"
-timecode: "00:55:00"
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"
-review_next: "2025-09-22"
+atom_idx: 19
+status: done
+difficulty: medium
+date: 2025-08-22
+timecode: 00:55:00
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-22
 ---
 
 ![[Screenshot 2025-08-22 at 17.31.05.png]]

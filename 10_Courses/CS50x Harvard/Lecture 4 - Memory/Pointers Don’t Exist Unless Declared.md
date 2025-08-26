@@ -19,7 +19,7 @@ review_next: "2025-09-20"
 ---
 
 ## Summary
-**Pointers are not automatic.** Unless you explicitly declare a pointer, it will not exist in your program. The machine works with memory addresses under the hood, but it won’t expose them to you unless you request them using the `&` operator and a pointer variable.
+**Pointers are not automatic.** Unless you explicitly declare a pointer, it will not exist in your program. The machine works with memory addresses underneath the hood, but it won’t expose them to you unless you request them using the `&` operator and a pointer variable.
 
 ## Very simple
 

@@ -1,14 +1,14 @@
 ---
-title: "Why 255? Why Hex? (Byte Limits and Pointer Display)"
+title: Why 255? Why Hex? (Byte Limits and Pointer Display)
 type_tags: "#type/explainer"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_4_Memory"
-atom_idx: "09"
-status: "done"
-difficulty: "easy"
-date: "2025-08-22"
-review_next: "2025-09-20"
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"
+atom_idx: "18"
+status: done
+difficulty: easy
+date: 2025-08-22
+review_next: 2025-09-20
+source: https://cs50.harvard.edu/x/2025/weeks/4/
 ---
 
 ## 🧮 Why 255?

@@ -1,16 +1,16 @@
 ---
-title: "Dynamic Memory in C — malloc and free"  
-lang_tags: "#lang/c"                                        
-type_tags: "#type/lecture"                                      
-course_tags: "#course/cs50x/intoduction_to_CS"                                        
-lecture_tags: "#lecture/week_4_Memory"                                    
-atom_idx: "26"                                          
-status: "done"                                              
-difficulty: "medium"                                          
-date: "2025-08-22"                             
-timecode: "01:07:00"                                          
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"                             
-review_next: "2025-09-22"                                      
+title: Dynamic Memory in C — malloc and free
+lang_tags: "#lang/c"
+type_tags: "#type/lecture"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_4_Memory"
+atom_idx: "16"
+status: done
+difficulty: medium
+date: 2025-08-22
+timecode: 01:07:00
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-22
 ---
 
 ## Summary

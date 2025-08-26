@@ -1,17 +1,17 @@
 ---
-title: "Garbage Values and Crashes in C"  
-lang_tags: "#lang/c"                                        
-type_tags: "#type/lecture"                                      
-course_tags: "#course/cs50x/intoduction_to_CS"                                      
-lecture_tags: "#lecture/week_4_Memory"                                 
-tool_tags: ""                                        
-atom_idx: 21                                        
-status: "done"                                          
-difficulty: "medium"                                        
-date: "2025-08-22"                           
-timecode: "00:38:12"                                        
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"                            
-review_next: "2025-09-22"                                    
+title: Garbage Values and Crashes in C
+lang_tags: "#lang/c"
+type_tags: "#type/lecture"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_4_Memory"
+tool_tags: ""
+atom_idx: 15
+status: done
+difficulty: medium
+date: 2025-08-22
+timecode: 00:38:12
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-22
 ---
 
 ![[Screenshot 2025-08-22 at 18.44.54.png]]

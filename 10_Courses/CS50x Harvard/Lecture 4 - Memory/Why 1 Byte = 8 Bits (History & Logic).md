@@ -1,15 +1,15 @@
 ---
-title: "Why 1 Byte = 8 Bits (History & Logic)"  
-lang_tags: "#lang/c #lang/machine_architecture"                                      
-type_tags: "#type/concept"                                      
-course_tags: "#course/cs50x/intoduction_to_CS"                                      
-lecture_tags: "#lecture/week_4_Memory"                                      
-atom_idx: 12                                            
-status: "done"                                              
-difficulty: "easy"                                           
-date: "2025-08-22"                              
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"                               
-review_next: "2025-09-20"                                    
+title: Why 1 Byte = 8 Bits (History & Logic)
+lang_tags: "#lang/c #lang/machine_architecture"
+type_tags: "#type/concept"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_4_Memory"
+atom_idx: 14
+status: done
+difficulty: easy
+date: 2025-08-22
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-20
 ---
 
 ## Summary

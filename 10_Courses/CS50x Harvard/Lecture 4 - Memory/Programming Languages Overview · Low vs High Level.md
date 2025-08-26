@@ -1,17 +1,17 @@
 ---
-title: "Programming Languages Overview · Low vs High Level"  
-lang_tags: ""                                        
-type_tags: "#type/lecture"                                      
-course_tags: "#course/cs50x/intoduction_to_CS"                                        
-lecture_tags: "#lecture/week_4_Memory"                                    
-tool_tags: ""                                             
-atom_idx: "25"                                          
-status: "done"                                              
-difficulty: "medium"                                          
-date: "2025-08-22"                             
-timecode: ""                                          
-source: "https://cs50.harvard.edu/x/2025/weeks/4/"                             
-review_next: "2025-09-22"                                      
+title: Programming Languages Overview · Low vs High Level
+lang_tags: ""
+type_tags: "#type/lecture"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_4_Memory"
+tool_tags: ""
+atom_idx: "17"
+status: done
+difficulty: medium
+date: 2025-08-22
+timecode: ""
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-22
 ---
 
 ## Summary
