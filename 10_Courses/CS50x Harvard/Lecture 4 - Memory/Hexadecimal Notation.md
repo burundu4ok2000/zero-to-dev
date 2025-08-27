@@ -20,11 +20,6 @@ review_next: 2025-09-20
 ![[Screenshot 2025-08-27 at 14.04.13.png]]
 ![[Screenshot 2025-08-27 at 14.06.15.png]]
 ![[Screenshot 2025-08-27 at 14.10.28.png]]
-
-
-
-
-
 ---
 
 ## Summary
