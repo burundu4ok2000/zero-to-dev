@@ -25,7 +25,7 @@ The memory layout of a running C program is divided into distinct **regions**: m
 ## Very simple
 
 > Imagine memory like a tall building with different floors:
-> - At the top: **machine code** (your program's instructions)
+> - At the top: **machine code** (your program's instructions) - it is loaded in programm and take a chunk of memory like variables or functions
 > - Below it: permanent stuff like **global variables**
 > - In the middle: two elevators — one grows **down** (heap), the other grows **up** (stack)
 > - If they crash into each other — game over.
@@ -42,13 +42,37 @@ The memory layout of a running C program is divided into distinct **regions**: m
 ## Details
 
 ### Memory Layout from Top to Bottom
-| Region         | Description                              |
-|----------------|-------------------------------------------|
-| Machine Code   | Actual instructions of the program        |
-| Globals        | Variables defined globally or as static   |
-| Heap (↓)       | Dynamic memory — grows downward           |
-| Stack (↑)      | Function frames — grows upward            |
+| Region       | Description                             |     |
+| ------------ | --------------------------------------- | --- |
+| Machine Code | Actual instructions of the program      |     |
+| Globals      | Variables defined globally or as static |     |
+| Heap (↓)     | Dynamic memory — grows downward         |     |
+| Stack (↑)    | Function frames — grows upward          |     |
 
+---
+```
++------------------------------+ 🖥️
+|        Machine Code          | 💾
+|  (read-only instructions)    | 🔒
++------------------------------+
+             |
+             ▼
++------------------------------+ 🌐
+|     Global Variables         | ⚙️
++------------------------------+
+             |
+             ▼
++------------------------------+ 🧠
+|            Heap              | 🏗️
+|   (dynamic memory allocation)| 📦
++------------------------------+
+             |
+             ▼
++------------------------------+ 📝
+|             Stack            | 📚
+|  (function calls & locals)   | 🧳
++------------------------------+
+```
 ---
 
 - The **heap** is used when we do something like `malloc`. You can think of it as space you **manually request**.
@@ -60,18 +84,18 @@ The memory layout of a running C program is divided into distinct **regions**: m
 
 ```c
 void swap(int a, int b)
-{{
+{
     int tmp = a;
     a = b;
     b = tmp;
-}}
+}
 
 int main(void)
-{{
+{
     int x = 1;
     int y = 2;
     swap(x, y);
-}}
+}
 ```
 
 ### Stack Trace (Illustrated)
@@ -81,7 +105,7 @@ STACK (grows ↑)
 
 |  swap() frame  | ← created when swap is called
 |  main() frame  |
-+----------------
++----------------+
 ```
 
 ## **Why It Matters**
