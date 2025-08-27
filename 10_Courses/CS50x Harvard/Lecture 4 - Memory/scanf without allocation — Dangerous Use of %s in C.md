@@ -15,6 +15,7 @@ review_next: "2025-09-27"
 ---
 
 ![[Screenshot 2025-08-27 at 11.34.09.png]]
+![[Screenshot 2025-08-27 at 11.48.38.png]]
 
 ---
 
