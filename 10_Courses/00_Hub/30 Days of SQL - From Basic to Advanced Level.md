@@ -29,7 +29,7 @@ Whether you want to become a successful ****Data Scientist**** or a ****Business
 
 ## Complete SQL Roadmap
 
-SQL is also the top and most popular language among data scientists or data engineers. Despite lots of hype around NoSQL, Hadoop, and other technologies, it's one of the most-used languages in the entire tech industry, and one of the most popular languages for developers of all sorts.
+SQL is also the top and most popular language among data scientists or data engineers. Despite lots of hype around NoSQL, Hadчoop, and other technologies, it's one of the most-used languages in the entire tech industry, and one of the most popular languages for developers of all sorts.
 
 Now that we know, how much learning SQL is important or what is the significance of SQL in today's world, we shall know ****how to learn SQL**** in a systematic way. To help you with this we have created a practical SQL roadmap of 30 days, based on a lot of study and research.
 
