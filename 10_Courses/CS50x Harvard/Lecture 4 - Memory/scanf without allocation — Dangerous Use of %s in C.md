@@ -14,7 +14,7 @@ source: "https://cs50.harvard.edu/x/2025/weeks/4/"
 review_next: "2025-09-27"
 ---
 
-![[Screenshot 2025-08-27 at 11.34.09.png]]
+![[Screenshot 2025-08-27 at 11.34.09 1.png]]
 
 ![[Screenshot 2025-08-27 at 11.59.02.png]]
 
