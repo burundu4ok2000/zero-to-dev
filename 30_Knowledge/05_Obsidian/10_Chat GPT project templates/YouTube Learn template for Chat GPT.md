@@ -1,9 +1,8 @@
 ---
 type: youtube_learn
 date: <% tp.date.now("YYYY-MM-DD") %>
-video_title: "<% tp.system.prompt('Video title') %>"
-video_url: "<% tp.system.prompt('Video URL') %>"
-tags: [youtube, learn, cs]
+video_title: <% tp.system.prompt('Video title') %>
+video_url: <% tp.system.prompt('Video URL') %>
 ---
 
 ## Summary
@@ -21,3 +20,16 @@ tags: [youtube, learn, cs]
 
 ## Questions / Snags
 - <!-- что осталось неясным; к чему вернуться позже -->
+
+
+
+## Related Terms
+<!-- Ссылки все термины, которые похожи на этот. БЕЗ **** звездочек. не используй жирный шрифт здесь -->
+
+[[]], [[]], [[]], [[]], [[]], [[]], [[]], [[]]...
+
+
+## See also
+
+<!-- Ссылки на более глубокие материалы: лекции, внешние статьи, стандарты из интернета -->
+- \[\]({{}})           
