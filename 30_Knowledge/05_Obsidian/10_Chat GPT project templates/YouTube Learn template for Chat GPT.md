@@ -11,6 +11,7 @@ video_url: <% tp.system.prompt('Video URL') %>
 ## Takeaways
 - <!-- пункт 1 -->
 - <!-- пункт 2 -->
+- 
 
 ## Notes (free-form)
 <!-- Пиши как идёт: наблюдения, примеры, куски кода, ссылки. -->
