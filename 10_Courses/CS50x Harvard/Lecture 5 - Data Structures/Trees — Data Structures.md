@@ -13,7 +13,7 @@ timecode: "01:28:00"
 source: "https://cs50.harvard.edu/x/2025/weeks/5/"
 review_next: ""
 ---
-
+![[1441244244512541241.png]]
 ## Summary
 A **tree** is a hierarchical structure of **nodes**. Each node stores **data** and references to child nodes.  
 A **binary tree** has up to two children (**left** and **right**). A **Binary Search Tree (BST)** keeps the **ordering rule**: values in the left subtree \< node \< values in the right subtree. This rule lets us **search/insert/delete** in **O(log n)** time *if the tree stays balanced*.
