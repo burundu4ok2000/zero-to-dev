@@ -53,17 +53,20 @@ node *new_node(void) {
     node *n = malloc(sizeof(node));
     if (!n) return NULL;
     n->is_word = false;
-    for (int i = 0; i < ALPHA; i++) n->child[i] = NULL;
+    for (int i = 0; i < ALPHA; i++) 
+    n->child[i] = NULL;
     return n;
 }
 
 void insert(node *root, const char *word) {
     node *t = root;
-    for (const unsigned char *p = (const unsigned char *)word; *p; p++) {
+    for (const unsigned char *p = (const unsigned char *)word; *p; p++) 
+    {
         int c = tolower(*p);
         if (c < 'a' || c > 'z') continue;          // normalize
         int idx = c - 'a';
-        if (!t->child[idx]) t->child[idx] = new_node();
+        if (!t->child[idx]) 
+        t->child[idx] = new_node();
         t = t->child[idx];
     }
     t->is_word = true;
