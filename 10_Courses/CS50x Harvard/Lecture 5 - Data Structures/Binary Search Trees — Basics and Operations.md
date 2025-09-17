@@ -13,7 +13,11 @@ timecode: "—"
 source: "https://cs50.harvard.edu/x/2025/weeks/5/"
 review_next: ""
 ---
+---
 
+![[cover_tries_prefix_trees.png]]
+
+---
 ## Summary
 A **binary search tree** (**BST**) is a **tree** where each **node** has up to two **children** and the **BST property** holds:  
 - all keys in the **left subtree** are **less** than the node’s key,  
