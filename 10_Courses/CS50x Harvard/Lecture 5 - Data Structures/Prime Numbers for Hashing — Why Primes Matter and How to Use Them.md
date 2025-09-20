@@ -126,9 +126,10 @@ sum("abc") = 294
 - [[Arrow Operator and Struct Pointers in C]] – syntax glue for node fields.
 
 ## See Also
-- Prime number — Wikipedia
-- Hash function — Wikipedia
-- Modular arithmetic — Wikipedia
+- [Prime number — Wikipedia](https://en.wikipedia.org/wiki/Prime_number)
+- [Hash function — Wikipedia](https://en.wikipedia.org/wiki/Hash_function)
+- [Modular arithmetic — Wikipedia](https://en.wikipedia.org/wiki/Modular_arithmetic)
 
 ## Terms
-**Prime**, **Modulo**, **Coprime**, **Hash function**, **Bucket**, **Load factor**, **Collision**, **Chaining**, **Open addressing**, **Polynomial rolling hash**, **Rehash**
+
+[[Prime]] [[Modulo]] [[Coprime]] [[Hash function]] [[Bucket]] [[Load factor]] [[Collision]] [[Chaining]] [[Open addressing]] [[Polynomial rolling hash]] [[Rehash]]
