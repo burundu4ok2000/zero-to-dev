@@ -106,4 +106,4 @@ printf("%c %s\n", ch, s);
 - [C strings vs chars (cppreference)](https://en.cppreference.com/w/c/language/string_literal)
 
 ## Terms
-**String literal**, **Char**, **Null terminator (\0)**, **Unicode**, **Escape sequence**, **Docstring**, **Triple quotes**, **Raw string**, **Bytes**, **f-string**
+[[String literal]] [[Char]] [[Null terminator (\0)]] [[Unicode]] [[Escape sequence]] [[Docstring]] [[Triple quotes]] [[Raw string]] [[Bytes]] [[f-string]]
