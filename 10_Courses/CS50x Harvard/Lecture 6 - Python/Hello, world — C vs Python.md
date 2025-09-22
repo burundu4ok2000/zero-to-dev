@@ -1,16 +1,16 @@
 ---
-title: "Hello, world — C vs Python (Lecture 6 intro)"
+title: Hello, world — C vs Python
 lang_tags: "#lang/c #lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/introduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
-atom_idx: 01
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-22"
-timecode: "—"
-source: "https://cs50.harvard.edu/x/2025/weeks/6/"
+atom_idx: 1
+status: in-progress
+difficulty: easy
+date: 2025-09-22
+timecode: —
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 ---

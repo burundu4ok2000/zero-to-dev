@@ -121,7 +121,7 @@ list(range(2, 10, 2))      # [2, 4, 6, 8]
 ---
 
 ## Related Concepts
-- [[Hello, world — C vs Python (Lecture 6 intro)]] – moving from low‑level to high‑level types.
+- [[Hello, world — C vs Python]] – moving from low‑level to high‑level types.
 - [[Concatenation — Python’s + for Strings and Sequences]] – string/list joins.
 - [[Named Parameters (Keyword Arguments) — Python]] – many built‑ins accept **keyword args**.
 - [[Choosing a Data Structure — Practical Guide]] – when to pick list vs set vs dict.

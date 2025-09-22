@@ -83,7 +83,7 @@ plot(x=data, y=labels, color="red", linewidth=2)
 ```
 
 ## Related Concepts
-- [[Hello, world — C vs Python (Lecture 6 intro)]] – compilation vs interpretation mindset.
+- [[Hello, world — C vs Python]] – compilation vs interpretation mindset.
 - [[Concatenation — Python’s + for Strings and Sequences]] – string operations you pass into functions.
 - [[Choosing a Data Structure — Practical Guide]] – APIs often expose **keyword** flags.
 - [[Hash Tables — Arrays and Linked Lists]] – Python’s dict consumes `**kwargs` (a **hash map**).

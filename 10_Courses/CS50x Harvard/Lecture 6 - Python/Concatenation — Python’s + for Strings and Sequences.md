@@ -69,7 +69,7 @@ xs = [1, 2]; xs.extend([3, 4]) # [1, 2, 3, 4]
 Python makes **string handling** trivial: no manual buffers, no `printf` formatting headaches. Understanding **concatenation** helps you write clean **I/O**, quick **scripts**, and avoid performance traps by switching to **join** when building big strings.
 
 ## Related Concepts
-- [[Hello, world — C vs Python (Lecture 6 intro)]] – first contrast of boilerplate vs one‑liner.
+- [[Hello, world — C vs Python]] – first contrast of boilerplate vs one‑liner.
 - [[Hash Tables — Arrays and Linked Lists]] – Python’s **dict** uses hashed **string** keys you might build by concatenation.
 - [[Prime Numbers for Hashing — Why Primes Matter and How to Use Them]] – if you hash concatenated strings.
 - [[Choosing a Data Structure — Practical Guide]] – choose **list** vs **string** based on operations.
@@ -79,7 +79,7 @@ Python makes **string handling** trivial: no manual buffers, no `printf` formatt
 - [[Queues — Enqueue and Dequeue]] – sequence operations vs concatenation/extend.
 
 ## See Also
-- [[Hello, world — C vs Python (Lecture 6 intro)]]
+- [[Hello, world — C vs Python]]
 - [Python docs: Sequence types](https://docs.python.org/3/library/stdtypes.html#sequence-types-list-tuple-range)
 - [Python docs: str.join](https://docs.python.org/3/library/stdtypes.html#str.join)
 

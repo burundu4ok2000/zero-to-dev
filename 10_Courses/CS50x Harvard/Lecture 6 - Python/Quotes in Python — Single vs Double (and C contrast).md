@@ -92,7 +92,7 @@ printf("%c %s\n", ch, s);
 ---
 
 ## Related Concepts
-- [[Hello, world — C vs Python (Lecture 6 intro)]] – compile vs interpret mindset.
+- [[Hello, world — C vs Python]] – compile vs interpret mindset.
 - [[Concatenation — Python’s + for Strings and Sequences]] – joining strings.
 - [[Named Parameters (Keyword Arguments) — Python]] – readable function calls.
 - [[Choosing a Data Structure — Practical Guide]] – strings vs bytes choices.

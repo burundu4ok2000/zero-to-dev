@@ -1,5 +1,5 @@
 ---
-title: Loops in Python — for + range() (CS50x Lecture 6)
+title: Loops in Python — for + range()
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
