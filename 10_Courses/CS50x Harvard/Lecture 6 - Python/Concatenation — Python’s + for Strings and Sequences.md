@@ -27,14 +27,18 @@ review_next: ""
 "a" + "b"           # → "ab"
 "hello, " + name    # → "hello, Alice" (if name == "Alice")
 [1, 2] + [3, 4]     # → [1, 2, 3, 4]
-(1, 2) + (3,)       # → (1, 2, 3)
+
+(1, 2) + (3,)       # → (1, 2, 3)  NOTE: (1, 2) + (3) won't work! 
+                    # because it is <class 'tuple'> 
+                    # NOT <class 'int'>
+                    
 b"hi" + b"!"        # → b"hi!"
 ```
 
 ## Notes & gotchas
 - **Types must match**: `"age: " + 20` raises **TypeError**; use **str(20)** or **f-strings**: `f"age: {20}"`.
-- **Strings are immutable** (cannot change in place). `"a" + "b"` makes a **new string**. Repeating `+` in a loop can be slow (**O(n^2)**).  
-  Use **"".join(pieces)** when concatenating **many** substrings.
+- **Strings are immutable** (cannot change in place). `"a" + "b"` makes a **new string**. 
+- **SPEED**: Repeating `+` in a loop can be slow (**O(n^2)**). Use **"".join(pieces)** when concatenating **many** substrings.
 - `+=` on **strings** still creates a new object; `+=` on **lists** extends **in place** (same object).  
   ```py
   s = "a"; s += "b"     # new string object
