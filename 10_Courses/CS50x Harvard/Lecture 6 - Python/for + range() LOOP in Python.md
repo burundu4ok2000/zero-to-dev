@@ -1,5 +1,5 @@
 ---
-title: for + range() LOOPS in .Py
+title: for + range() LOOPS in Python
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"

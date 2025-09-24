@@ -1,5 +1,5 @@
 ---
-title: for (while) if else LOOP in .Py
+title: for (while) else LOOP in Python
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
