@@ -19,10 +19,125 @@ review_next: ""
 ## Definition
 **Named parameters** (aka **keyword arguments**) let you pass arguments by **name** instead of position. This boosts **readability** and avoids mistakes when functions have many parameters or **defaults**.
 
-**Python terms**: **positional args**, **keyword args**, **defaults**, **keyword‑only args**, `*args`, `**kwargs`.
+## **Python terms**: 
 
-## Screenshot
-[named_parameters_screenshot](sandbox:/mnt/data/Screenshot%202025-09-22%20at%2015.47.38.png)
+### **1.** **Positional arguments**
+
+Arguments matched **by order**.
+
+```py
+def greet(name, age):
+    print(f"{name} is {age} years old.")
+
+greet("Alice", 30)   # "Alice" → name, 30 → age
+```
+
+---
+
+### **2.**  **Keyword arguments**
+
+  
+
+Arguments matched **by name**.
+
+```py
+greet(age=30, name="Alice")
+```
+
+Order doesn’t matter, because you explicitly say which is which.
+
+---
+
+### **3.**  **Defaults**
+
+  
+
+You can give parameters a **default value**.
+```py
+def ___(___, ___=18)
+```
+
+
+```py
+def greet(name, age=18):
+    print(f"{name} is {age} years old.")
+
+greet("Alice")        # age = 18
+greet("Bob", 25)      # age = 25
+```
+
+---
+
+### **4.**  **Keyword-only arguments**. 
+
+```py
+*,
+```
+
+  
+
+Arguments that **must** be passed with name=value.
+
+They come **after** a * in the function signature.
+
+```py
+def make_user(name, *, active=True, admin=False):
+    print(name, active, admin)
+
+make_user("Alice", active=False)  # ✅
+make_user("Alice", False)         # ❌ error
+```
+
+---
+
+### **5.**  ***args**
+
+  
+
+Collects **extra positional arguments** into a tuple.
+
+```py
+def add(*args):
+    return sum(args)
+
+add(1, 2, 3, 4)   # 10
+```
+
+---
+
+### **6.** ****kwargs**
+
+  
+Python will scoop up **any extra key=value pairs** that weren’t matched to named parameters, and put them into a **dictionary**.
+
+```py
+def show(**kwargs):
+    print(kwargs)
+
+show(name="Alice", age=30)
+# {'name': 'Alice', 'age': 30}
+```
+
+### **Why ****kwargs** is useful**
+
+- Lets you write **flexible functions** that can accept optional named arguments.
+    
+- Common in frameworks (like Flask, Django, Pandas) where functions need to handle lots of possible settings.
+
+---
+
+### **Rule of thumb for function signatures**
+
+  
+
+The order is:
+
+```py
+def func(positional, defaults, *args, keyword_only, **kwargs):
+    ...
+```
+
+
 
 ## Syntax
 ```py
@@ -35,6 +150,11 @@ greet(time="morning", name="Bob")     # named → still OK
 ```
 
 ### Keyword‑only parameters
+
+```py
+*,
+```
+
 ```py
 def scale(value, *, factor=1.0):
     return value * factor
@@ -53,11 +173,22 @@ connect(host="db", port=5432, ssl=True)
 # {'host': 'db', 'port': 5432, 'ssl': True}
 ```
 
+- You can call the variable *****kwargs anything (**kwargs, **options, **banana…), but **kwargs is the convention.
+  
 ### Unpacking a dict into named params
+
+That’s the **reverse move** of **kwargs. Instead of _packing_ keyword args into a dict, you’re _unpacking_ a dict into keyword args.
+
 ```py
 params = {"sep": " | ", "end": " \n"}
 print("a", "b", **params)   # uses sep and end by name
 ```
+
+### Why **params s useful
+
+- Lets you store arguments in a dict (maybe loaded from a config file, JSON, or user input) and pass them straight to a function without rewriting them by hand.
+    
+- Super common in frameworks (Flask, Pandas, TensorFlow), where functions accept a lot of options.
 
 ## Rules & Gotchas
 - **Order**: positional args first, then keyword args.  

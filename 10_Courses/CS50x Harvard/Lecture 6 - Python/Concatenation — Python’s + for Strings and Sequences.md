@@ -69,6 +69,15 @@ xs = [1, 2]; xs.extend([3, 4]) # [1, 2, 3, 4]
 "score: " + 100                # TypeError
 ```
 
+## Notice about `"".join` function
+
+```python
+parts = ["a", "b", "c"]
+
+"".join(parts)   # "abc"   
+"-".join(parts)  # "a-b-c" 
+" ".join(parts)  # "a b c" 
+```
 ## Why it matters (CS50 angle)
 Python makes **string handling** trivial: no manual buffers, no `printf` formatting headaches. Understanding **concatenation** helps you write clean **I/O**, quick **scripts**, and avoid performance traps by switching to **join** when building big strings.
 
