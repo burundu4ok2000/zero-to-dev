@@ -193,6 +193,10 @@ print("a", "b", **params)   # uses sep and end by name
 ## Rules & Gotchas
 - **Order**: positional args first, then keyword args.  
   `fn(1, 2, x=3)` ✅  but `fn(x=3, 1, 2)` ❌  
+  ##### When you call a function, arguments must come in a specific order:
+   ##### **Positional arguments first** (by position, no names). 
+   ##### **Keyword arguments second** (by name: key=value).
+   
 - **No duplicates**: you can’t pass the **same** parameter twice (positional + named).  
 - **Names must match** function parameter names exactly.  
 - **Defaults** are evaluated once, at def time (avoid mutable defaults like `[]`).  
