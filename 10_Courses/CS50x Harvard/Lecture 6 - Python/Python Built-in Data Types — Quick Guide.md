@@ -77,7 +77,9 @@ point = (51.5, -0.12)      # immutable pair (lat, lon)
 ```py
 user = {"id": 7, "name": "Ada"}
 user["name"]               # "Ada"
-user.get("age", 0)         # default if missing
+
+user.get("age", 0)         # default if missing, returns 0 
+                           # if we print user.get("age") -> returns None
 ```
 
 ### Sets
@@ -85,7 +87,11 @@ user.get("age", 0)         # default if missing
 seen = set()
 seen.add("cs50")
 "cs50" in seen             # True
+
 {"a","b"} | {"b","c"}      # union → {'a','b','c'}
+						   # > Take the union of two sets, 
+						   # merging their elements into a 
+						   # new set with duplicates removed.
 ```
 
 ### Range & iteration
