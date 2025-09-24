@@ -74,7 +74,7 @@ sys.exit(0)                        # success
 - [[Formatted Strings (f-strings) — Deep Dive]]
 - [[Input Validation vs Exception Handling]]
 - [[Python Syntactic Sugar — Shortcuts from CS50]]
-- [[for-else — loop else for search pattern in Python]]
+- [[for (while) if else LOOP in .Py]]
 - [[Modules and Imports in Python]]
 
 ## See Also

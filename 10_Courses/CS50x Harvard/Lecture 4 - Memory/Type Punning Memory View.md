@@ -10,7 +10,7 @@ status: done
 difficulty: medium
 date: 2025-09-13
 timecode: ""
-source: https://cs50.harvard.edu/x/2025/notes/4/
+source: https://cs50.harvard.edu/x/2025/weeks/4/
 review_next: 2025-10-13
 ---
 

@@ -102,7 +102,7 @@ else:
 - Missing keys: use `p.get("number")` or validate input structure before searching.
 
 ## Related Concepts
-- [[for-else — loop else for search pattern in Python]]
+- [[for (while) if else LOOP in .Py]]
 - [[Dictionaries (dict) — methods and patterns]]
 - [[Formatted Strings (f-strings) — Deep Dive]]
 - [[Lists and Iteration in Python]]

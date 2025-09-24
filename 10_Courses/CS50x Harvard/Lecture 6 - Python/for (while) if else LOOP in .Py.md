@@ -1,5 +1,5 @@
 ---
-title: for-else — loop else for search pattern in Python
+title: for (while) if else LOOP in .Py
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
