@@ -1,5 +1,5 @@
 ---
-title: "Concept — File Anatomy (Headers, Metadata, Data)"
+title: Concept — File Anatomy (Headers, Metadata, Data)
 lang_tags: "#lang/c"
 type_tags: "#type/concept"
 course_tags: "#course/cs50x/intoduction_to_CS"
@@ -8,10 +8,10 @@ tool_tags: ""
 atom_idx: 20
 status: done
 difficulty: easy
-date: "2025-09-13"
+date: 2025-09-13
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/notes/4/"
-review_next: "2025-10-28"
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-10-28
 ---
 
 ---

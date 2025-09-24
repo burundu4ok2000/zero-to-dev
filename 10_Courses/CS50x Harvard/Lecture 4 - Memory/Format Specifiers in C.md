@@ -1,13 +1,14 @@
 ---
-title: "Format Specifiers in C"
+title: Format Specifiers in C
 lang_tags: "#lang/c"
 type_tags: "#type/cheatsheet"
 course_tags: "#course/cs50x/introduction_to_CS"
 lecture_tags: "#lecture/week_4_Memory"
 tool_tags: ""
 status: done
-date: "2025-09-13"
-review_next: "2025-10-13"
+date: 2025-09-13
+review_next: 2025-10-13
+source: https://cs50.harvard.edu/x/2025/weeks/4/
 ---
 
 # Format Specifiers in C

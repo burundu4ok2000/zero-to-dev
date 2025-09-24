@@ -1,14 +1,15 @@
 ---
-title: "Valgrind for CS50 · Detecting Memory Leaks and Invalid Access"  
-lang_tags: "#lang/c"                                      
-type_tags: "#type/tool"                                 
-course_tags: "#course/cs50x/intoduction_to_CS"             
-lecture_tags: "#lecture/week_4_Memory"                     
-tool_tags: "#tool/valgrind"                                              
-status: "done"                                              
-difficulty: "medium"                                       
-date: "2025-08-22"                                            
-review_next: "2025-09-22"                               
+title: Valgrind for CS50 · Detecting Memory Leaks and Invalid Access
+lang_tags: "#lang/c"
+type_tags: "#type/tool"
+course_tags: "#course/cs50x/intoduction_to_CS"
+lecture_tags: "#lecture/week_4_Memory"
+tool_tags: "#tool/valgrind"
+status: done
+difficulty: medium
+date: 2025-08-22
+review_next: 2025-09-22
+source: https://cs50.harvard.edu/x/2025/weeks/4/
 ---
 
 ## One-liner

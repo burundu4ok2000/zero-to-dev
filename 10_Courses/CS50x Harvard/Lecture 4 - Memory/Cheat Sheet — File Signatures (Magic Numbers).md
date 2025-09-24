@@ -1,5 +1,5 @@
 ---
-title: "Cheat Sheet — File Signatures (Magic Numbers)"
+title: Cheat Sheet — File Signatures (Magic Numbers)
 lang_tags: "#lang/c"
 type_tags: "#type/cheatsheet"
 course_tags: "#course/cs50x/intoduction_to_CS"
@@ -8,10 +8,10 @@ tool_tags: ""
 atom_idx: 19
 status: done
 difficulty: easy
-date: "2025-09-13"
+date: 2025-09-13
 timecode: ""
-source: "https://en.wikipedia.org/wiki/List_of_file_signatures"
-review_next: "2025-11-12"
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-11-12
 ---
 
 ---

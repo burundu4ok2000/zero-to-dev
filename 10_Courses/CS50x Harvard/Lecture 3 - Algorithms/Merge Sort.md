@@ -10,7 +10,7 @@ status: done
 difficulty: hard
 date: 2025-08-16
 timecode: ""
-source: https://cs50.harvard.edu/x/2025/shorts/merge_sort/
+source: https://cs50.harvard.edu/x/2025/weeks/3/
 review_next: 2025-09-16
 ---
 

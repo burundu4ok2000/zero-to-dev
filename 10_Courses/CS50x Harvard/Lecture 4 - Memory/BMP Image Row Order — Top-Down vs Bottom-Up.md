@@ -1,9 +1,9 @@
 ---
-title: "BMP Image Row Order — Top-Down vs Bottom-Up"
+title: BMP Image Row Order — Top-Down vs Bottom-Up
 status: done
-date: "2025-08-27"
-source: "#course/cs50x/introduction_to_CS"
-review_next: "2025-09-27"
+date: 2025-08-27
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-27
 ---
 
 ## 🧠 Why This Matters

@@ -1,9 +1,9 @@
 ---
-title: "C File Pointers — Snippets for fgets, fputs, fprintf, fseek, ftell, feof, ferror"
+title: C File Pointers — Snippets for fgets, fputs, fprintf, fseek, ftell, feof, ferror
 status: done
-date: "2025-09-13"
-source: "#course/cs50x/introduction_to_CS"
-review_next: "2025-10-13"
+date: 2025-09-13
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-10-13
 lang_tags: "#lang/c"
 type_tags: "#type/snippet"
 course_tags: "#course/cs50x"

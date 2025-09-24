@@ -10,7 +10,7 @@ status: done
 difficulty: easy
 date: 2025-08-15
 timecode: 05:55
-source: https://cs50.harvard.edu/x/2025/shorts/call_stacks/
+source: https://cs50.harvard.edu/x/2025/weeks/3/
 review_next: 2025-09-15
 ---
 

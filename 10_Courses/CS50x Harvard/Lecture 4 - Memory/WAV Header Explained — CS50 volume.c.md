@@ -1,9 +1,9 @@
 ---
-title: "WAV Header Explained — CS50 volume.c"
+title: WAV Header Explained — CS50 volume.c
 status: done
-date: "2025-08-27"
-source: "#course/cs50x/introduction_to_CS"
-review_next: "2025-09-27"
+date: 2025-08-27
+source: https://cs50.harvard.edu/x/2025/weeks/4/
+review_next: 2025-09-27
 ---
 
 ## 🧠 What Is a Header in a WAV File?
