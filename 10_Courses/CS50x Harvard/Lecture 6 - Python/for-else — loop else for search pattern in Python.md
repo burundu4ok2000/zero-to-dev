@@ -1,16 +1,16 @@
 ---
-title: "for-else — loop else for search pattern in Python"
+title: for-else — loop else for search pattern in Python
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 13
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-22"
-timecode: "01:46:08–01:46:39"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-22
+timecode: 01:46:08–01:46:39
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

@@ -11,7 +11,7 @@ effort_min: 25
 time_spent_min: 0
 created: 2025-09-23
 source:
-  - https://cs50.harvard.edu/x/2025/
+  - https://cs50.harvard.edu/x/2025/weeks/6/
 related:
   - "[[Truncation vs Floor Division vs True Division — f-string Precision]]"
 review_next: 2025-09-25

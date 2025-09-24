@@ -1,16 +1,16 @@
 ---
-title: "Python Sequences — list vs tuple vs range"
+title: Python Sequences — list vs tuple vs range
 lang_tags: "#lang/python"
 type_tags: "#type/concept"
 course_tags: "#course/cs50x"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 30
-status: "done"
-difficulty: "easy"
-date: "2025-09-24"
+status: done
+difficulty: easy
+date: 2025-09-24
 timecode: ""
-source: "CS50x Week 6 (Python)"
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

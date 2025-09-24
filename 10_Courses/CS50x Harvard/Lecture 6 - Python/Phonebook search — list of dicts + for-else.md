@@ -10,7 +10,7 @@ status: in-progress
 difficulty: easy
 date: 2025-09-22
 timecode: 01:51:59
-source: https://cs50.harvard.edu/x/2025
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

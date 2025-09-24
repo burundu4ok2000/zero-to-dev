@@ -1,16 +1,16 @@
 ---
-title: "List Comprehensions — fast list initialization in Python"
+title: List Comprehensions — fast list initialization in Python
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 19
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-23"
-timecode: "00:11:48"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-23
+timecode: 00:11:48
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

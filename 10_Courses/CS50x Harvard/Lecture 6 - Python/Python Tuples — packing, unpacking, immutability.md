@@ -1,16 +1,16 @@
 ---
-title: "Python Tuples — packing, unpacking, immutability"
+title: Python Tuples — packing, unpacking, immutability
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 21
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-23"
-timecode: "00:14:50–00:17:45"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-23
+timecode: 00:14:50–00:17:45
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 ![[Screenshot 2025-09-23 at 14.52.43.png]]

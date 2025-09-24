@@ -1,16 +1,16 @@
 ---
-title: "Python Lists — creation, append/extend, slicing, copy"
+title: Python Lists — creation, append/extend, slicing, copy
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 20
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-23"
-timecode: "00:12:30–00:13:50"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-23
+timecode: 00:12:30–00:13:50
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

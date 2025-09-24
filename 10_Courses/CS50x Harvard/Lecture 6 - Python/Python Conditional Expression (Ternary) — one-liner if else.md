@@ -1,16 +1,16 @@
 ---
-title: "Python Conditional Expression (Ternary) — one-liner if/else"
+title: Python Conditional Expression (Ternary) — one-liner if/else
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 18
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-23"
-timecode: "00:07:00–00:07:05"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-23
+timecode: 00:07:00–00:07:05
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

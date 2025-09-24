@@ -8,7 +8,7 @@ tool_tags: ""
 status: done
 difficulty: easy
 date: 2025-09-24
-source: ""
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

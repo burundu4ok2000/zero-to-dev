@@ -1,16 +1,16 @@
 ---
-title: "Using Module Namespaces — import module vs from module import name"
+title: Using Module Namespaces — import module vs from module import name
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 10
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-22"
-timecode: "01:35:40"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-22
+timecode: 01:35:40
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

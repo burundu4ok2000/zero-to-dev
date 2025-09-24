@@ -1,16 +1,16 @@
 ---
-title: "Python Dictionaries — keys, values, items, get, update, merge"
+title: Python Dictionaries — keys, values, items, get, update, merge
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 22
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-23"
-timecode: "00:18:50–00:20:55"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-23
+timecode: 00:18:50–00:20:55
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

@@ -1,16 +1,16 @@
 ---
-title: "Python Core Methods — strings, lists, dicts, sets, files"
+title: Python Core Methods — strings, lists, dicts, sets, files
 lang_tags: "#lang/python"
 type_tags: "#type/cheatsheet"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 12
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-22"
+status: in-progress
+difficulty: easy
+date: 2025-09-22
 timecode: ""
-source: "https://docs.python.org/3/"
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 

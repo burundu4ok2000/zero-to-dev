@@ -6,11 +6,11 @@ course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_1_C"
 tool_tags: ""
 atom_idx: 32
-status: "done"
-difficulty: "easy"
-date: "{date.today()}"
+status: done
+difficulty: easy
+date: 2025-08-11
 timecode: ""
-source: "https://cs50.harvard.edu/x/2025/weeks/1/"
+source: https://cs50.harvard.edu/x/2025/weeks/1/
 review_next: ""
 ---
 
