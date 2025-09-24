@@ -1,16 +1,16 @@
 ---
-title: "Command-line Args in Python — sys.argv and sys.exit"
+title: Command-line Args in Python — sys.argv and sys.exit
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
-course_tags: "#course/cs50x/intoduction_to_CS"
+course_tags: "#course/cs50x/introduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 15
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-22"
-timecode: "01:57:00–02:00:30"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-22
+timecode: 01:57:00–02:00:30
+source: https://cs50.harvard.edu/x/2025
 review_next: ""
 ---
 

@@ -1,16 +1,16 @@
 ---
-title: "CSV I/O in Python — open/with, csv.writer, csv.DictWriter"
+title: CSV I/O in Python — open/with, csv.writer, csv.DictWriter
 lang_tags: "#lang/python"
 type_tags: "#type/lecture"
-course_tags: "#course/cs50x/intoduction_to_CS"
+course_tags: "#course/cs50x/introduction_to_CS"
 lecture_tags: "#lecture/week_6_Python"
 tool_tags: ""
 atom_idx: 16
-status: "in-progress"
-difficulty: "easy"
-date: "2025-09-22"
-timecode: "02:04:40–02:06:10"
-source: "https://cs50.harvard.edu/x/2025"
+status: in-progress
+difficulty: easy
+date: 2025-09-22
+timecode: 02:04:40–02:06:10
+source: https://cs50.harvard.edu/x/2025
 review_next: ""
 ---
 

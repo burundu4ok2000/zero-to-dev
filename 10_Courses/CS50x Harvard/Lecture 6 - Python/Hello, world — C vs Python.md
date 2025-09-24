@@ -62,7 +62,9 @@ python hello.py
 
 ## What’s different (fast checklist)
 - **Compile step**: C uses a **compiler** to create an **executable**; Python uses an **interpreter** (it compiles to **bytecode** internally, but you don’t manage it).  
-- **Boilerplate**: C requires **#include**, a **main()** and **;**; Python doesn’t.  
+- **Boilerplate**: 
+  C requires **#include**,  **main()** and **;** 
+ Python doesn’t.  
 - **Typing**: C is **static** (types at compile time). Python is **dynamic** (types at run time).  
 - **Speed vs speed‑to‑write**: C often runs faster; Python is faster to write and iterate.  
 - **Portability**: Python scripts run anywhere there’s a Python **runtime**; C executables are built per **platform**.
