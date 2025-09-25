@@ -10,90 +10,133 @@ status: done
 difficulty: easy
 date: 2025-09-25
 timecode: ""
-source: "Refactor log: credit.c → credit.py"
+source: https://cs50.harvard.edu/x/2025/weeks/6/
 review_next: ""
 ---
 
 ## One Liner
-We transformed a brittle **C** implementation of **Luhn** into a compact, readable **Python** function: single **parameter**, clean **list comprehension**, and a right‑to‑left loop with **reversed** + **enumerate**. Fewer lines, fewer bugs, same math.
+From a **16‑arg, copy‑paste heavy C program** to a **compact, general Python script** using **list comprehension**, **reversed + enumerate**, and clean **brand detection**. Same math, radically better readability and extensibility.
 
-## What I Learned (high‑impact)
-- Design a sane **function signature**: `def luhn(number: str) -> bool` (+ **type annotations**).
-- Replace manual digit slicing (`% 10`, `// 10 % 10`, …) with a **list comprehension** over `str(ccn)`.
-- Count from the **right** using **reversed** + **enumerate** instead of awkward index math.
-- Return a **boolean expression** directly: `return total % 10 == 0`.
-- Prefer **guard clauses** for validation (`if not number.isdigit(): raise ValueError(...)`).
+## Problem
+The C version hard‑codes **16 separate digits**, relies on manual `%`/`/` extraction, and repeats brand/Luhn checks. It only works cleanly for **16‑digit** numbers and is painful to extend to **13/15/19**.
 
-## Before — C (length check + digit extraction)
+## Before — C (monolithic & brittle)
 ```c
-// length guard (fragment)
+// Input and length check
+long ccn = get_long("Number: ");
+int credit_card_length = credit_card_length_checker(ccn);
 if (credit_card_length < 0) {
     printf("INVALID\n");
     return 0;
 }
 
-// digit extraction (manual, positional)
-num1 = ccn % 10;
-num2 = ccn / 10 % 10;
-num3 = ccn / 100 % 10;
+// Manual digit extraction
+int num1 = ccn % 10;
+int num2 = ccn / 10 % 10;
+int num3 = ccn / 100 % 10;
 ...
-num16 = ccn / 1000000000000000 % 10;
-```
-Pain points: fixed **16‑digit** assumption, dozens of **positional divides**, boilerplate impossible to maintain.
+int num16 = ccn / 1000000000000000 % 10;
 
-## After — Python (clean & general)
-### 1) Length check (readable)
+// Brand checks with duplicated Luhn calls
+if ((credit_card_length == 16) && num16 == 4) {
+    if (validate_luhn_algorithm(num1, ..., num16)) printf("VISA\n"); else printf("INVALID\n");
+    return 0;
+}
+/* more duplicated if/else for VISA(13), AMEX(15), MASTERCARD(16) ... */
+
+// Luhn with 16 parameters
+bool validate_luhn_algorithm(int num1, ..., int num16) { /* repeated arithmetic */ }
+```
+**Symptoms**
+- **Too many parameters** (`num1..num16`) → unmaintainable signature.  
+- **Rigid length logic** → doesn’t naturally cover 13/15/19 digits.  
+- **Repeated work** → brand checks each re‑run Luhn and branch deeply.  
+- **Arithmetic noise** → `% 10`, `/ 10` ladders obscure intent.
+
+## After — Python (concise & general)
 ```python
-if len(s) not in (13, 15, 16):
-    print("INVALID")
-    sys.exit()
-```
-A tuple is fine, intent is clear.
+from cs50 import get_int
 
-### 2) Digit extraction (one liner)
+def validate_luhn_algorithm(number: str) -> bool:
+    digits = [int(d) for d in number]
+    total = 0
+    for i, d in enumerate(reversed(digits)):  # rightmost → left
+        if i % 2 == 1:                         # every second digit
+            doubled = d * 2
+            total += doubled // 10 + doubled % 10   # or: d = d*2 - 9 if d > 4
+        else:
+            total += d
+    return total % 10 == 0
+
+s = str(get_int("Number: "))
+
+if validate_luhn_algorithm(s):
+    if len(s) in (13, 16) and s[0] == "4":
+        print("VISA")
+    elif len(s) == 15 and s[:2] in ("34", "37"):
+        print("AMEX")
+    elif len(s) == 16 and 51 <= int(s[:2]) <= 55:
+        print("MASTERCARD")
+    else:
+        print("INVALID")
+else:
+    print("INVALID")
+```
+**Wins**
+- **One parameter** `number: str` with **type annotations**.  
+- **Digit extraction** in **one line**: `digits = [int(d) for d in str(ccn)]` (no `%/` gymnastics).  
+- **Right‑to‑left** indexing: `reversed(...) + enumerate(...)` → no `len - i - 1` hacks.  
+- **Single Luhn call**, then **brand detection** by **prefix** and **length**.  
+- Easy to extend to **19 digits** if needed.
+
+## The “beauty” upgrades you added
+1) **Length check** becomes a readable membership test:
+```python
+if validate_luhn_algorithm(s):
+    if len(s) in (13, 16) and s[0] == "4":
+        print("VISA")
+    elif len(s) == 15 and s[:2] in ("34", "37"):
+        print("AMEX")
+    elif len(s) == 16 and 51 <= int(s[:2]) <= 55:
+        print("MASTERCARD")
+    else:
+        print("INVALID")
+else:
+    print("INVALID")
+```
+2) **Digit extraction** collapses all the C math to one comprehension:
 ```python
 digits = [int(d) for d in str(ccn)]
 ```
-Boom — converts the whole number into digits.  
 Index naturally: `digits[0]` (first), `digits[-1]` (last).
 
-## The Luhn core (final form)
-```python
-def luhn(number: str) -> bool:
-    # Return True if number passes the Luhn check.
-    if not number.isdigit():
-        raise ValueError("number must contain only digits")
+## What You Learned (high‑impact)
+- **Function signatures** that scale: `def luhn(number: str) -> bool`.  
+- **List comprehension** as an idiom to replace repetitive loops/arithmetics.  
+- **`reversed` + `enumerate`** to express “from right” positions cleanly.  
+- Returning a **boolean expression** directly (no `if/else` wrapper).  
+- **Prefix/length** brand logic with **slicing** and **tuples**.  
+- Clean early exits (**guard clauses**) instead of deep `else` towers.
 
-    digits = [int(d) for d in number]
-    total = 0
-    for i, d in enumerate(reversed(digits)):   # rightmost → left
-        if i % 2 == 1:                         # every second digit from the right
-            d *= 2
-            if d > 9:
-                d -= 9                         # digit-sum trick (12 → 3)
-        total += d
-    return total % 10 == 0
-```
-
-## Why the Python version wins
-- Works for **13/15/16/19** digits — no hard‑coded arity.
-- Uses idiomatic **Python loops** and **comprehensions**; far fewer moving parts.
-- Easier to test, easier to extend, and trivially reusable.
+## Optional micro‑polish
+- For doubling step, a common idiom is: `d = d*2 - 9 if d > 4 else d` (same as digit‑sum).  
+- Replace CS50 I/O with standard `input()` to run outside the course runtime.  
+- Extract brand detection into `def brand(s: str) -> str` for unit testing.
 
 ## Related Concepts
-- [[Python Objects — Beginner Notes]] – functions, **methods**, **dunder**
-- [[Python Syntax — Running, Style, Shebang]] – quick CLI runs
-- [[Python Sequences — list vs tuple vs range]] – choose your sequence
-- [[Python Built-in Keyword Parameters — Cheat Sheet]] – `enumerate`, `print`, `open`
-- [[assert Statement in Python]] – quick sanity checks in tests
-- [[Python Division — / vs // (true vs floor division)]] – `%`/`//` rules used here
-- [[Vocabulary · Mutable vs Immutable]] – **str** immutability background
-- [[Python String Concatenation Complexity — s + t vs ''.join]] – cost model for **str**
+- [[Python Objects — Beginner Notes]]
+- [[Python Syntax — Running, Style, Shebang]]
+- [[Python Sequences — list vs tuple vs range]]
+- [[Python Built-in Keyword Parameters — Cheat Sheet]]
+- [[assert Statement in Python]]
+- [[Python Division — / vs // (true vs floor division)]]
+- [[Vocabulary · Mutable vs Immutable]]
+- [[Python String Concatenation Complexity — s + t vs ''.join]]
 
 ## See Also
 - [Luhn algorithm — Wikipedia](https://en.wikipedia.org/wiki/Luhn_algorithm)
 - [Python docs — enumerate](https://docs.python.org/3/library/functions.html#enumerate)
-- [Python docs — built-in types (str, list)](https://docs.python.org/3/library/stdtypes.html)
+- [Python docs — built‑in types (str, list)](https://docs.python.org/3/library/stdtypes.html)
 
 ## Terms
-[[refactor]], [[Luhn algorithm]], [[function signature]], [[type annotation]], [[list comprehension]], [[enumerate]], [[reversed]], [[guard clause]], [[boolean expression]], [[isdigit]], [[floor division]], [[modulo %]], [[credit card number]], [[input validation]], [[early exit]]
+[[refactor]], [[Luhn algorithm]], [[function signature]], [[type annotation]], [[list comprehension]], [[reversed]], [[enumerate]], [[string slicing]], [[startswith]], [[prefix]], [[BIN range]], [[boolean expression]], [[guard clause]], [[input validation]], [[modulo %]], [[floor division]]
