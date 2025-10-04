@@ -19,6 +19,15 @@ review_next: ""
 ## Summary
 An **index** is a tiny, sorted data structure (in SQLite, usually a **B‑tree**) that lets the database find rows without scanning the whole table. You pay extra **disk space** and **slower writes** to get **much faster reads** for **WHERE**, **JOIN**, and **ORDER BY**.
 
+#### It helps user to serch data  faster (usually 'O log n' time) rather than read each row mannualy ('O n' time)
+
+![[Screenshot 2025-10-04 at 15.01.22.png]]
+
+#### B-tree example 
+
+![[Screenshot 2025-10-04 at 15.09.30.png]]
+
+
 ## Very simple
 Think of an index like the **glossary** at the back of a book. Without it you’d leaf through every page; with it you jump straight to the right spot.
 
