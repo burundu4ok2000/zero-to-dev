@@ -30,7 +30,7 @@ A flat-file database is just a single file (often **CSV**) that stores data in r
 - One file, usually text-based (**.csv**, **.tsv**).  
 - No built-in types, unique keys, or foreign keys — you must self-discipline.  
 - Great for tiny datasets, data exchange, and quick hacks.  
-- Painful for search, updates, avoiding duplicates, and doing JOIN-like work.  
+- =Painful for search, updates, avoiding duplicates, and doing JOIN-like work. = 
 - RDBMS (e.g., SQLite, PostgreSQL) fix this with schemas, indexes, and constraints.
 
 ## Details
