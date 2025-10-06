@@ -64,7 +64,13 @@ Creating the table first lets you enforce **types** and **constraints** and avoi
 ## Quick sanity checks after import
 ```sql
 SELECT COUNT(*) FROM favorites;
-SELECT title, COUNT(*) AS n FROM favorites GROUP BY title ORDER BY n DESC LIMIT 10;
+
+SELECT title, 
+COUNT(*) AS n 
+FROM favorites 
+GROUP BY title 
+ORDER BY n 
+DESC LIMIT 10;
 ```
 If you’ll sort/filter a lot, add an **index**:
 ```sql

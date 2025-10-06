@@ -38,12 +38,12 @@ These are built‑in **SQL functions** used in CS50’s Week 7 with **SQLite 3**
 - **DISTINCT** applies before the aggregate (e.g., `COUNT(DISTINCT title)`).  
 - **Scalar** case functions ( **LOWER/UPPER** ) help with **case‑insensitive** comparisons and grouping.  
 - **NULLs** are skipped by AVG, MAX, MIN, and by `COUNT(expr)`, but `COUNT(*)` counts every row.  
-- Use **HAVING** to filter groups after aggregation; use **WHERE** to filter rows before aggregation.  
+- #### Use **HAVING** to filter groups after aggregation; use **WHERE** to filter rows before aggregation.  
 
 ## Examples (favorites table)
 ```sql
 -- count all rows
-SELECT COUNT(*) AS total FROM favorites;
+SELECT COUNT(*) AS total_number_of_rows FROM favorites;
 
 -- unique titles (distinct values)
 SELECT COUNT(DISTINCT title) AS unique_titles FROM favorites;
