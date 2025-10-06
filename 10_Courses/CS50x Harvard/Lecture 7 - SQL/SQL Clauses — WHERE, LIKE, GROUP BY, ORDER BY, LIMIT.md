@@ -87,7 +87,7 @@ SELECT title, COUNT(*) AS n
 FROM favorites
 WHERE title <> ''
 GROUP BY title
-HAVING n >= 5                 -- filter groups with at least 5 votes
+HAVING n >= 5                 -- filter groups with at least 5 votes  
 ORDER BY n DESC;
 ```
 
