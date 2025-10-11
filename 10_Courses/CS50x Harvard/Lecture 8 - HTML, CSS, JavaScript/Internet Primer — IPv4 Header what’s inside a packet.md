@@ -72,14 +72,15 @@ When pages load slowly, the reason can be in these fields: wrong **MTU**, low **
 - ❓Why does **IPv6** remove in‑network fragmentation?
 
 ## Related Concepts
-- [[1]] – ARPANET context: where packets started.  
-- [[2]] – Routers read and forward IP headers.  
-- [[3]] – **TCP/IP** sits above IP.  
-- [[4]] – **IPv4 vs IPv6** address space.  
-- [[IPv4 Header Fields]] – deeper dive per field.  
-- [[TTL (Time To Live)]] – hop limit details.  
-- [[Fragmentation vs MTU]] – how size affects delivery.  
-- [[ICMP]] – messages used by ping/traceroute.
+- [[Internet Primer — ARPANET 1969]] – контекст ARPANET: где всё началось.  
+- [[Internet Primer — Routers]] – маршрутизаторы читают и пересылают IP-заголовки.  
+- [[Internet Primer — TCP IP]] – протокол TCP/IP работает поверх IP.  
+- [[Internet Primer — IP Addressing IPv4 vs IPv6]] – адресное пространство IPv4 и IPv6.  
+- [[Internet Primer — IPv4 Header what’s inside a packet]] – структура и поля IPv4-заголовка.  
+- [[TTL Time To Live]] – предел количества переходов.  
+- [[Fragmentation vs MTU]] – как размер пакета влияет на доставку.  
+- [[ICMP]] – сообщения, используемые ping и traceroute.
+
 
 ## See also
 - []                                                                        
