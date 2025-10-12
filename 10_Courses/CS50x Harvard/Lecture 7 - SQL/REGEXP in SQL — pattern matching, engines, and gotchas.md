@@ -13,6 +13,8 @@ timecode: ""
 source: "https://cs50.harvard.edu/x/2025/weeks/7/"
 review_next: ""
 ---
+![[Screenshot 2025-10-12 at 18.17.37.png]]
+![[Screenshot 2025-10-12 at 18.18.52.png]]
 
 ## Summary
 **REGEXP** lets you match a **pattern** (a **regular expression**) inside text. In SQL it’s usually used in a **WHERE** clause to filter rows. Support differs by engine:
