@@ -1,17 +1,17 @@
 ---
-title: "Bootstrap quick start"
+title: Bootstrap quick start
 lang_tags: "#lang/html, #lang/css, #lang/javascript"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_8_HTML_CSS_JavaScript"
 tool_tags: ""
 atom_idx: 22
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-13"
+status: in-progress
+difficulty: easy
+date: 2025-10-13
 timecode: ""
-source: "https://getbootstrap.com/"
-review_next: "2025-10-23"
+source: https://cs50.harvard.edu/x/2025/weeks/8/
+review_next: 2025-10-23
 ---
 
 ![[Screenshot 2025-10-13 at 10.29.02.png]]

@@ -1,17 +1,17 @@
 ---
-title: "Frameworks when and how to use"
+title: Frameworks when and how to use
 lang_tags: "#lang/html, #lang/css, #lang/javascript"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_8_HTML_CSS_JavaScript"
 tool_tags: ""
 atom_idx: 21
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-13"
+status: in-progress
+difficulty: easy
+date: 2025-10-13
 timecode: ""
-source: "CS50x 2025 Week 8"
-review_next: "2025-10-23"
+source: https://cs50.harvard.edu/x/2025/weeks/8/
+review_next: 2025-10-23
 ---
 
 ![[Screenshot 2025-10-13 at 10.27.03.png]]

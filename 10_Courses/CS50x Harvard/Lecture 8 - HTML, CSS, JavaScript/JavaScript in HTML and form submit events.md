@@ -1,17 +1,17 @@
 ---
-title: "JavaScript in HTML and form submit events"  
-lang_tags: "#lang/en"                                     
-type_tags: "#type/concept"                                    
-course_tags: "#course/CS50x"                                    
-lecture_tags: "#lecture/Week8"                                   
-tool_tags: ""                                          
-atom_idx: 24                                      
-status: "in-progress"                                         
-difficulty: "easy"                                     
-date: "2025-10-15"                        
-timecode: "≈2:33:00–2:41:00"                                    
-source: "https://cs50.harvard.edu/x/2025"                          
-review_next: ""                                    
+title: JavaScript in HTML and form submit events
+lang_tags: "#lang/en"
+type_tags: "#type/concept"
+course_tags: "#course/CS50x"
+lecture_tags: "#lecture/Week8"
+tool_tags: ""
+atom_idx: 24
+status: in-progress
+difficulty: easy
+date: 2025-10-15
+timecode: ≈2:33:00–2:41:00
+source: https://cs50.harvard.edu/x/2025/weeks/8/
+review_next: ""
 ---
 
 ## One Liner

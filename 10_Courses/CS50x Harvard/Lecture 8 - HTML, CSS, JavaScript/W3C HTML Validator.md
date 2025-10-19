@@ -1,17 +1,17 @@
 ---
-title: "W3C HTML Validator"
+title: W3C HTML Validator
 lang_tags: "#lang/html, #lang/css, #lang/javascript"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_8_HTML_CSS_JavaScript"
 tool_tags: ""
 atom_idx: 19
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-12"
+status: in-progress
+difficulty: easy
+date: 2025-10-12
 timecode: ""
-source: "https://validator.w3.org/"
-review_next: "2025-10-26"
+source: https://cs50.harvard.edu/x/2025/weeks/8/
+review_next: 2025-10-26
 ---
 
 ![[Screenshot 2025-10-12 at 18.30.54.png]]

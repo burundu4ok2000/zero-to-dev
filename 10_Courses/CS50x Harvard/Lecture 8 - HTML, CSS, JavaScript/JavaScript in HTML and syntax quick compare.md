@@ -1,17 +1,17 @@
 ---
-title: "JavaScript in HTML and syntax quick compare"
+title: JavaScript in HTML and syntax quick compare
 lang_tags: "#lang/html, #lang/javascript"
 type_tags: "#type/lecture"
 course_tags: "#course/cs50x/intoduction_to_CS"
 lecture_tags: "#lecture/week_8_HTML_CSS_JavaScript"
 tool_tags: ""
 atom_idx: 23
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-15"
+status: in-progress
+difficulty: easy
+date: 2025-10-15
 timecode: ""
-source: "CS50x 2025 Week 8"
-review_next: "2025-10-25"
+source: https://cs50.harvard.edu/x/2025/weeks/8/
+review_next: 2025-10-25
 ---
 
 ![[Screenshot 2025-10-15 at 15.20.57.png]]

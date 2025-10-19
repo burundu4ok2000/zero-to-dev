@@ -1,16 +1,16 @@
 ---
-title: "Change CSS with JavaScript events"
+title: Change CSS with JavaScript events
 lang_tags: "#lang/javascript, #lang/html, #lang/css"
 type_tags: "#type/concept"
 course_tags: "#course/CS50x"
 lecture_tags: "#lecture/Week8"
 tool_tags: "#tool/chrome_devtools"
 atom_idx: 27
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-15"
-timecode: "≈2:47:00+"
-source: "CS50x 2025 Week 8"
+status: in-progress
+difficulty: easy
+date: 2025-10-15
+timecode: ≈2:47:00+
+source: https://cs50.harvard.edu/x/2025/weeks/8/
 review_next: ""
 ---
 

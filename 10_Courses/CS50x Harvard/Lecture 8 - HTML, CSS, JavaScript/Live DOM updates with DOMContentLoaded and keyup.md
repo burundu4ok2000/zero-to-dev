@@ -1,16 +1,16 @@
 ---
-title: "Live DOM updates with DOMContentLoaded and keyup"
+title: Live DOM updates with DOMContentLoaded and keyup
 lang_tags: "#lang/javascript, #lang/html"
 type_tags: "#type/concept"
 course_tags: "#course/CS50x"
 lecture_tags: "#lecture/Week8"
 tool_tags: "#tool/chrome_devtools"
 atom_idx: 26
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-15"
-timecode: "≈2:45:00+"
-source: "CS50x 2025 Week 8"
+status: in-progress
+difficulty: easy
+date: 2025-10-15
+timecode: ≈2:45:00+
+source: https://cs50.harvard.edu/x/2025/weeks/8/
 review_next: ""
 ---
 

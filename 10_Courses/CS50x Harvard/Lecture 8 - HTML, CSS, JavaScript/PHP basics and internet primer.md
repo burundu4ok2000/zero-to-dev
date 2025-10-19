@@ -1,15 +1,15 @@
 ---
-title: "PHP basics and internet primer"
+title: PHP basics and internet primer
 lang_tags: "#lang/php, #lang/http, #lang/html"
 type_tags: "#type/concept"
 course_tags: "#course/CS50x"
 lecture_tags: "#lecture/Week8"
 tool_tags: "#tool/chrome_devtools"
 atom_idx: 29
-status: "in-progress"
-difficulty: "easy"
-date: "2025-10-16"
-source: "CS50x 2025 Week 8 context"
+status: in-progress
+difficulty: easy
+date: 2025-10-16
+source: https://cs50.harvard.edu/x/2025/weeks/8/
 ---
 
 ## One Liner
