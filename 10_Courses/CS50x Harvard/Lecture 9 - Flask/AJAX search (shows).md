@@ -13,8 +13,8 @@ timecode: ""
 source: "https://cs50.harvard.edu/x/2025/weeks/9/"
 review_next: "2025-11-22"
 ---
-![[Screenshot 2025-10-22 at 22.28.03.png]]
-![[Screenshot 2025-10-22 at 22.32.19.png]]
+![[Screenshot 2025-10-22 at 22.28.03 1.png]]
+![[Screenshot 2025-10-22 at 22.32.19 1.png]]
 ## Summary
 Client-side search powered by **JavaScript** and a Flask **/search** endpoint. The page listens for the **input** event, calls **fetch** with `?q=...`, and injects results into a `<ul>`. Server can return an **HTML partial** or **JSON**; both patterns appear in CS50’s *shows* example.
 

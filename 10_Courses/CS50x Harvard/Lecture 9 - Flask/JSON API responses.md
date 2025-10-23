@@ -13,7 +13,7 @@ timecode: ""
 source: "https://cs50.harvard.edu/x/2025/weeks/9/"
 review_next: "2025-11-22"
 ---
-![[Screenshot 2025-10-22 at 22.46.27.png]]
+![[Screenshot 2025-10-22 at 22.46.27 1.png]]
 ![[Screenshot 2025-10-22 at 22.46.31.png]]
 ![[Screenshot 2025-10-22 at 22.46.34.png]]
 
