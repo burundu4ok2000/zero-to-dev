@@ -44,25 +44,92 @@ refreshScore();
 
 ### 2) Search-as-you-type (GET + query string)
 ```html
-<input id="q" autocomplete="off" placeholder="Search">
-<ul id="results"></ul>
-<script>
-const q = document.querySelector('#q');
-const list = document.querySelector('#results');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .search-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
 
-q.addEventListener('input', debounce(async () => {
-  const res = await fetch('/search?q=' + encodeURIComponent(q.value));
-  const items = await res.json();             // [{title:"The Office"}, ...]
-  list.innerHTML = '';
-  for (const it of items) {
-    const li = document.createElement('li');  // safe DOM build (no innerHTML)
-    li.textContent = it.title;
-    list.appendChild(li);
-  }
-}, 200));
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="searchResults()">Search</button>
+        <ul id="searchResults"></ul>
+    </div>
+    <script>
+        function searchResults() {
+            const searchInput = document.getElementById('searchInput');
+            const resultsList = document.getElementById('searchResults');
+            const searchQuery = searchInput.value.toLowerCase();
+            // Simulated search results
+            const simulatedResults = [
+                { title: 'The Office' },
+                { title: 'Breaking Bad' },
+                { title: 'Friends' },
+                { title: 'Game of Thrones' }
+            ];
+            // Filter results based on the search query
+            const filteredResults = simulatedResults.filter(item => item.title.toLowerCase().includes(searchQuery));
 
-function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms) } }
-</script>
+            // Clear existing results
+            resultsList.innerHTML = '';
+
+            // Display results
+            filteredResults.forEach(result => {
+                const resultItem = document.createElement('li');
+                resultItem.textContent = result.title;
+                resultsList.appendChild(resultItem);
+            });
+        }
+    </script>
+</body>
+</html>
 ```
 
 ### 3) Old school XHR (for legacy code)
