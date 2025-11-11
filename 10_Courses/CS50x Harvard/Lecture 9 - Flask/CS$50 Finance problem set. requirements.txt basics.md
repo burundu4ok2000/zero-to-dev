@@ -31,7 +31,7 @@ review_next: "2025-12-06"
 
 ## Versioning (PEP 440 quick tour)
 Common operators:
-- `==1.2.3` — exact pin (reproducible but brittle).
+-  == 1.2.3 — exact pin (reproducible but brittle).
 - `~=1.2` — *compatible release* (≥1.2, <2.0; keeps bugfixes).
 - `>=1.2,<2.0` — explicit range.
 - omit version — always latest (risky).
